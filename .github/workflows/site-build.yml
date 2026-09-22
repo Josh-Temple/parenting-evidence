@@ -1,0 +1,31 @@
+name: Site build
+
+on:
+  pull_request:
+    paths:
+      - "package.json"
+      - "astro.config.mjs"
+      - "tsconfig.json"
+      - "site/**"
+      - "reviews/**"
+      - "methodology/**"
+  push:
+    branches: ["main"]
+    paths:
+      - "package.json"
+      - "astro.config.mjs"
+      - "tsconfig.json"
+      - "site/**"
+      - "reviews/**"
+      - "methodology/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.20.0"
+      - run: npm install
+      - run: npm run build

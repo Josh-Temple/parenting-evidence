@@ -1,0 +1,61 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import {
+  getReviewBySlug,
+  getReviewSummaries
+} from "../../lib/reviews";
+
+export function getStaticPaths() {
+  return getReviewSummaries().map((review) => ({
+    params: { slug: review.slug },
+    props: { slug: review.slug }
+  }));
+}
+
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+const review = getReviewBySlug(slug);
+
+if (!review) {
+  throw new Error(`Review not found: ${slug}`);
+}
+---
+
+<BaseLayout title={review.title} description={review.summary}>
+  <header class="review-hero shell">
+    <a class="back-link" href="/">← レビュー一覧</a>
+    <div class="review-meta review-meta-large">
+      <span>{review.domain}</span>
+      <span>{review.ageLabel}</span>
+      <span>{review.statusLabel}</span>
+    </div>
+    <h1>{review.title}</h1>
+    <p class="review-updated">最終検索 {review.lastSearched || "未設定"}</p>
+  </header>
+
+  <div class="review-layout shell">
+    <article class="prose reader-layer" set:html={review.reviewHtml} />
+
+    <aside class="audit-intro">
+      <p class="eyebrow">Audit layer</p>
+      <h2>根拠を詳しく見る</h2>
+      <p>
+        主要研究の抽出結果と検索手順を、そのまま確認できます。
+        現在の3件はde novo systematic reviewではなく、既存レビューを土台にした調査草稿です。
+      </p>
+    </aside>
+
+    <details class="audit-section">
+      <summary>主要研究・Evidence table</summary>
+      <div class="prose audit-prose" set:html={review.evidenceHtml} />
+    </details>
+
+    <details class="audit-section">
+      <summary>検索方法・調査上の制約</summary>
+      <div class="prose audit-prose" set:html={review.searchHtml} />
+    </details>
+  </div>
+</BaseLayout>
