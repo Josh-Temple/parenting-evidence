@@ -23,6 +23,14 @@ next_review_due:
 ```yaml
 population:
 intervention_or_exposure:
+  description:
+  dimensions:
+    quantity:
+    medium_or_type:
+    content:
+    social_context:
+    purpose:
+    age_at_onset:
 comparator:
 outcomes:
   - outcome_id:
@@ -30,6 +38,8 @@ outcomes:
 time_horizon:
 countries_of_interest:
 ```
+
+`dimensions` は問いに必要な項目だけ使用する。例えば読み聞かせReviewでは不要なmedia-specific項目を埋めない。スクリーン利用のように、同じ総時間でも内容・端末・共同利用で意味が変わる曝露では分解して記録する。
 
 ## Claim
 
@@ -58,7 +68,11 @@ search:
   records_screened:
   full_texts_assessed:
   included_count:
+  search_mode:
+  anchor_reviews:
 ```
+
+`search_mode` には、例として `de_novo_systematic`、`anchored_update`、`targeted_search` 等を記録し、実施していない網羅検索を systematic search と表現しない。
 
 ## Evidence source
 
@@ -80,6 +94,7 @@ sources:
     follow_up:
     main_limitations:
     risk_of_bias_notes:
+    causal_inference_notes:
     japan_applicability:
 ```
 
