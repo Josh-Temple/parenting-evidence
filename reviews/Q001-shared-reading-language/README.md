@@ -1,29 +1,52 @@
 # Q001 — 読み聞かせは幼児の言語発達を促すか
 
-Status: PLANNED
+Status: DRAFT
 
-## Purpose
+Last evidence search: 2026-09-22
 
-Evidence Review Methodology v0.1 を最初に通す Pilot Review。
+## Review question
 
-探索的な事前調査は実施済みだが、その結果をそのまま公開結論へ転記しない。本フォルダでは検索条件を事前に固定し、正式検索後に Evidence Review を作成する。
+幼児への読み聞かせは、言語発達にどのような関連または因果効果を持つか。
 
-## Preliminary scope
+## Scope
 
-- Population: 主に乳幼児〜就学前
+- Population: 主に乳幼児〜就学前児
 - Intervention / exposure: shared book reading / picture-book reading / dialogic reading
 - Comparison: usual practice / active control / lower exposure
 - Primary outcomes: expressive language, receptive language, vocabulary, communication
 - Secondary outcomes: caregiver reading behaviour, longer-term language outcomes
 
-## Candidate claims
+## Bottom line
+
+家庭での読み聞かせが多いことと言語・語彙能力が高いことの**関連**は、多数の観察研究で一貫して確認されている。
+
+読み聞かせを促す介入のRCTを統合したメタ分析でも、表出言語・受容言語に平均的な改善が報告されている。一方、通常の読み聞かせ等を行う active control と比べると追加効果がほぼ見られないメタ分析やRCTもある。
+
+したがって、現時点では「読み聞かせは言語発達を支える可能性が高く、推奨可能な親子活動」と整理できるが、**読み聞かせ量を増やせばその分だけ言語能力が上がる、特定の読み方が通常の読み聞かせより明確に優れる、早く始めるほど長期効果が大きい**とまでは言えない。
+
+## Claim status
 
 - C001: 読み聞かせ頻度と言語能力には正の関連がある
+  - Status: SUPPORTED_AS_ASSOCIATION
 - C002: 読み聞かせを促す介入は言語能力を改善する
+  - Status: PARTIALLY_SUPPORTED / EFFECT_SIZE_SMALL_TO_MODERATE
 - C003: 特定の読み聞かせ法は通常の読み聞かせより優れる
-- C004: より早く始めるほど効果が大きい
-- C005: 効果は長期に持続する
+  - Status: UNCERTAIN
+- C004: より早く始めるほど言語発達への効果が大きい
+  - Status: INSUFFICIENT_FOR_CAUSAL_CLAIM
+- C005: 言語発達への効果は長期に持続する
+  - Status: UNCERTAIN
 
-## Next step
+## Files
 
-`search-strategy.md` で検索式、対象データベース、採用・除外基準を固定してから検索を開始する。
+- `search-strategy.md`: 検索条件、実行記録、プロトコル上の制約
+- `evidence-table.md`: 主要レビュー・研究の抽出表
+- `review.md`: 親向けEvidence Review草稿
+
+## Review boundary
+
+このReviewは systematic review ではない。
+
+2025年のPRISMA準拠systematic reviewを主要な既存エビデンスの土台として使い、その検索終了後に公表された研究を対象に更新探索を行った anchored update review である。
+
+現在の実行環境では、PubMed等のデータベース検索について安定した総ヒット件数・deduplication件数を再取得できなかった。そのため、独立した完全網羅検索を実施したとは扱わず、StatusをDRAFTに維持する。
