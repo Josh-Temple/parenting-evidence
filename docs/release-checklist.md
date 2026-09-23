@@ -16,14 +16,20 @@ Applies to: Parenting Evidence release from release/evidence-review-v1
 
 - [ ] release branch is ahead of and not behind main
 - [ ] release PR is mergeable
+- [ ] package-lock.json is committed
+- [ ] CI installs dependencies with npm ci
+- [ ] npm run validate:content succeeds
 - [ ] GitHub Actions site build succeeds
 - [ ] review index contains all intended reviews
 - [ ] static routes generate for all review slugs
+- [ ] age/domain filters match the Review scope
 - [ ] metadata does not leak into Reader Layer body
 
 ## 3. Vercel capacity gate
 
 - [ ] Vercel status is not build-rate-limit
+- [ ] latest READY Preview commit SHA equals the current release PR head SHA
+- [ ] avoid treating an older READY Preview as validation of a newer head
 - [ ] avoid repeated deploy attempts while rate-limited
 - [ ] merge only once after capacity is available
 
