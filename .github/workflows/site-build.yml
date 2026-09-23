@@ -32,6 +32,31 @@ on:
       - "docs/site-mvp-spec.md"
 
 jobs:
+  lockfile-once:
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.20.0"
+      - run: npm install --package-lock-only --ignore-scripts
+      - name: Commit generated lockfile if needed
+        run: |
+          git add package-lock.json
+          if git diff --cached --quiet; then
+            echo "package-lock.json already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Add npm lockfile"
+          git push origin HEAD:${{ github.head_ref }}
+
   build:
     runs-on: ubuntu-latest
     steps:
