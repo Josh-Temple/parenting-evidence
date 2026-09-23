@@ -2,7 +2,7 @@
 
 Date: 2026-09-23  
 Result: PASS_WITH_LIMITATIONS_FOR_REVIEW  
-Publication status: independent publication review pending
+Publication status: independent publication review completed 2026-09-23; see `independent-publication-review.md`
 
 ## Rechecked claims
 
@@ -72,6 +72,11 @@ Verified:
 Interpretation:
 - small positive longitudinal association
 - very high heterogeneity must remain visible
+
+Quality-interpretation correction:
+- von Suchodoletz 2023 found significant process-quality associations across many outcomes and no significant pooled associations for structural indicators alone
+- however, direct comparisons of process vs structural effect sizes were not significantly different for most outcomes
+- final wording therefore avoids claiming that process quality is proven categorically more important than structural quality
 
 ### 4. France / Elfe
 
@@ -153,6 +158,31 @@ Interpretation:
 - broad "early daycare damages attachment" claim is not supported
 - quality and family caregiving context still matter
 
+### 9. 2024 update evidence
+
+Barry et al. 2024 was independently checked.
+
+Verified:
+- six prospective European birth cohorts
+- N=87,208
+- childcare exposure between ages 0-4
+- center-based childcare associated with slightly lower internalizing symptoms across later age groups versus exclusive parental care
+- informal childcare showed different patterns, including higher internalizing/externalizing associations at some ages
+- 2025 corrigendum exists for the article
+
+French ELFE developmental-delay study 2024 was also checked.
+
+Verified:
+- inverse-probability weighted observational comparison
+- center-based childcare associated with lower possible developmental-delay risk at age 3.5: OR 0.56 (95% CI 0.51-0.61)
+- childminder OR 0.77 (0.72-0.83)
+- residual confounding and French-system specificity remain
+
+Interpretation:
+- strengthens evidence against a universal harm claim
+- does not establish universal causal benefit
+- reinforces childcare-type and system-context decomposition
+
 ## Interpretation check
 
 PASS WITH LIMITATIONS:
@@ -166,7 +196,7 @@ PASS WITH LIMITATIONS:
 
 ## Remaining limitations before PUBLISHED
 
-- Independent publication review still required.
+- Independent publication review completed 2026-09-23; required changes are reflected in the publication-review branch.
 - No de novo systematic search with dual screening.
 - Childcare systems differ markedly across countries.
 - Japan evidence after age 3 remains limited in the anchor study.
