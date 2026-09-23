@@ -24,7 +24,7 @@ function meta(markdown, label) {
 const reviewsRoot = path.join(root, "reviews");
 const folders = fs
   .readdirSync(reviewsRoot, { withFileTypes: true })
-  .filter((entry) => entry.isDirectory() && /^Q\\d{3}-/.test(entry.name))
+  .filter((entry) => entry.isDirectory() && /^Q\d{3}-/.test(entry.name))
   .map((entry) => entry.name)
   .sort();
 
@@ -36,14 +36,14 @@ const siteConfig = read("site", "src", "lib", "reviews.ts");
 const publicationGate = read("docs", "publication-gate.md");
 const methodology = read("methodology", "evidence-review-methodology.md");
 
-const configuredFolders = [...siteConfig.matchAll(/folder:\\s*"([^"]+)"/g)].map(
+const configuredFolders = [...siteConfig.matchAll(/folder:\s*"([^"]+)"/g)].map(
   (match) => match[1]
 );
 
 let publishedCount = 0;
 
 for (const folder of folders) {
-  const qid = folder.match(/^(Q\\d{3})-/)?.[1] ?? folder;
+  const qid = folder.match(/^(Q\d{3})-/)?.[1] ?? folder;
   const required = [
     "README.md",
     "review.md",
@@ -65,7 +65,7 @@ for (const folder of folders) {
   const lastSearched = meta(review, "Last searched");
   const sourceVerified = meta(review, "Last source verification");
 
-  if (!lastSearched.match(/^\\d{4}-\\d{2}-\\d{2}$/)) {
+  if (!lastSearched.match(/^\d{4}-\d{2}-\d{2}$/)) {
     fail(folder + " has invalid or missing Last searched.");
   }
 
@@ -80,10 +80,10 @@ for (const folder of folders) {
       fail(folder + " is PUBLISHED but independent-publication-review.md is missing.");
     } else {
       const independent = read("reviews", folder, "independent-publication-review.md");
-      if (!/^Verdict:\\s*(PASS|PASS_WITH_CHANGES)\\s*$/mi.test(independent)) {
+      if (!/^Verdict:\s*(PASS|PASS_WITH_CHANGES)\s*$/mi.test(independent)) {
         fail(folder + " independent review does not have a passing verdict.");
       }
-      if (!/^Final state after required changes:\\s*PUBLISHED\\s*$/mi.test(independent)) {
+      if (!/^Final state after required changes:\s*PUBLISHED\s*$/mi.test(independent)) {
         fail(folder + " independent review does not end in PUBLISHED.");
       }
     }
@@ -106,12 +106,12 @@ if (configuredFolders.length !== publishedCount) {
 if (!methodology.startsWith("# Evidence Review Methodology v1.0")) {
   fail("Methodology is not v1.0.");
 }
-if (!/^Status:\\s*ACTIVE\\s*$/mi.test(methodology)) {
+if (!/^Status:\s*ACTIVE\s*$/mi.test(methodology)) {
   fail("Methodology status is not ACTIVE.");
 }
 
 const q004Block =
-  siteConfig.match(/\\{[\\s\\S]*?slug:\\s*"sleep-training"[\\s\\S]*?\\n\\s*\\}/)?.[0] ?? "";
+  siteConfig.match(/\{[\s\S]*?slug:\s*"sleep-training"[\s\S]*?\n\s*\}/)?.[0] ?? "";
 if (!q004Block.includes('ageLabel: "主に6〜18か月"')) {
   fail("Q004 ageLabel must be 主に6〜18か月.");
 }
@@ -120,11 +120,11 @@ if (!q004Block.includes('ageBands: ["0-1", "1-3"]')) {
 }
 
 const staleChecks = [
-  ["README.md", /Research \\/ design stage|最初の Pilot は/],
+  ["README.md", /Research \/ design stage|最初の Pilot は/],
   ["site/src/pages/index.astro", /現在は3件|独立確認前/],
   ["site/src/pages/reviews/[slug].astro", /現在の3件|調査草稿です/],
   ["site/src/pages/methodology.astro", /Q001〜Q003で見つかった問題/],
-  ["docs/site-mvp-spec.md", /3本とも主要出典|Methodology v0\\.1/]
+  ["docs/site-mvp-spec.md", /3本とも主要出典|Methodology v0\.1/]
 ];
 
 for (const [file, pattern] of staleChecks) {
