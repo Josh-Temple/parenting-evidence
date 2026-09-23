@@ -1,6 +1,6 @@
 # 睡眠トレーニングには効果があり、長期的な悪影響はあるか
 
-Status: REVIEW  
+Status: PUBLISHED  
 Last searched: 2026-09-23  
 Last source verification: 2026-09-23
 
@@ -12,7 +12,7 @@ Last source verification: 2026-09-23
 
 長期的な害については、小規模RCTと5年追跡研究で、情緒・行動、愛着、親子関係などの悪化は確認されていません。ただし、研究数は多くなく、「どの方法でも害がない」と証明されたわけではありません。
 
-6か月未満は証拠が弱いため、このReviewでは6か月以降の結果をそのまま当てはめません。
+6か月未満は研究結果が一致しておらず、6か月以降と同じ効果が確立しているとは言えません。このReviewでは6か月以降の結果をそのまま当てはめません。
 
 また、**睡眠トレーニングと安全な睡眠環境は別問題です。** 1歳未満では、こども家庭庁が示す「あおむけに寝かせる」などの安全指針を優先します。
 
@@ -133,9 +133,11 @@ graduated extinctionとbedtime fadingでは入眠までの時間が改善し、g
 
 2020年のsystematic reviewでは、6か月未満の介入効果は重要なknowledge gapとして挙げられています。
 
-また、6か月未満に限定した2013年のsystematic reviewでは、集団全体へ行動的睡眠介入を行うことで母子の主要アウトカムが改善するという十分な証拠は確認されませんでした。
+6か月未満に限定したレビューは結論が一致していません。2013年のsystematic reviewは、集団全体への行動的睡眠介入が母子の主要アウトカムを改善するという十分な証拠を確認できず、意図しない影響の可能性にも注意を促しました。一方、2016年のreviewは11研究を抽出し、そのうち8研究で教育的・行動的プログラム後の乳児睡眠の改善を報告し、「simple, prescriptive behavioral techniques」の有効性を支持しました。
 
-このため、今回の結論は主に**生後6か月以降で、持続する寝つき・夜間覚醒の問題がある乳児**についてのものです。
+この食い違いは、対象とする介入、アウトカム、研究の選び方が同一ではないことも反映しています。その後の2020年reviewがなお6か月未満をknowledge gapとしていることを踏まえ、このReviewでは「6か月未満には効果がない」とも「6か月以降と同様に確立している」とも断定しません。
+
+このため、今回の中心的な有効性の結論は主に**生後6か月以降で、持続する寝つき・夜間覚醒の問題がある乳児**についてのものです。
 
 新生児や月齢の低い乳児に、同じ方法・同じ目標を機械的に当てはめる根拠はありません。
 
@@ -207,7 +209,7 @@ AAPの2022年safe sleep policyでも、
 | 睡眠トレーニングは総睡眠時間を大幅に増やす | Not supported as large average effect | 32 RCT meta-analysisで夜間睡眠の平均増加は約9分 |
 | graduated extinction等は必ずコルチゾールを増やす | Not supported by small RCT | N=43 RCTでは増加せず。ただし小規模 |
 | 適切な行動的介入は長期的に情緒・愛着を悪化させる | Not supported by available follow-up evidence | 12か月・6歳追跡で明確なharm signalなし |
-| 6か月未満にも同じ効果がある | Insufficient evidence | recent reviewでもknowledge gap |
+| 6か月未満にも6か月以降と同じ効果がある | Mixed / insufficient for extension | 2013・2016 reviewで結論が異なり、2020 reviewもknowledge gapとする |
 | 最も優れた一つの方法がある | Not established | intervention heterogeneity / component attribution |
 | 睡眠トレーニングのため安全睡眠指針を緩めてよい | Not supported | SIDS / safe-sleep guidanceが別に優先 |
 | 保護者の気分・負担も改善する | Partially supported | meta-analysisで改善報告、介入異質性あり |
@@ -238,13 +240,16 @@ AAPの2022年safe sleep policyでも、
 8. Douglas PS, Hill PS. Behavioral sleep interventions in the first six months of life do not improve outcomes for mothers or infants: a systematic review. J Dev Behav Pediatr. 2013.  
    https://pubmed.ncbi.nlm.nih.gov/24042081/
 
-9. Uzdil Z, et al. Can behavioural interventions delivered using digital technologies influence infant sleep? A systematic review and meta-analysis. J Psychiatr Res. 2025.  
+9. Crichton GE, Symon B. Behavioral Management of Sleep Problems in Infants Under 6 Months—What Works? J Dev Behav Pediatr. 2016.  
+   https://pubmed.ncbi.nlm.nih.gov/26836644/
+
+10. Uzdil Z, et al. Can behavioural interventions delivered using digital technologies influence infant sleep? A systematic review and meta-analysis. J Psychiatr Res. 2025.  
    https://pubmed.ncbi.nlm.nih.gov/41110255/
 
-10. こども家庭庁. 赤ちゃんが安全に眠れるように ～1歳未満の赤ちゃんを育てるみなさまへ～.  
+11. こども家庭庁. 赤ちゃんが安全に眠れるように ～1歳未満の赤ちゃんを育てるみなさまへ～.  
     https://www.cfa.go.jp/policies/boshihoken/kenkou/sids
 
-11. American Academy of Pediatrics. Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment.  
+12. American Academy of Pediatrics. Sleep-Related Infant Deaths: Updated 2022 Recommendations for Reducing Infant Deaths in the Sleep Environment.  
     https://doi.org/10.1542/peds.2022-057990
 
 ## Method note

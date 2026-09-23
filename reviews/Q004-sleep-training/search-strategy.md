@@ -1,6 +1,6 @@
 # Q004 Search Strategy
 
-Status: EXECUTED WITH LIMITATION
+Status: EXECUTED WITH LIMITATION; PUBLICATION-REVIEW UPDATE CHECK COMPLETED
 
 Search date: 2026-09-23
 
@@ -203,6 +203,17 @@ Systematic review specifically of behavioral sleep interventions in infants <6 m
 Source:
 https://pubmed.ncbi.nlm.nih.gov/24042081/
 
+### Crichton & Symon 2016 — under 6 months, conflicting review
+
+A separate review of behavioral management in infants under 6 months reached a more favorable conclusion.
+
+- 11 studies identified
+- 8 reported improvements in infant sleep after an educational behavioral program
+- authors concluded that simple prescriptive behavioral techniques can improve infant sleep
+- https://pubmed.ncbi.nlm.nih.gov/26836644/
+
+This conflicts with Douglas & Hill 2013. Because inclusion methods/interventions/outcomes differ and Reuter 2020 later continued to identify <6 months as a knowledge gap, Q004 records the evidence as mixed / insufficient for extension rather than choosing one review as definitive.
+
 ### Uzdil et al. 2025 — digital delivery
 
 Systematic review/meta-analysis of digital behavioral sleep interventions.
@@ -215,6 +226,21 @@ Systematic review/meta-analysis of digital behavioral sleep interventions.
 
 Source:
 https://pubmed.ncbi.nlm.nih.gov/41110255/
+
+## Independent publication-review update check — 2026-09-23
+
+公開判定では、既存Reviewの結論を前提にせず、主要effect estimate、long-term harm wording、age boundary、current safe-sleep guidanceを再確認した。
+
+確認結果:
+- Reuter 2020: >6 monthsを中心とするshort-term benefitは再現。<6 monthsはknowledge gap。
+- Fangupo 2021: 32 RCTs、nocturnal sleep duration +9 min/night (95% CI 4.1–13.8)。0–5歳の広い対象であり、乳児の特定sleep-training法へのeffect sizeとしては扱わない。
+- Gradisar 2016: N=43、6–16 months。sleep latency等の改善、salivary cortisolはcontrol比でsmall-to-moderate decline、12-month emotional/behavioral and attachment differencesなし。
+- Price 2012: original sleep-problem subgroup N=326、age-6 follow-up 225 (69%)。測定したchild / parent-child / maternal outcomesに明確なgroup differenceなし。
+- Stanzel 2025 citation: 2025 volumeだがfirst published December 2024、literature search updateはMay 2023。publication yearをsearch recencyと同一視しない。
+- Uzdil 2025: 4 RCTs、longest continuous sleep improved、total night-time sleepは明確な改善なし、all studies high risk of bias。
+- under 6 months: Douglas 2013とCrichton 2016が異なる結論。2020 reviewもknowledge gapとするため、mixed / insufficient for extensionへ修正。
+- Japan Children and Families Agency safe-sleep pageをcurrent確認。
+- AAP 2022 policy remains the current AAP safe-sleep policy identified in this update search; 2024 AAP point-of-care material continues the same safe-sleep principles.
 
 ## Safe sleep guidance
 
