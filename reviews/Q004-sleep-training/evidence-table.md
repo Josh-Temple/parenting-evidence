@@ -15,6 +15,7 @@ Last updated: 2026-09-23
 | E009 | Uzdil et al. 2025 | Systematic review/meta-analysis; 4 RCTs of digitally delivered behavioral interventions | Longest continuous sleep period improved; total night-time sleep did not clearly improve. | Few studies; all high risk of bias; low certainty. | Reinforces C002 and outcome decomposition. |
 | E010 | Children and Families Agency, Japan | Current public safe-sleep guidance, infants <1 year | Recommends putting infants to sleep supine; notes lower SIDS incidence with supine than prone placement. | Safety guidance, not sleep-training efficacy evidence. | Governs C007 and Japan safety context. |
 | E011 | AAP 2022 Safe Sleep Policy | Evidence-based public-health / clinical policy, infants to 1 year | Supine sleep, firm flat noninclined surface, room sharing without bed sharing, avoidance of soft bedding / overheating. | US guideline; does not evaluate behavioral sleep-training efficacy. | Safety boundary for C007. |
+| E012 | Crichton & Symon 2016 | Review focused on behavioral management in infants <6 months; 11 studies identified | Eight studies reported improved infant sleep after educational behavioral programs; authors concluded simple prescriptive behavioral techniques can improve infant sleep. | Review methods and included interventions differ from Douglas 2013; does not resolve whether benefits generalize across methods/outcomes; later Reuter 2020 still identifies <6 months as a knowledge gap. | Important counterevidence for C005; supports classifying the age boundary as mixed/insufficient rather than simply no benefit. |
 
 ## Source links
 
@@ -29,6 +30,7 @@ Last updated: 2026-09-23
 - E009: https://pubmed.ncbi.nlm.nih.gov/41110255/
 - E010: https://www.cfa.go.jp/policies/boshihoken/kenkou/sids
 - E011: https://doi.org/10.1542/peds.2022-057990
+- E012: https://pubmed.ncbi.nlm.nih.gov/26836644/
 
 ## Interpretation by claim
 
@@ -58,9 +60,11 @@ One small RCT showed no 12-month attachment/emotional difference and a separate 
 
 ### C005 — under 6 months
 
-Insufficient evidence for extending the same recommendation.
+Mixed evidence; insufficient for extending the same recommendation.
 
-Reuter 2020 identifies <6 months as a major knowledge gap. The older Douglas review specifically did not find established benefit from population-level behavioral sleep interventions in the first six months.
+Douglas & Hill 2013 did not establish benefit for the maternal/infant outcomes they reviewed and raised possible unintended effects. Crichton & Symon 2016, using a different review approach, identified 11 studies and reported sleep improvements in 8 after educational behavioral programs. Reuter 2020 subsequently still identified infants <6 months as a major knowledge gap.
+
+The appropriate synthesis is therefore not “proven ineffective” or “proven effective,” but that evidence is inconsistent and does not justify mechanically extending the >6-month conclusion.
 
 ### C006 — one best method
 
