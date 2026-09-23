@@ -1,9 +1,10 @@
 # Q004 — 睡眠トレーニングには効果があり、長期的な悪影響はあるか
 
-Status: REVIEW
+Status: PUBLISHED
 
 Last evidence search: 2026-09-23
 Last source verification: 2026-09-23
+Last independent publication review: 2026-09-23
 
 ## Review question
 
@@ -52,7 +53,7 @@ graduated extinction と bedtime fading を比較した小規模RCTでは、睡�
 
 ただし、**「悪影響が確認されなかった」ことと「あらゆる睡眠トレーニングが安全だと証明された」ことは同じではない。** 安全性研究は数が限られ、方法も一様ではない。
 
-6か月未満については証拠が弱く、2020年のsystematic reviewでも重要なknowledge gapとされている。このReviewでは、6か月未満に同じ結論を広げない。
+6か月未満についてはレビュー間で結論が一致していない。2013年のsystematic reviewは母子の主要アウトカムへの利益を確認できなかった一方、2016年のreviewは11研究中8研究で睡眠改善を報告した。その後の2020年systematic reviewも6か月未満を重要なknowledge gapとしている。このReviewでは、6か月以降の結論をそのまま6か月未満へ広げない。
 
 さらに、睡眠トレーニングの効果とSIDS・窒息等を減らすための安全な睡眠環境は別の問題である。**あおむけ、適切な睡眠面などの安全指針は、睡眠トレーニングの都合で変更しない。**
 
@@ -66,8 +67,8 @@ graduated extinction と bedtime fading を比較した小規模RCTでは、睡�
   - Status: NOT_SUPPORTED_BY_SMALL_RCT / EVIDENCE_LIMITED
 - C004: 適切な行動的睡眠介入は長期的な情緒・行動・愛着の悪化を引き起こす
   - Status: NOT_SUPPORTED_BY_AVAILABLE_FOLLOWUP_EVIDENCE
-- C005: 6か月未満でも同様に有効である
-  - Status: INSUFFICIENT_EVIDENCE
+- C005: 6か月未満でも6か月以降と同様の効果が確立している
+  - Status: MIXED_EVIDENCE / INSUFFICIENT_FOR_EXTENSION
 - C006: どの睡眠トレーニング法が最も優れているか
   - Status: NOT_ESTABLISHED
 - C007: 睡眠トレーニングのためなら安全な睡眠環境の指針を緩めてもよい
@@ -87,4 +88,4 @@ graduated extinction と bedtime fading を比較した小規模RCTでは、睡�
 
 2020、2023、2024、2025年のsystematic review / meta-analysisを主要anchorとし、代表的RCT・長期追跡・日本と米国の安全な睡眠指針をtargeted updateで確認した。
 
-独自のdatabase export、deduplication、二重screeningは実施していないためsystematic reviewとは扱わない。主要数値・主要解釈のsource verificationは完了し、現在は公開判定の独立確認待ちとしてREVIEWとする。
+独自のdatabase export、deduplication、二重screeningは実施していないためsystematic reviewとは扱わない。主要数値・主要解釈のsource verificationと独立publication reviewは完了した。独立reviewはPASS_WITH_CHANGESと判定され、必要な変更を反映したためPUBLISHEDとする。
