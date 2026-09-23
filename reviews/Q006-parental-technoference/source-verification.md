@@ -1,0 +1,200 @@
+# Q006 Source Verification — Pass 1
+
+Date: 2026-09-23  
+Result: PASS_WITH_CHANGES_FOR_REVIEW  
+Publication status: independent publication review pending
+
+## Rechecked claims
+
+### 1. A1 — Toledo-Vargas et al. 2025
+
+Source:
+- https://pubmed.ncbi.nlm.nih.gov/40323594/
+- https://doi.org/10.1001/jamapediatrics.2025.0682
+
+Verified:
+- systematic review: 30 studies
+- meta-analysis: 21 studies
+- N=14,900
+- 10 countries
+- age birth–4.9 years
+- search updated through 2024-07-31
+- cognition r=-0.14, 95% CI -0.23 to -0.04
+- internalizing/emotions r=0.13, 0.08 to 0.19
+- externalizing r=0.15, 0.09 to 0.21
+- prosocial r=-0.08, -0.13 to -0.02
+- attachment r=-0.10, -0.19 to -0.01
+- child screen time r=0.23, 0.13 to 0.32
+- language r=-0.09, 95% CI -0.31 to 0.14; non-significant
+
+Interpretation:
+- selected outcomes support small associations
+- language harm is not a consistent pooled finding
+- long-term causal harm is not established
+- Reader Layer wording within scope: YES
+
+### 2. J1 — Ogata et al. 2025 / JECS
+
+Source:
+- https://pubmed.ncbi.nlm.nih.gov/40128212/
+- https://doi.org/10.1038/s41598-025-87430-9
+
+Verified:
+- first author Yuka Ogata
+- N=3,786 mother-child pairs
+- maternal digital-media use while with child
+- KSPD at age 2 by trained/certified examiners
+- 1-<2h vs none language-social DQ B=-3.07, 95% CI -4.81 to -1.33
+- >=2h vs none language-social DQ B=-5.24, -7.76 to -2.73
+- >=2h vs none total DQ B=-2.07, -3.86 to -0.28
+
+Interpretation:
+- observational association
+- 1h/2h categories are not causal safety thresholds
+- Reader Layer wording within scope: YES
+
+### 3. M1 — Mikić et al. 2025
+
+Source:
+- https://pubmed.ncbi.nlm.nih.gov/40703733/
+
+Verified:
+- 52 mothers and infants
+- infant age 5–6 months
+- counterbalanced free-play / standardized smartphone interruption
+- interruption reduced maternal sensitivity/responsiveness in relevant comparisons and altered infant affect
+
+Interpretation:
+- supports acute interaction-disruption mechanism
+- does not establish long-term developmental harm
+- Reader Layer wording within scope: YES
+
+### 4. A2 — 2026 infant systematic review
+
+Source:
+- https://pubmed.ncbi.nlm.nih.gov/42648046/
+
+Verified:
+- 16 empirical studies
+- infants 0–24 months
+- immediate negative affect / protest / gaze aversion and reduced caregiver sensitivity reported across relevant paradigms
+- evidence heterogeneous / preliminary
+- longitudinal follow-up needed
+
+Interpretation:
+- supports C003, not C002
+- Reader Layer wording within scope: YES
+
+### 5. U1 — Ventura et al. 2025
+
+Source:
+- https://doi.org/10.3389/fdpys.2025.1686250
+
+Verified:
+- N=147 mother-infant dyads
+- passive smartphone monitoring + EMA + observed feeding interaction
+- typical objective-use amount / perceived technoference not significantly associated with observed interaction quality
+
+Interpretation:
+- counters a universal raw-minute dose model
+- exposure and feeding observation were not simultaneous; does not negate active interruption evidence
+- Reader Layer v0.2 includes this limitation: YES
+
+### 6. U2 — Coyne et al. 2026
+
+Source:
+- https://pubmed.ncbi.nlm.nih.gov/41858027/
+
+Verified:
+- N=250 families
+- Wave 1 child mean age 15.85 months
+- technoference related to child-talk quantity at W1
+- no significant longitudinal technoference prediction of later child talk / conversational turns in reported results
+- child TV exposure showed clearer longitudinal relation to language environment
+
+Interpretation:
+- Q002 child exposure and Q006 caregiver exposure remain separate
+- C008 remains MIXED / NOT ESTABLISHED
+
+### 7. U5 — Ashby et al. 2026
+
+Source:
+- https://pubmed.ncbi.nlm.nih.gov/42148537/
+- https://doi.org/10.1093/chidev/aacag101
+
+Verified:
+- N=500 U.S. mothers / children
+- 6 months to 6.5 years
+- higher initial maternal technoference associated with child PMU at 6.5: β=0.48, p<.001
+- maternal questionnaire exposure and outcome
+
+Interpretation:
+- longitudinal association, not causal effect
+- shared reporter / family factors remain
+
+### 8. Reverse/shared-cause evidence
+
+Schneebeli et al. 2025:
+- N=261 parents of 14-month-olds
+- difficult temperament / parenting stress / parental problematic smartphone use associated in cross-sectional mediation model
+- temporal direction not established
+
+McDaniel et al. 2025:
+- N=183 families with young child
+- parenting stress associated with some phone activities and perceived family-time interference
+- exposure multidimensionality reinforced
+
+Interpretation:
+- supports explicit confounding / bidirectionality caution
+
+## Current guideline check
+
+### AAP 2026 Digital Ecosystems
+
+Sources:
+- https://doi.org/10.1542/peds.2025-075320
+- https://doi.org/10.1542/peds.2025-075321
+
+Role:
+- professional guidance / practical context
+- not evidence of causal effect size or a universal caregiver time threshold
+
+### Japan official-source targeted check
+
+Checked Children and Families Agency / MHLW materials available in the targeted search.
+
+Not identified:
+- a national daily caregiver-device-use cutoff while with infant/young child
+- adoption of the JECS 1h category as a national safety threshold
+
+This is a targeted-search result, not proof of nonexistence.
+
+## Independent interpretation review
+
+Verdict: PASS_WITH_CHANGES
+
+Required changes already reflected in review.md:
+1. avoid claiming interruption is proven more important than duration
+2. avoid claiming child→parent temporal direction is established
+3. separate research evidence from professional guidance
+4. note U1 exposure/observation timing limitation
+
+## Cross-file consistency
+
+- review.md: aligned with claim map
+- evidence-table.md: aligned
+- search-strategy.md: historical search limitation documented
+- numeric values consistent: YES
+- Claim strength consistent: YES
+
+## Result
+
+PASS_WITH_CHANGES_FOR_REVIEW
+
+## Remaining limitations before PUBLISHED
+
+- historical search counts are not reconstructable and must not be invented
+- fresh fixed update search required before independent publication review
+- independent publication review required
+- Publication Gate must pass
+- public site configuration must not include Q006 before PUBLISHED
