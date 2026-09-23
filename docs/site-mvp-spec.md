@@ -1,6 +1,6 @@
-# Site MVP Specification v0.1
+# Site MVP Specification v1.0
 
-Status: DRAFT
+Status: IMPLEMENTED_FOR_FIVE_REVIEW_PILOT
 
 ## 1. Product purpose
 
@@ -117,7 +117,7 @@ MVPでは独立したニュースフィードは不要。
 
 ## 4. Claim presentation
 
-Q001〜Q003で、Review全体を一つのEvidence scoreに圧縮すると誤解が生じることを確認した。
+Q001〜Q005のPilotで、Review全体を一つのEvidence scoreに圧縮すると誤解が生じることを確認した。
 
 そのため、Claimごとに次を表示する。
 
@@ -188,16 +188,20 @@ multicomponent interventionのprogram-level effectを一技法へ帰属しない
 
 ## 8. MVP content
 
-MVP公開候補:
+5件のPilot Reviewを実装済み:
 - Q001 読み聞かせと言語発達
 - Q002 スクリーン時間と言語発達
 - Q003 タイムアウトと問題行動
+- Q004 睡眠トレーニングの効果と長期影響
+- Q005 保育園への早期入園と発達
 
-3本とも主要出典のsource verificationを完了し、現在はREVIEW（公開判定の独立確認待ち）とする。`docs/publication-gate.md` を通過したものだけPUBLISHEDへ移行する。
+5件とも主要出典のsource verificationと独立publication reviewを完了し、Publication Gateを通過してPUBLISHEDとして管理する。
 
 Methods:
-- Evidence Review Methodology v0.1
-- Evidence Schemaの一般読者向け説明
+- Evidence Review Methodology v1.0
+- Publication Gate
+- Claim単位のEvidence table / Search Strategy / Source Verification
+- Independent Publication Review
 
 ## 9. MVP non-goals
 
