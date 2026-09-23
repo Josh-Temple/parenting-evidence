@@ -193,7 +193,7 @@ MVP公開候補:
 - Q002 スクリーン時間と言語発達
 - Q003 タイムアウトと問題行動
 
-ただし、3本とも現在DRAFTであり、独立確認後にPUBLISHEDへ移行する。
+3本とも主要出典のsource verificationを完了し、現在はREVIEW（公開判定の独立確認待ち）とする。`docs/publication-gate.md` を通過したものだけPUBLISHEDへ移行する。
 
 Methods:
 - Evidence Review Methodology v0.1
