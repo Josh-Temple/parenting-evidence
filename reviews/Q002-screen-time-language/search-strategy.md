@@ -1,8 +1,9 @@
 # Q002 Search Strategy
 
-Status: EXECUTED WITH LIMITATION
+Status: EXECUTED WITH LIMITATION; PUBLICATION-REVIEW UPDATE CHECK COMPLETED
 
-Search date: 2026-09-22
+Search date: 2026-09-22  
+Publication-review update check: 2026-09-23
 
 ## Review question
 
@@ -124,6 +125,43 @@ https://doi.org/10.1001/jamapediatrics.2024.2620
   - Madigan 2020等のscreen-media evidenceを日本語で整理
 
 2025年に複数の追加systematic reviewが公表され、長時間・受動的・単独利用と不利な言語アウトカム、内容・相互作用による差という方向性は概ね一致していた。ただし、方法論的異質性が大きく、主要effect estimateの更新には使用しなかった。
+
+## Independent publication-review update check — 2026-09-23
+
+既存Reviewの結論を前提にせず、language-specific evidenceと2024年以後の更新レビューを再確認した。
+
+追加で重要と判断した資料:
+
+- Jing et al. (2023), vocabulary meta-analysis
+  - 63 studies, 266 effect sizes, N=11,413, age 0-6
+  - overall r=0.23; experimental r=0.30
+  - correlational naturalistic exposure overall r=0.07
+  - naturalistic educational-media exposure r=0.17
+  - https://doi.org/10.1111/cdev.13927
+  - 2024 context anchorより前の研究だが、教育的内容の解釈に重要なため独立reviewで明示的に追加した。
+
+- Xie, Lu & Lin (2024), infant/toddler language meta-analysis
+  - 28 studies, age 0-3
+  - screen time: negative association
+  - co-viewing: positive association
+  - later onset: positive association
+  - educational-program viewing: non-significant association
+  - https://doi.org/10.1080/03004430.2024.2349622
+  - C003を「教育的内容」と「共同利用」に分解する主要理由になった。
+
+- Nwachukwu et al. (2025), systematic review
+  - 8 included studies, mostly cross-sectional preschool samples
+  - high passive/unsupervised use often linked to weaker language; overall certainty limited
+  - https://doi.org/10.7759/cureus.97429
+  - evidence setが小さく、主要effect estimateのanchorにはしない。
+
+- Silva Junior et al. (2025), interactive-screen systematic review
+  - 17 observational studies, smartphones/tablets, age <=6
+  - early/excessive exposureと不利なlanguage outcomesの関連、parental mediation/content/contextの重要性を報告
+  - https://doi.org/10.1111/cch.70176
+  - observational-onlyのため因果効果の根拠にはしない。
+
+この確認により、総利用時間と不利な言語アウトカムの小さな関連、bidirectionality、明確な安全閾値が未確立という主要結論は維持した。一方、educational contentの利益は研究間で一致しないため、co-viewingと分離して表現を修正した。
 
 ## Current guidance check
 
