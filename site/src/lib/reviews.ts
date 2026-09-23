@@ -53,8 +53,8 @@ const REVIEW_CONFIGS: ReviewConfig[] = [
     slug: "sleep-training",
     folder: "Q004-sleep-training",
     domain: "睡眠",
-    ageLabel: "主に0〜1歳",
-    ageBands: ["0-1"]
+    ageLabel: "主に6〜18か月",
+    ageBands: ["0-1", "1-3"]
   },
   {
     slug: "early-childcare-development",
