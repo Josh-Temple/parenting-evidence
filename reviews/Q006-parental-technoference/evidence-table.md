@@ -11,11 +11,12 @@ Last updated: 2026-09-24
 | U1 | Ventura 2025 | passive sensing + EMA + observed feeding; 147 dyads | typical objective use / perceived technoference not significantly associated with observed interaction quality | use exposure and feeding observation not simultaneous | C007 |
 | U2 | Coyne 2026 | longitudinal; 250 families; W1 mean age 15.85mo | concurrent technoference association at W1; no significant longitudinal prediction of later child talk/turns; child TV exposure more predictive | two waves; construct differences | C008, Q002/Q006 boundary |
 | U5 | Ashby 2026 | longitudinal; 500 U.S. mother-child dyads; 6mo→6.5y | higher initial maternal technoference associated with PMU at 6.5y, β=0.48, p<.001 | maternal report for exposure/outcome; shared factors remain | C004 |
+| B1 | McDaniel & Radesky 2018 | longitudinal; 183 couples; child 0–5y; baseline/1/3/6mo | child externalizing predicted later technology interference via parenting stress; technology interference often predicted later externalizing | parent report; short follow-up; observational cross-lagged model | C006 |
 | U6 | Schneebeli 2025 | cross-sectional; 261 parents; child 14mo | difficult temperament, parenting stress, parent problematic smartphone use compatible with mediated association | temporal direction not established | C006 |
 | U7 | McDaniel 2025 | survey; 183 families; child mean 2.89y | parenting stress associated with some phone activities and perceived family-time interference | self-report; cross-sectional | C006 |
 | G1 | AAP 2026 | policy + technical report | relational-context framing; technoference associated with behavior challenges; caregiver stress/device-use association; practical guidance | guidance, not causal effect-size evidence | practical context |
 | U8 | Shen 2026 | cross-sectional; 207 Chinese families; preschoolers mean age 4.72y | parental technoference associated with lower coparenting quality; father-reported coparenting partially mediated some social-emotional associations | same-family self-report; cross-sectional; mediation does not establish temporal causality | C001, C006 |
-| U9 | Toledo-Vargas 2026 SUNRISE | cross-sectional; 27 countries; N=2,232 preschoolers; mean age 4.2y | caregiver smartphone-use frequency not associated with gross/fine motor skills, visual-spatial working memory or inhibition after adjustment | caregiver-reported frequency; not duration/intrusiveness; cross-sectional | C001, C007 |
+| U9 | Toledo-Vargas 2026 SUNRISE | cross-sectional; 27 countries; N=2,232 preschoolers; mean age 4.2y | caregiver smartphone-use frequency not associated with gross/fine motor skills, visual-spatial working memory or inhibition after adjustment | caregiver-reported frequency; not duration/intrusiveness; cross-sectional | C001 |
 
 ## Source links
 
@@ -26,6 +27,7 @@ Last updated: 2026-09-24
 - U1: https://doi.org/10.3389/fdpys.2025.1686250
 - U2: https://pubmed.ncbi.nlm.nih.gov/41858027/
 - U5: https://pubmed.ncbi.nlm.nih.gov/42148537/ ; https://doi.org/10.1093/chidev/aacag101
+- B1: https://pubmed.ncbi.nlm.nih.gov/29895837/ ; https://doi.org/10.1038/s41390-018-0052-6
 - U6: https://pubmed.ncbi.nlm.nih.gov/40497108/ ; https://doi.org/10.3389/fpsyg.2025.1517222
 - G1: https://doi.org/10.1542/peds.2025-075320 ; https://doi.org/10.1542/peds.2025-075321
 - U8: https://pubmed.ncbi.nlm.nih.gov/41685749/ ; https://doi.org/10.1097/DBP.0000000000001435
@@ -38,7 +40,7 @@ Last updated: 2026-09-24
 Status: ASSOCIATION
 
 - What supports the claim: A1 pooled small associations; J1 Japan-specific developmental association
-- What limits the claim: mostly observational evidence; heterogeneity; outcome-specific results
+- What limits the claim: mostly observational evidence; heterogeneity; outcome-specific results; U9 found no adjusted association for motor skills or selected executive-function outcomes
 - Comparator: lower/no caregiver use as defined in original studies
 - Outcome: cognition / psychosocial measures
 - Causal boundary: do not convert pooled association to intervention effect
@@ -81,8 +83,9 @@ Status: NOT ESTABLISHED
 
 Status: PLAUSIBLE BIDIRECTIONAL / CONFOUNDED
 
-- U6 and U7 support shared-stress pathways
-- temporal direction is not established by cross-sectional evidence
+- B1 provides short-term longitudinal evidence consistent with bidirectional dynamics between externalizing behavior, parenting stress and technology interference
+- U6 and U7 add shared-stress pathways
+- B1 remains observational and U6/U7 are cross-sectional, so causal direction is not isolated
 - AAP guidance also recognizes caregiver stress/device-use association
 
 ### C007 — simple dose model
@@ -90,8 +93,7 @@ Status: PLAUSIBLE BIDIRECTIONAL / CONFOUNDED
 Status: NOT SUPPORTED AS UNIVERSAL
 
 - U1 is an important counterexample to a universal “more minutes = worse observed interaction” model
-- U9 adds a large 27-country null association for caregiver-use frequency vs motor/executive-function outcomes
-- U1 does not test simultaneous active interruption, and U9 is frequency-based / cross-sectional, so neither negates M1/A2
+- U1 does not test simultaneous active interruption, so it does not negate M1/A2
 
 ### C008 — consistent language harm
 

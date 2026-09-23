@@ -134,6 +134,16 @@ Interpretation:
 
 ### 8. Reverse/shared-cause evidence
 
+McDaniel & Radesky 2018:
+- longitudinal study of 183 couples with a young child, baseline / 1 / 3 / 6 months
+- child externalizing predicted later parenting stress, which predicted later technology interference in relevant paths
+- technology interference often predicted later externalizing
+- parent-report and observational cross-lagged design limit causal inference
+
+Source:
+- https://pubmed.ncbi.nlm.nih.gov/29895837/
+- https://doi.org/10.1038/s41390-018-0052-6
+
 Schneebeli et al. 2025:
 - N=261 parents of 14-month-olds
 - difficult temperament / parenting stress / parental problematic smartphone use associated in cross-sectional mediation model
@@ -145,7 +155,9 @@ McDaniel et al. 2025:
 - exposure multidimensionality reinforced
 
 Interpretation:
-- supports explicit confounding / bidirectionality caution
+- B1 provides direct longitudinal support for retaining bidirectional dynamics in the interpretation
+- U6/U7 add shared-stress evidence but do not establish temporal causality on their own
+- none of these studies isolates a simple one-direction causal effect
 
 ### 9. U8 — Shen et al. 2026
 
@@ -231,9 +243,9 @@ Required changes already reflected in review.md:
 
 ## Cross-file consistency
 
-- review.md: aligned with claim map
-- evidence-table.md: aligned
-- search-strategy.md: historical search limitation documented
+- review.md: aligned with claim map; SUNRISE null evidence placed under outcome-specific association rather than interaction-quality claim
+- evidence-table.md: aligned; B1 bidirectional longitudinal evidence added to C006
+- search-strategy.md: historical search limitation documented; fixed update search completed
 - numeric values consistent: YES
 - Claim strength consistent: YES
 
@@ -245,6 +257,6 @@ PASS_WITH_CHANGES_FOR_REVIEW
 
 - historical search counts are not reconstructable and must not be invented
 - fresh fixed update search completed 2026-09-24
-- independent publication review required
-- Publication Gate must pass
+- independent publication review completed 2026-09-24; PASS_WITH_CHANGES
+- Publication Gate must still pass
 - public site configuration must not include Q006 before PUBLISHED

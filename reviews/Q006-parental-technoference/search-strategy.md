@@ -76,6 +76,17 @@ AND
 
 重要: publication yearとlast search dateを同一視しない。
 
+## Key pre-anchor bidirectional evidence retained for C006
+
+McDaniel & Radesky 2018:
+- longitudinal survey study
+- 183 couples with a young child; baseline, 1, 3 and 6 months
+- child externalizing → parenting stress → later technology interference and technology interference → later externalizing were both observed in cross-lagged models
+- retained because C006 specifically concerns directionality / shared stress
+- source: PMID 29895837; DOI 10.1038/s41390-018-0052-6
+
+This study predates the anchor cutoff and is not counted as a new update-search record.
+
 ## Targeted update search already completed
 
 2024-08以降について、以下を追加確認した。

@@ -1,9 +1,9 @@
 # Q006 — 親のデジタル機器利用 / technoference と親子相互作用・発達
 
-Status: DRAFT  
-Last searched: 2026-09-23  
-Last source verification: 2026-09-23  
-Publication status: independent publication review pending
+Status: REVIEW  
+Last searched: 2026-09-24  
+Last source verification: 2026-09-24  
+Publication status: independent publication review completed; Publication Gate pending
 
 ## Review question
 
@@ -44,7 +44,8 @@ Q002の child screen exposure とは別Reviewとして扱う。
 - Reader Layer Draft v0.2: complete
 - Independent Interpretation Review: PASS_WITH_CHANGES; required wording changes reflected
 - Formalization readiness: READY_WITH_SEARCH_RECORD_LIMITATION
-- Independent publication review: pending
+- Independent publication review: PASS_WITH_CHANGES; required changes reflected
+- Fresh fixed update search: completed 2026-09-24
 - Publication Gate: not passed
 - Public site: not included
 
@@ -52,4 +53,4 @@ Q002の child screen exposure とは別Reviewとして扱う。
 
 このReviewはde novo systematic reviewではない。過去のtargeted / iterative searchでは、records identified / screened / full texts assessedの完全な件数を一貫して保存していないため、後から推測して補わない。
 
-PUBLISHED前に、条件を固定したfresh update searchを別途実施し、その検索では検索件数と主要除外理由を記録する。
+Publication review直前のfresh fixed update searchは2026-09-24に実施済み。historical countの欠損は推測で埋めず、fixed searchの検索記録と限界をsearch-strategy.mdに残している。

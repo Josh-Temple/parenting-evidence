@@ -1,8 +1,8 @@
 # 親が乳幼児の前でスマートフォン等を使うことと、親子相互作用・発達
 
-Status: DRAFT  
+Status: REVIEW  
 Last searched: 2026-09-24  
-Last source verification: 2026-09-23
+Last source verification: 2026-09-24
 
 ## 30秒で分かる結論
 
@@ -35,6 +35,8 @@ Toledo-Vargas et al. 2025のsystematic review / meta-analysisでは、認知、i
 
 ただし多くのoutcomeでheterogeneityが大きく、研究の多くは観察研究だった。言語のpooled estimateは r=-0.09（95% CI -0.31〜0.14）で、明確な関連は確認されなかった。
 
+また、anchor review時点ではmotor developmentを扱う研究がなかったが、2026年のSUNRISE International Studyでは27か国・2,232人のpreschoolerを対象に、caregiver smartphone-use frequencyとgross/fine motor skills、visual-spatial working memory、inhibitionの間に調整後の有意な関連は確認されなかった。これは「影響がないことの証明」ではなく、outcomeやExposureの測り方によって結果が異なることを示すnull evidenceとして扱う。
+
 ### Claim C003 — active interruptionの短期的影響
 
 5〜6か月児と母親52組を対象にしたMikić et al. 2025では、free play中の標準化されたsmartphone interruptionで、母親の感受性・応答性低下や乳児の不利な感情反応がみられた。
@@ -55,8 +57,6 @@ Ventura et al. 2025は、日常のスマホ利用をpassive sensingとEMAで測�
 
 ただし、日常の利用量とfeeding観察は同じ瞬間を測定したものではない。この研究は「実際にinteractionを中断しても影響がない」ことを示すものではない。
 
-2026年のSUNRISE International Studyでは、27か国のpreschooler 2,232人を対象に、caregiverが子どもの前でsmartphoneを使う頻度と、gross/fine motor skills、visual-spatial working memory、inhibitionとの関連を調べた。調整後はいずれも有意な関連が確認されなかった。cross-sectionalで、Exposureも利用の「頻度」が中心のため、実際の中断の強さや長さを十分に捉えない限界があるが、単純なfrequency-dose modelへの追加の反証材料になる。
-
 ## まだ分からないこと
 
 - 親のスマホ利用時間そのものの長期的な因果効果量
@@ -68,7 +68,9 @@ Ventura et al. 2025は、日常のスマホ利用をpassive sensingとEMAで測�
 
 ## 逆方向・交絡をどう考えるか
 
-2025年の14か月児家庭261組のcross-sectional studyでは、子どもの難しい気質、parenting stress、親のproblematic smartphone useの間に関連がみられた。研究デザイン上、child → parentという時間方向が確定したわけではない。
+2018年の縦断研究では、0〜5歳の子どもを持つ183組のcoupleをbaseline、1、3、6か月で追跡した。child externalizing behaviorが後のparenting stressを介してtechnology interferenceを予測する経路と、technology interferenceが後のexternalizing behaviorを予測する経路の両方が報告された。親報告中心で追跡期間も6か月と短いため因果関係を確定する研究ではないが、観察された関連を親→子の一方向だけで読むべきではないという根拠になる。
+
+2025年の14か月児家庭261組のcross-sectional studyでも、子どもの難しい気質、parenting stress、親のproblematic smartphone useの間に関連がみられた。研究デザイン上、child → parentという時間方向が確定したわけではない。
 
 また、若い子どもを持つ183家庭の研究でも、parenting stressは一部のphone activityやfamily-time interferenceの認識と関連していた。
 
@@ -117,11 +119,12 @@ AAP 2026 Digital Ecosystems policy / technical reportは、caregiver-child relat
 5. Ventura et al. 2025 — DOI 10.3389/fdpys.2025.1686250
 6. Coyne et al. 2026 — PMID 41858027
 7. Ashby et al. 2026 — PMID 42148537; DOI 10.1093/chidev/aacag101
-8. Schneebeli et al. 2025 — PMID 40497108
-9. AAP Digital Ecosystems policy / technical report 2026 — DOI 10.1542/peds.2025-075320 / 10.1542/peds.2025-075321
-10. Toledo-Vargas et al. 2026 SUNRISE International Study — PMID 42289737; DOI 10.1111/cch.70305
-11. Shen et al. 2026 — PMID 41685749; DOI 10.1097/DBP.0000000000001435
+8. McDaniel & Radesky 2018 — PMID 29895837; DOI 10.1038/s41390-018-0052-6
+9. Schneebeli et al. 2025 — PMID 40497108
+10. AAP Digital Ecosystems policy / technical report 2026 — DOI 10.1542/peds.2025-075320 / 10.1542/peds.2025-075321
+11. Toledo-Vargas et al. 2026 SUNRISE International Study — PMID 42289737; DOI 10.1111/cch.70305
+12. Shen et al. 2026 — PMID 41685749; DOI 10.1097/DBP.0000000000001435
 
 ## Method note
 
-このページはsystematic reviewではありません。検索方法と制約は search-strategy.md、主要資料の抽出結果は evidence-table.md に記録しています。PUBLISHED前にfresh fixed update searchと独立publication reviewを行います。
+このページはsystematic reviewではありません。検索方法と制約は search-strategy.md、主要資料の抽出結果は evidence-table.md に記録しています。2026-09-24のfresh fixed update searchと独立publication reviewは完了しています。現在はPublication Gateと公開反映前の最終確認段階です。
