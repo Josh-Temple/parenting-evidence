@@ -1,6 +1,6 @@
 # Q006 Evidence Table
 
-Last updated: 2026-09-23
+Last updated: 2026-09-24
 
 | ID | Source | Design / population | Main result | Main limitation | Claim relevance |
 |---|---|---|---|---|---|
@@ -14,6 +14,8 @@ Last updated: 2026-09-23
 | U6 | Schneebeli 2025 | cross-sectional; 261 parents; child 14mo | difficult temperament, parenting stress, parent problematic smartphone use compatible with mediated association | temporal direction not established | C006 |
 | U7 | McDaniel 2025 | survey; 183 families; child mean 2.89y | parenting stress associated with some phone activities and perceived family-time interference | self-report; cross-sectional | C006 |
 | G1 | AAP 2026 | policy + technical report | relational-context framing; technoference associated with behavior challenges; caregiver stress/device-use association; practical guidance | guidance, not causal effect-size evidence | practical context |
+| U8 | Shen 2026 | cross-sectional; 207 Chinese families; preschoolers mean age 4.72y | parental technoference associated with lower coparenting quality; father-reported coparenting partially mediated some social-emotional associations | same-family self-report; cross-sectional; mediation does not establish temporal causality | C001, C006 |
+| U9 | Toledo-Vargas 2026 SUNRISE | cross-sectional; 27 countries; N=2,232 preschoolers; mean age 4.2y | caregiver smartphone-use frequency not associated with gross/fine motor skills, visual-spatial working memory or inhibition after adjustment | caregiver-reported frequency; not duration/intrusiveness; cross-sectional | C001, C007 |
 
 ## Source links
 
@@ -26,6 +28,8 @@ Last updated: 2026-09-23
 - U5: https://pubmed.ncbi.nlm.nih.gov/42148537/ ; https://doi.org/10.1093/chidev/aacag101
 - U6: https://pubmed.ncbi.nlm.nih.gov/40497108/ ; https://doi.org/10.3389/fpsyg.2025.1517222
 - G1: https://doi.org/10.1542/peds.2025-075320 ; https://doi.org/10.1542/peds.2025-075321
+- U8: https://pubmed.ncbi.nlm.nih.gov/41685749/ ; https://doi.org/10.1097/DBP.0000000000001435
+- U9: https://pubmed.ncbi.nlm.nih.gov/42289737/ ; https://doi.org/10.1111/cch.70305
 
 ## Interpretation by claim
 
@@ -86,7 +90,8 @@ Status: PLAUSIBLE BIDIRECTIONAL / CONFOUNDED
 Status: NOT SUPPORTED AS UNIVERSAL
 
 - U1 is an important counterexample to a universal “more minutes = worse observed interaction” model
-- U1 does not test simultaneous active interruption, so it does not negate M1/A2
+- U9 adds a large 27-country null association for caregiver-use frequency vs motor/executive-function outcomes
+- U1 does not test simultaneous active interruption, and U9 is frequency-based / cross-sectional, so neither negates M1/A2
 
 ### C008 — consistent language harm
 

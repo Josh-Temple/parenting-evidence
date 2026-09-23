@@ -1,8 +1,8 @@
 # Q006 Search Strategy
 
-Status: EXECUTED WITH LIMITATION / FRESH FIXED UPDATE SEARCH PENDING
+Status: EXECUTED WITH LIMITATION / FRESH FIXED UPDATE SEARCH COMPLETED 2026-09-24
 
-Search date: 2026-09-23  
+Search date: 2026-09-24  
 Search mode: anchored_update + targeted_search
 
 ## Review question
@@ -101,26 +101,60 @@ AND
 
 Included sourcesと主要な採用・非採用理由はIssue #14とevidence-table.mdに保存している。
 
-## Fresh fixed update search before publication review
+## Fresh fixed update search — 2026-09-24
 
-PUBLISHED前に、以下を開始前に固定したfresh update searchを1回実施する。
+Purpose:
+publication review直前のcurrent evidence check。過去件数の再構成ではない。
 
-固定する項目:
-- databases / official domains
-- exact queries
-- date range
-- language restrictions
-- inclusion criteria
-- exclusion criteria
+Source interface:
+web search restricted to `pubmed.ncbi.nlm.nih.gov`. Native PubMed exportではないため、database-total countとは扱わない。
 
-実行後に保存:
-- records identified
-- records screened
-- full texts assessed
-- included sources
-- major exclusion reasons
+Fixed queries:
 
-このfresh searchは、過去件数の再構成ではなくpublication review直前のcurrent evidence checkとして扱う。
+```text
+parental technology use child presence technoference caregiver smartphone infant toddler preschool child development interaction longitudinal experimental systematic review
+```
+
+```text
+parental technoference preschool social emotional coparenting caregiver smartphone child presence motor executive function
+```
+
+Search-tool recency window:
+1000 days. Publication-date eligibility was then manually screened to 2024-08-01 through 2026-09-24.
+
+Language:
+English-language records surfaced by the search interface. Japan-specific JECS and Japanese official guidance had already been separately targeted in the prior search.
+
+Search-tool record:
+- result cards surfaced: 17
+- unique pages / records screened: 17
+- excluded as published before 2024-08-01: 9
+- remaining within update window: 8
+- excluded from Q006 primary scope because the paper primarily concerned child screen exposure rather than separable caregiver exposure: 1
+- in-scope candidate records: 7
+- newly identified records requiring additional assessment: 3
+
+New records:
+1. Shen et al. 2026, PMID 41685749
+   - 207 Chinese families; preschool mean age 4.72y
+   - cross-sectional, both parents' reports
+   - adds coparenting-mediated social-emotional association
+   - included as supplementary C001/C006 evidence; does not change causal conclusion
+
+2. Toledo-Vargas et al. 2026 SUNRISE, PMID 42289737, DOI 10.1111/cch.70305
+   - 27 countries; N=2,232; mean age 4.2y
+   - caregiver smartphone-use frequency not associated with gross/fine motor, working memory or inhibition after adjustment
+   - included as primary null evidence for C001/C007
+   - materially strengthens the warning against a simple frequency-dose interpretation
+
+3. Kazali 2026, PMID 41217605
+   - N=621 parents; child age 3–12y
+   - technoference and parent/child executive functions all parent-reported
+   - age range is mixed and not stratified to the primary 0–5.99y population in the abstract
+   - retained as indirect/background evidence, not primary evidence table
+
+Current-search conclusion:
+No newly identified record establishes long-term causal harm or a universal caregiver-use threshold. The SUNRISE null result strengthens exposure decomposition; Shen adds cross-sectional family-process evidence without resolving temporal direction.
 
 ## Search limitations
 

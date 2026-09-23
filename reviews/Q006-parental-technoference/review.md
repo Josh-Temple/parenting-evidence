@@ -1,7 +1,7 @@
 # 親が乳幼児の前でスマートフォン等を使うことと、親子相互作用・発達
 
 Status: DRAFT  
-Last searched: 2026-09-23  
+Last searched: 2026-09-24  
 Last source verification: 2026-09-23
 
 ## 30秒で分かる結論
@@ -54,6 +54,8 @@ Ashby et al. 2026では、500組の母子を6か月から6.5歳まで追跡し�
 Ventura et al. 2025は、日常のスマホ利用をpassive sensingとEMAで測定し、2か月児とのfeeding interactionを別途観察した。typical smartphone use量やperceived technoferenceは、観察されたinteraction qualityと有意に関連しなかった。
 
 ただし、日常の利用量とfeeding観察は同じ瞬間を測定したものではない。この研究は「実際にinteractionを中断しても影響がない」ことを示すものではない。
+
+2026年のSUNRISE International Studyでは、27か国のpreschooler 2,232人を対象に、caregiverが子どもの前でsmartphoneを使う頻度と、gross/fine motor skills、visual-spatial working memory、inhibitionとの関連を調べた。調整後はいずれも有意な関連が確認されなかった。cross-sectionalで、Exposureも利用の「頻度」が中心のため、実際の中断の強さや長さを十分に捉えない限界があるが、単純なfrequency-dose modelへの追加の反証材料になる。
 
 ## まだ分からないこと
 
@@ -117,6 +119,8 @@ AAP 2026 Digital Ecosystems policy / technical reportは、caregiver-child relat
 7. Ashby et al. 2026 — PMID 42148537; DOI 10.1093/chidev/aacag101
 8. Schneebeli et al. 2025 — PMID 40497108
 9. AAP Digital Ecosystems policy / technical report 2026 — DOI 10.1542/peds.2025-075320 / 10.1542/peds.2025-075321
+10. Toledo-Vargas et al. 2026 SUNRISE International Study — PMID 42289737; DOI 10.1111/cch.70305
+11. Shen et al. 2026 — PMID 41685749; DOI 10.1097/DBP.0000000000001435
 
 ## Method note
 

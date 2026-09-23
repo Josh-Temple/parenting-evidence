@@ -1,6 +1,6 @@
 # Q006 Source Verification — Pass 1
 
-Date: 2026-09-23  
+Date: 2026-09-24  
 Result: PASS_WITH_CHANGES_FOR_REVIEW  
 Publication status: independent publication review pending
 
@@ -147,6 +147,56 @@ McDaniel et al. 2025:
 Interpretation:
 - supports explicit confounding / bidirectionality caution
 
+### 9. U8 — Shen et al. 2026
+
+Source:
+- https://pubmed.ncbi.nlm.nih.gov/41685749/
+- https://doi.org/10.1097/DBP.0000000000001435
+
+Verified:
+- 207 Chinese families
+- preschoolers mean age 4.72 years
+- mothers and fathers reported technoference, coparenting quality and child social-emotional development
+- parental technoference negatively associated with mother- and father-reported coparenting quality
+- father-reported supportive / undermining coparenting partially mediated some social-emotional associations
+
+Interpretation:
+- cross-sectional mediation does not establish temporal causality
+- useful as supplementary C001/C006 evidence
+- does not change bottom line
+
+### 10. U9 — Toledo-Vargas et al. 2026 SUNRISE
+
+Source:
+- https://pubmed.ncbi.nlm.nih.gov/42289737/
+- https://doi.org/10.1111/cch.70305
+
+Verified:
+- cross-sectional SUNRISE International Study
+- 27 countries
+- N=2,232 preschoolers
+- mean age 4.2 ± 0.6 years
+- caregiver-reported smartphone-use frequency across mealtime, playtime, travel, walk and bedtime
+- no adjusted association with gross motor, fine motor, visual-spatial working memory or inhibition
+- results did not differ by country income level
+
+Interpretation:
+- important null evidence against a universal frequency-dose model
+- frequency is not the same as duration or intrusive interruption
+- does not negate acute interruption evidence
+- materially relevant to C001/C007
+
+### Fixed update search result — 2026-09-24
+
+- 17 unique PubMed result pages screened from two fixed domain-restricted web queries
+- 8 fell within the manual publication-date window 2024-08-01 to 2026-09-24
+- 1 excluded from primary Q006 scope as child-screen-exposure focused
+- 7 in-scope candidates
+- 3 newly identified records assessed: Shen 2026; SUNRISE 2026; Kazali 2026
+- Kazali retained as indirect/background only because the abstract combines ages 3–12 and all key constructs are parent-reported
+
+No new evidence established a universal safe threshold or long-term causal developmental harm.
+
 ## Current guideline check
 
 ### AAP 2026 Digital Ecosystems
@@ -194,7 +244,7 @@ PASS_WITH_CHANGES_FOR_REVIEW
 ## Remaining limitations before PUBLISHED
 
 - historical search counts are not reconstructable and must not be invented
-- fresh fixed update search required before independent publication review
+- fresh fixed update search completed 2026-09-24
 - independent publication review required
 - Publication Gate must pass
 - public site configuration must not include Q006 before PUBLISHED
