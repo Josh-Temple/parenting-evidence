@@ -1,8 +1,9 @@
 # Q002 — スクリーン時間と言語発達にはどのような関係があるか
 
-Status: DRAFT
+Status: REVIEW
 
 Last evidence search: 2026-09-22
+Last source verification: 2026-09-23
 
 ## Review question
 
@@ -60,4 +61,4 @@ Last evidence search: 2026-09-22
 
 2020年の言語発達に特化したメタ分析と、2024年のスクリーン利用文脈に関する大規模systematic review / meta-analysisを主要anchorとし、2023年末以後の重要な縦断研究・大規模研究と2026年時点の現行ガイドラインを更新探索した。
 
-独自の網羅検索、二重スクリーニング、全研究のrisk-of-bias再評価は実施していないため、StatusをDRAFTに維持する。
+独自の網羅検索、二重スクリーニング、全研究のrisk-of-bias再評価は実施していないため、独自の完全網羅検索ではないため systematic review とは扱わない。主要数値・主要解釈の source verification は完了しており、現在は公開判定の独立確認待ちとして REVIEW とする。

@@ -1,7 +1,8 @@
 # 読み聞かせは幼児の言語発達を促すか
 
-Status: DRAFT EVIDENCE REVIEW  
-Last searched: 2026-09-22
+Status: REVIEW  
+Last searched: 2026-09-22  
+Last source verification: 2026-09-23
 
 ## 30秒で分かる結論
 

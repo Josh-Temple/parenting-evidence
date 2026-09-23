@@ -1,8 +1,9 @@
 # Q001 — 読み聞かせは幼児の言語発達を促すか
 
-Status: DRAFT
+Status: REVIEW
 
 Last evidence search: 2026-09-22
+Last source verification: 2026-09-23
 
 ## Review question
 
@@ -49,4 +50,4 @@ Last evidence search: 2026-09-22
 
 2025年のPRISMA準拠systematic reviewを主要な既存エビデンスの土台として使い、その検索終了後に公表された研究を対象に更新探索を行った anchored update review である。
 
-現在の実行環境では、PubMed等のデータベース検索について安定した総ヒット件数・deduplication件数を再取得できなかった。そのため、独立した完全網羅検索を実施したとは扱わず、StatusをDRAFTに維持する。
+現在の実行環境では、PubMed等のデータベース検索について安定した総ヒット件数・deduplication件数を再取得できなかった。そのため、独立した完全網羅検索を実施したとは扱わず、独自の完全網羅検索ではないため systematic review とは扱わない。主要数値・主要解釈の source verification は完了しており、現在は公開判定の独立確認待ちとして REVIEW とする。

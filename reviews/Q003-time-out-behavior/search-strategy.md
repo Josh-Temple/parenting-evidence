@@ -97,6 +97,17 @@ https://pubmed.ncbi.nlm.nih.gov/34240409/
 
 ### 3. Direct time-out evidence
 
+Leijten et al. 2018:
+- systematic review + multilevel meta-analysis of experimentally manipulated discrete parenting behaviors
+- 19 studies / 75 effect sizes across praise, verbal reprimands, time-out and ignore
+- included studies required experimental manipulation of a single parenting behavior; mean child age 2-9 years
+- time-out for noncompliance increased observed and parent-reported child compliance
+- reported effect sizes for time-out: d=0.84-1.72; 95% CIs across estimates approximately 0.30-2.54
+- major limitation: relatively few direct experiments, many conducted decades ago; outcome is short-term compliance rather than broad long-term functioning
+
+Source:
+https://doi.org/10.1371/journal.pone.0204929
+
 Gardner et al. 1976:
 - N=32 mother-child pairs
 - compared control, time-out, explanation before, explanation after
