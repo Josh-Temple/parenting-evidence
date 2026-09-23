@@ -1,7 +1,8 @@
 # 睡眠トレーニングには効果があり、長期的な悪影響はあるか
 
-Status: DRAFT EVIDENCE REVIEW  
-Last searched: 2026-09-23
+Status: REVIEW  
+Last searched: 2026-09-23  
+Last source verification: 2026-09-23
 
 ## 30秒で分かる結論
 
