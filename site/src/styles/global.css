@@ -519,20 +519,47 @@ nav a:focus-visible,
   }
 
   .hero {
-    padding-block: 64px 72px;
+    padding-block: 44px 52px;
   }
 
   .hero h1 {
-    font-size: clamp(2.7rem, 15vw, 4.7rem);
+    font-size: clamp(2.25rem, 12.2vw, 3.8rem);
+    line-height: 1.08;
+  }
+
+  .hero .lead {
+    margin-top: 28px;
+    line-height: 1.85;
+  }
+
+  .hero .notice {
+    margin-top: 24px;
+  }
+
+  .explorer {
+    padding-bottom: 88px;
   }
 
   .section-heading {
     align-items: start;
+    gap: 16px;
+    padding-bottom: 22px;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.75rem, 8vw, 2.35rem);
+    line-height: 1.25;
+  }
+
+  .result-count {
+    flex-shrink: 0;
+    white-space: nowrap;
   }
 
   .filters {
     grid-template-columns: 1fr;
     gap: 18px;
+    padding: 22px 0 28px;
   }
 
   .review-link {
