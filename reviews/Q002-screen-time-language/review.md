@@ -1,18 +1,18 @@
 # スクリーン時間は幼児の言語発達に悪いのか
 
-Status: REVIEW  
-Last searched: 2026-09-22  
+Status: PUBLISHED  
+Last searched: 2026-09-23  
 Last source verification: 2026-09-23
 
 ## 30秒で分かる結論
 
 スクリーンを見る時間が長い子どもほど、平均すると言語・コミュニケーション能力がやや低いという関連は、複数の研究で比較的一貫しています。
 
-ただし、影響の大きさは一般に小さく、すべてのスクリーン利用が同じではありません。教育的な内容や保護者と一緒に見て会話する使い方は、受動的・単独の長時間視聴とは異なる結果を示します。
+ただし、影響の大きさは一般に小さく、すべてのスクリーン利用が同じではありません。保護者と一緒に見て会話する使い方は、受動的・単独の長時間視聴とは異なる結果を示します。教育的な内容については良好な関連を報告する研究もありますが、近年のメタ分析では明確な関連が確認されない結果もあり、一律に「教育的なら有利」とは言えません。
 
 また、日本の大規模縦断研究では、スクリーン時間が長いことが後のコミュニケーション得点の低下を予測した一方、コミュニケーション得点が低いことも後のスクリーン時間増加を予測しました。
 
-したがって、現時点では「長時間の受動的なスクリーン利用は減らした方がよい可能性が高い」と言えますが、「1日○分を超えると必ず言葉が遅れる」といった単純な因果関係や正確な安全閾値までは確認されていません。
+したがって、研究だけから個々の家庭に一律の削減量を決めることはできませんが、長時間・非教育的・単独の利用を抑え、会話・遊び・睡眠などを確保する方向は現在の小児科・公衆衛生ガイダンスと整合します。「1日○分を超えると必ず言葉が遅れる」といった単純な因果関係や正確な安全閾値は確認されていません。
 
 ## 研究で最も一貫していること
 
@@ -33,14 +33,16 @@ Last source verification: 2026-09-23
 
 ## 「何を見るか」「誰と見るか」も重要
 
-同じメタ分析では、
+同じ2020年のメタ分析では、
 
 - educational programming: r=0.13
 - caregiverとのco-viewing: r=0.16
 
 と、より良い言語能力との正の関連が報告されました。
 
-2024年の100研究、176,742人を含む別のsystematic reviewでも、単純な利用時間だけでなく利用文脈を調べています。program viewingやbackground TVは認知アウトカムと負の関連を示し、co-useは正の関連を示しました。
+ただし、その後の研究は「教育的内容」と「共同利用」を同じ強さで支持しているわけではありません。2023年の語彙学習メタ分析（63研究、11,413人）では、実験研究ではスクリーンからの特定語彙学習に平均的な正の効果があり、自然な家庭利用でも教育的メディアは語彙と正の関連を示しました。一方、2024年の0〜3歳を対象とした28研究のメタ分析では、共同視聴と遅い利用開始は良好な言語アウトカムと関連したものの、教育的番組と言語発達の関連は統計的に明確ではありませんでした。
+
+また、2024年の100研究、176,742人を含む別のsystematic reviewでは、単純な利用時間だけでなく利用文脈を調べています。program viewingやbackground TVは認知アウトカムと負の関連を示し、co-useは正の関連を示しました。ここでいうprogram viewing全体と「教育的内容」は同じ概念ではありません。
 
 このため、「動画を1時間見た」という情報だけでは十分ではありません。
 
@@ -193,7 +195,8 @@ American Academy of Pediatricsは2026年に旧media guidanceを改訂しまし�
 |---|---|---|
 | 長いスクリーン時間と言語能力低下には関連がある | Supported as small association | 言語特化meta-analysisと複数の大規模・縦断研究が同方向 |
 | screen time自体が言語遅延を引き起こす | Plausible but not established | 時間方向・機序の証拠はあるがrandomized causal evidenceが不足 |
-| 教育的内容・共同利用は受動的単独利用より有利 | Supported as context dependent | language meta-analysisと2024 context meta-analysis |
+| 共同利用・共同視聴はより良い言語アウトカムと関連する | Supported as context dependent | 2020言語meta-analysis、2024年0〜3歳meta-analysis、2024 context meta-analysisが概ね同方向 |
+| 教育的内容は言語発達に有利 | Mixed / uncertain | 2020・2023 meta-analysisは良好な関連を示す一方、2024年0〜3歳meta-analysisでは明確な関連なし |
 | screen useは親子の会話を減らしうる | Supported as plausible mechanism | repeated home audio measurement |
 | 1日○時間という言語上の安全閾値がある | Not established | cohort cutoffsとguideline limitsは因果的thresholdではない |
 | 言語発達の弱さがscreen time増加につながることもある | Supported | JECS cross-lagged analysis |
@@ -225,7 +228,13 @@ American Academy of Pediatricsは2026年に旧media guidanceを改訂しまし�
    https://doi.org/10.1542/peds.2025-075320  
    https://doi.org/10.1542/peds.2025-075321
 
-9. World Health Organization. Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age. 2019.  
+9. Xie W, Lu J, Lin X. Is screen exposure beneficial or detrimental to language development in infants and toddlers? A meta-analysis. Early Child Development and Care. 2024.  
+   https://doi.org/10.1080/03004430.2024.2349622
+
+10. Jing M, Ye T, Kirkorian HL, Mares M-L. Screen media exposure and young children's vocabulary learning and development: A meta-analysis. Child Development. 2023.  
+   https://doi.org/10.1111/cdev.13927
+
+11. World Health Organization. Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age. 2019.  
    https://www.who.int/publications/i/item/9789241550536
 
 ## Method note
