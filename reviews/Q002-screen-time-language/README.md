@@ -1,9 +1,10 @@
 # Q002 — スクリーン時間と言語発達にはどのような関係があるか
 
-Status: REVIEW
+Status: PUBLISHED
 
-Last evidence search: 2026-09-22
+Last evidence search: 2026-09-23
 Last source verification: 2026-09-23
+Last independent publication review: 2026-09-23
 
 ## Review question
 
@@ -28,11 +29,11 @@ Last source verification: 2026-09-23
 
 スクリーン利用時間が長いほど、幼児の言語・コミュニケーション能力が低いという**小さな負の関連**は、複数のメタ分析と大規模縦断研究で比較的一貫している。
 
-ただし「スクリーン」は一つの介入ではない。教育的内容や保護者との共同利用は、言語・認知アウトカムと正の関連を示す研究があり、背景テレビや長時間の受動的・単独利用とは同じ扱いにできない。
+ただし「スクリーン」は一つの介入ではない。保護者との共同利用は、言語・認知アウトカムと良好な関連を示す研究が比較的一貫している。一方、教育的内容については、正の関連を報告するメタ分析と、0〜3歳では明確な関連を確認できなかったメタ分析があり、結果は一様ではない。背景テレビや長時間の受動的・単独利用とも分けて考える必要がある。
 
 また、日本の大規模縦断研究では、長いTV/DVD視聴が後のコミュニケーション得点低下を予測する一方、コミュニケーション得点が低いことも後のスクリーン時間増加を予測した。したがって、単純な「スクリーン時間 → 言語遅延」という一方向の因果関係だけでは説明できない。
 
-現時点では、**大量・受動的・単独のスクリーン利用が言語発達に不利である可能性は高いが、正確な因果効果量や万人共通の安全閾値は確定していない**と整理する。
+現時点では、**長時間・受動的・単独のスクリーン利用と不利な言語アウトカムの関連を示す証拠は多いが、正確な因果効果量や万人共通の安全閾値は確定していない**と整理する。
 
 ## Claim status
 
@@ -40,8 +41,10 @@ Last source verification: 2026-09-23
   - Status: SUPPORTED_AS_SMALL_ASSOCIATION
 - C002: スクリーン時間の増加そのものが言語発達を遅らせる
   - Status: PLAUSIBLE_BUT_CAUSALITY_NOT_ESTABLISHED
-- C003: 教育的内容や保護者との共同利用は、受動的・単独利用より言語発達に有利である
+- C003a: 保護者との共同利用・共同視聴は、より良い言語アウトカムと関連する
   - Status: SUPPORTED_AS_CONTEXT_DEPENDENT_ASSOCIATION
+- C003b: 教育的内容は、非教育的・一般的な内容より言語発達に有利である
+  - Status: MIXED_EVIDENCE
 - C004: スクリーン利用は親子の会話機会を減らしうる
   - Status: SUPPORTED_AS_PLAUSIBLE_MECHANISM
 - C005: 言語発達について万人共通の明確な安全閾値がある
@@ -61,4 +64,4 @@ Last source verification: 2026-09-23
 
 2020年の言語発達に特化したメタ分析と、2024年のスクリーン利用文脈に関する大規模systematic review / meta-analysisを主要anchorとし、2023年末以後の重要な縦断研究・大規模研究と2026年時点の現行ガイドラインを更新探索した。
 
-独自の網羅検索、二重スクリーニング、全研究のrisk-of-bias再評価は実施していないため、独自の完全網羅検索ではないため systematic review とは扱わない。主要数値・主要解釈の source verification は完了しており、現在は公開判定の独立確認待ちとして REVIEW とする。
+独自の網羅検索、二重スクリーニング、全研究のrisk-of-bias再評価は実施していないため、systematic review とは扱わない。主要数値・主要解釈のsource verificationと独立publication reviewは完了した。独立reviewはPASS_WITH_CHANGESと判定され、必要な変更を反映したためPUBLISHEDとする。
