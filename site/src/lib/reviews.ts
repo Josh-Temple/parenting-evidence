@@ -62,6 +62,13 @@ const REVIEW_CONFIGS: ReviewConfig[] = [
     domain: "保育・発達",
     ageLabel: "主に0〜3歳",
     ageBands: ["0-1", "1-3", "3-6"]
+  },
+  {
+    slug: "parental-technoference",
+    folder: "Q006-parental-technoference",
+    domain: "スクリーン",
+    ageLabel: "0〜6歳",
+    ageBands: ["0-1", "1-3", "3-6"]
   }
 ];
 

@@ -1,9 +1,9 @@
 # Q006 — 親のデジタル機器利用 / technoference と親子相互作用・発達
 
-Status: REVIEW  
+Status: PUBLISHED  
 Last searched: 2026-09-24  
 Last source verification: 2026-09-24  
-Publication status: independent publication review completed; Publication Gate pending
+Publication status: Publication Gate complete; production deployment pending
 
 ## Review question
 
@@ -46,8 +46,8 @@ Q002の child screen exposure とは別Reviewとして扱う。
 - Formalization readiness: READY_WITH_SEARCH_RECORD_LIMITATION
 - Independent publication review: PASS_WITH_CHANGES; required changes reflected
 - Fresh fixed update search: completed 2026-09-24
-- Publication Gate: not passed
-- Public site: not included
+- Publication Gate: PASSED
+- Public site config: included on Q006 publication branch; production merge pending
 
 ## Important boundary
 

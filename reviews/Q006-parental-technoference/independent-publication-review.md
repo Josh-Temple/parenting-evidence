@@ -3,7 +3,7 @@
 Date: 2026-09-24  
 Mode: independent reconstruction from major sources; existing Review conclusions were not assumed correct  
 Verdict: PASS_WITH_CHANGES  
-Final state after required changes: REVIEW
+Final state after required changes: PUBLISHED
 
 ## Scope
 
@@ -154,4 +154,4 @@ All required content changes above are applied in the same commit as this review
 
 PASS_WITH_CHANGES
 
-Q006はresearch contentとしてPublication Gateへ進める状態。現時点ではREVIEWを維持し、public siteへは追加しない。
+必要変更を同じbranchで反映し、A〜EのGateを再確認したため、Q006はpublication gateを通過したものとしてPUBLISHEDへ移行する。Production反映はcurrent-head deployment validation後に別途行う。

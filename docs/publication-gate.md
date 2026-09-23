@@ -1,7 +1,7 @@
 # Publication Gate v0.1
 
 Status: ACTIVE  
-Updated: 2026-09-23
+Updated: 2026-09-24
 
 ## Purpose
 
@@ -64,8 +64,9 @@ Evidence Reviewを `PUBLISHED` に変更する前に、調査量ではなく、�
 - Q003: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; source recency corrected and direct technique evidence retained within scope
 - Q004: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; under-6-month evidence reclassified as mixed / insufficient for extension
 - Q005: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; quality interpretation refined and 2024 update evidence added
-- Independent publication review: Q001–Q005 completed
-- GitHub Actions validation: passed for all five review branches before integration
-- Production deployment: pending while Vercel Hobby build-rate-limit remains active
+- Q006: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; bidirectional longitudinal evidence added; SUNRISE null evidence assigned to outcome-specific interpretation
+- Independent publication review: Q001–Q006 completed
+- GitHub Actions validation: Q001–Q005 release passed and Production deployed at main SHA `727aefb5562ea877ffb9374aac210a951cf3e08e`
+- Q006 deployment: pending; current-head Vercel Preview is blocked by Hobby build-rate-limit
 
-このため、Evidence ReviewとしてはQ001〜Q005の5件がpublication gateを通過している。Productionへの反映はdeployment capacity回復後にrelease branchからまとめて行う。
+このため、Evidence ReviewとしてはQ001〜Q006の6件がpublication gateを通過している。Q001〜Q005はProduction反映済み。Q006はcurrent-head deployment validation後にPR #15をmergeし、Production SHA一致と公開ページのsmoke testを確認する。

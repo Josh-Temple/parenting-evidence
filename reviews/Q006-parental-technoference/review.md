@@ -1,8 +1,9 @@
 # 親が乳幼児の前でスマートフォン等を使うことと、親子相互作用・発達
 
-Status: REVIEW  
+Status: PUBLISHED  
 Last searched: 2026-09-24  
-Last source verification: 2026-09-24
+Last source verification: 2026-09-24  
+Last independent publication review: 2026-09-24
 
 ## 30秒で分かる結論
 
@@ -127,4 +128,4 @@ AAP 2026 Digital Ecosystems policy / technical reportは、caregiver-child relat
 
 ## Method note
 
-このページはsystematic reviewではありません。検索方法と制約は search-strategy.md、主要資料の抽出結果は evidence-table.md に記録しています。2026-09-24のfresh fixed update searchと独立publication reviewは完了しています。現在はPublication Gateと公開反映前の最終確認段階です。
+このページはsystematic reviewではありません。検索方法と制約は search-strategy.md、主要資料の抽出結果は evidence-table.md に記録しています。2026-09-24のfresh fixed update searchと独立publication reviewは完了しています。Independent publication reviewの必要修正は反映済みで、Publication Gateを通過しています。公開サイトへの反映はdeployment validationとPR mergeを別工程として管理します。
