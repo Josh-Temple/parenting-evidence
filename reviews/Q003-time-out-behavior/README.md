@@ -1,8 +1,9 @@
 # Q003 — タイムアウトは幼児の問題行動に有効か
 
-Status: DRAFT
+Status: REVIEW
 
 Last evidence search: 2026-09-22
+Last source verification: 2026-09-23
 
 ## Review question
 
@@ -41,7 +42,7 @@ Last evidence search: 2026-09-22
 
 一方で、**親訓練プログラム全体が有効であることと、タイムアウト単独の因果効果は同じではない。** タイムアウトそのものを他の技法から切り離して比較した高品質な現代RCTは少なく、単独効果の大きさは十分に確定していない。
 
-古い直接実験、2008年の親訓練component meta-analysis、臨床研究は、適切なタイムアウトが非従順・問題行動を減らしうることを支持する。一方、2019年のより大規模なcomponent meta-analysisでは、タイムアウトは独立した「強い効果を持つ構成要素」としては抽出されず、positive reinforcement、praise、natural/logical consequencesがより一貫して強い効果と関連した。
+単一の養育行動を実験的に操作した2018年のmultilevel meta-analysis、2008年の親訓練component meta-analysis、臨床研究は、タイムアウトが特定の非従順を減らしうることを支持する。一方、2019年のより大規模なcomponent meta-analysisでは、タイムアウトは独立した「強い効果を持つ構成要素」としては抽出されず、positive reinforcement、praise、natural/logical consequencesがより一貫して強い効果と関連した。
 
 したがって、現時点では、**タイムアウトは万能な罰ではなく、正の強化・明確な指示・一貫したルールを中心とする親訓練の一部として、特定の危険・攻撃・ルール違反・指示不従順に限定して短く穏やかに使う場合には、有効な選択肢になりうる**と整理するのが妥当である。
 
@@ -54,7 +55,7 @@ Last evidence search: 2026-09-22
 - C002: タイムアウト単独が、他の親訓練要素とは独立して問題行動を減らす
   - Status: PLAUSIBLE_BUT_COMPONENT_ATTRIBUTION_LIMITED
 - C003: タイムアウトは非従順などの直後の標的行動を減らしうる
-  - Status: SUPPORTED_BY_DIRECT_BUT_OLDER_EXPERIMENTAL_EVIDENCE
+  - Status: SUPPORTED_FOR_SHORT_TERM_COMPLIANCE_WITH_LIMITED_GENERALIZABILITY
 - C004: 適切なタイムアウトは長期的なattachment / mental-health harmを引き起こす
   - Status: NOT_SUPPORTED_BY_AVAILABLE_EVIDENCE
 - C005: 実施方法は重要である
