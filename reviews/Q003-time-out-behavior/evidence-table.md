@@ -1,12 +1,12 @@
 # Q003 Evidence Table
 
-Last updated: 2026-09-22
+Last updated: 2026-09-23
 
 Q003の主要Claimを判断するために重視した資料。親訓練プログラム全体の効果と、タイムアウト単独の効果を分離して記録する。
 
 | ID | Source | Evidence level / population | Main result | Main limitation | Claim relevance |
 |---|---|---|---|---|---|
-| E001 | Furlong et al., Cochrane 2022 | Program-level; 13 trials, N=1,078; age 3-12 with conduct problems | Parenting programs reduced parent-rated conduct problems SMD -0.53 and independently rated problems SMD -0.44 in the short term. | Multicomponent programs; time-out effect cannot be isolated. Long-term evidence unavailable. | Strong support for C001 only; indirect for C002. |
+| E001 | Furlong et al., Cochrane review, original publication 2012 | Program-level; 13 trials, N=1,078; age 3-12 with conduct problems; searches completed January 2011 | Parenting programs reduced parent-rated conduct problems SMD -0.53 and independently rated problems SMD -0.44 in the short term. | Multicomponent programs; time-out effect cannot be isolated. Evidence search is old. The current Cochrane evidence page displays 2022 metadata for the same DOI, but this should not be read as a 2022 search update. Long-term evidence unavailable. | Strong support for C001 as historical program-level evidence only; indirect for C002. |
 | E002 | Kaminski et al. 2008 | Component meta-analysis; 77 parent-training evaluations; age 0-7 | Programs teaching time-out, consistency, positive interaction/emotional communication and in-session practice had larger effects after design adjustment. | Component meta-regression, not randomized component isolation; older evidence base; correlated components possible. | Supports C002 indirectly, not a standalone causal estimate. |
 | E003 | Leijten et al. 2019 | Component meta-analysis; 154 randomized trials, 398 effect sizes | Positive reinforcement, praise, natural/logical consequences were associated with stronger effects. Time-out was not among the three consistently stronger individual techniques. | Component coding across heterogeneous programs; absence from significant list does not prove no effect. | Limits strong C002 attribution; emphasizes positive reinforcement context. |
 | E004 | Leijten et al. 2022 | Network meta-analysis; 197 randomized trials | Focused behavior-management program clusters were effective vs minimal/no components and among most promising program types. | Program clusters rather than isolated time-out; cannot identify time-out-specific effect. | Supports multicomponent behavior-management approach, not standalone technique effect. |
@@ -19,10 +19,13 @@ Q003の主要Claimを判断するために重視した資料。親訓練プロ�
 | E011 | AAP 2018 policy + HealthyChildren guidance | Professional guidance | Favors nonphysical discipline, positive reinforcement and brief time-out as an option; rejects corporal punishment, humiliation and shaming. | Policy/guidance; underlying evidence spans multiple discipline techniques. | Safety/implementation context. |
 | E012 | MHLW parent-training material | Japanese public training context | Defines time-out within parent training after environment adjustment and clear directions; advises brief, calm use without yelling/lecturing. | Training material, not independent efficacy study. | Japanese implementation context. |
 | E013 | Portell & Niec 2026 | RCT of caregiver psychoeducation; N=1,472 caregivers of children age 2-8 | A 2-minute evidence-based video modestly improved caregiver knowledge (d=.20) and correct time-out use (d=.16) at follow-up. | Outcome is caregiver knowledge/use, not child behavior efficacy; self-reported use. | Supports C005: implementation can be taught and correctness varies. |
+| E014 | Leijten et al. 2025, *Have parenting programs for disruptive child behavior become less effective?* | Program-level systematic review/meta-analysis; 244 randomized trials, 1,100 effect sizes, N=28,916 families, 36 countries | Parenting-program effect estimates initially declined and then stabilized. More recent interventions used time-out less often, but this did not explain the time trend in program effects. | Program-level evidence; time-out is not isolated or randomized as a component. | Updates C001 recency; specifically should not be used as a time-out-specific effect estimate. |
+| E015 | Kimonis et al. 2025 | Clinical observational study within behavioral parent training; N=87 preschool children with conduct problems, mean age 4.88 | Children high in callous-unemotional traits showed different affective responses during time-out but not more negative behavior or longer time-out; after >=3 weeks most children did not require time-out for noncompliance in the fourth discipline-focused session. | No randomized time-out comparison; specialist clinic; response heterogeneity study, not efficacy trial. | Update context for implementation/personalization; does not change C003 effect estimate. |
 
 ## Source links
 
-- E001: https://www.cochrane.org/evidence/CD008225_group-parenting-programmes-improving-behavioural-problems-children-aged-3-12-years
+- E001: https://pubmed.ncbi.nlm.nih.gov/22336837/
+  - current Cochrane evidence page (metadata discrepancy noted): https://www.cochrane.org/evidence/CD008225_group-parenting-programmes-improving-behavioural-problems-children-aged-3-12-years
 - E002: https://pubmed.ncbi.nlm.nih.gov/18205039/
 - E003: https://pubmed.ncbi.nlm.nih.gov/30738545/
 - E004: https://pubmed.ncbi.nlm.nih.gov/34240409/
@@ -35,6 +38,8 @@ Q003の主要Claimを判断するために重視した資料。親訓練プロ�
 - E011: https://publications.aap.org/pediatrics/article/142/6/e20183112/37452/Effective-Discipline-to-Raise-Healthy-Children
 - E012: https://www.mhlw.go.jp/content/12200000/000653549.pdf
 - E013: https://pubmed.ncbi.nlm.nih.gov/42253150/
+- E014: https://pubmed.ncbi.nlm.nih.gov/40968482/
+- E015: https://pubmed.ncbi.nlm.nih.gov/40010910/
 
 ## Interpretation by claim
 

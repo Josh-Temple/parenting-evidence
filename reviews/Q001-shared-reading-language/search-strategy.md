@@ -1,8 +1,9 @@
 # Q001 Search Strategy
 
-Status: EXECUTED WITH LIMITATION
+Status: EXECUTED WITH LIMITATION; PUBLICATION-REVIEW UPDATE CHECK COMPLETED
 
-Search date: 2026-09-22
+Search date: 2026-09-22  
+Publication-review update check: 2026-09-23
 
 ## Review question
 
@@ -83,6 +84,35 @@ November 2024以降に公表・索引化された研究について、以下の�
 
 2026年のA-CHILD IIによる共有読書の開始時期・累積期間研究も確認したが、主要アウトカムがresilience、behavior problems、reading habitsであり、本Reviewの一次アウトカムである言語発達から外れるため主要Evidence tableには採用しなかった。
 
+### 3A. Independent publication-review update check (2026-09-23)
+
+公開判定の独立確認として、既存Reviewの結論を前提にせず、2024年11月以降の関連systematic review / meta-analysisを追加確認した。
+
+追加で確認した主要資料:
+
+- Li & Pang (2025), ESL/EFL児のshared book reading meta-analysis
+  - 13 studies, 51 effect sizes, N=1,857
+  - short-term g=0.49
+  - long-term g=0.20, not statistically significant
+  - DOI: https://doi.org/10.1080/1350293X.2025.2514768
+  - 対象が第二言語・外国語として英語を学ぶ子どもに限定されるため、Q001全体の主要anchorにはしない。短期的介入効果と長期持続の不確実性は既存Claimと整合する。
+
+- *The effects of interactive reading on young children’s narrative abilities* (2025)
+  - 25 studies, N=2,886, mainly age 3–6
+  - narrative ability g=0.425 (95% CI 0.333–0.518), I²=76.07%
+  - DOI: https://doi.org/10.3389/fpsyg.2025.1653511
+  - narrative abilityはQ001の主要アウトカムと隣接するが同一ではなく、対照条件もordinary shared readingに固定されていない。C002の補助的文脈にはなるが、C003の「通常の読み聞かせに対する追加優越性」を直接確立しない。
+
+- Tang, Lau & Du (2026), dialogic reading meta-analysis
+  - 64 studies, 260 effect sizes, N=10,463
+  - preschool〜primary schoolのreading literacyを対象
+  - overall g=0.76; substantial heterogeneity
+  - standardized measuresとyounger childrenでは効果が小さい
+  - DOI: https://doi.org/10.1016/j.ijer.2026.102963
+  - 年齢範囲とoutcomeがQ001より広く、spoken languageに限定したordinary shared-reading active-control比較ではない。C003をSupportedへ変更する根拠にはしない。
+
+この追加確認で、Q001の主要Claimを反転させる新規証拠は確認しなかった。一方、update searchの記録がこれらを含んでいなかったため、publication reviewでは検索記録の補強を必須変更とした。
+
 ### 4. Guideline / public evidence context
 
 - American Academy of Pediatrics 2024 Policy Statement / Technical Report
@@ -101,7 +131,7 @@ November 2024以降に公表・索引化された研究について、以下の�
 - de novo systematic search を完了したとは扱わない
 - records_identified 等の独自件数を推測で記録しない
 - 既存の高品質systematic reviewをanchorとし、2024年11月以降をtargeted update searchで補う
-- Q001はDRAFTのまま保持する
+- 独立publication review前はQ001をREVIEWとして保持し、source verification完了と公開判定待ちを区別する
 
 という扱いとした。
 

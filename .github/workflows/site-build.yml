@@ -4,28 +4,40 @@ on:
   pull_request:
     paths:
       - "package.json"
+      - "package-lock.json"
+      - "README.md"
+      - ".github/workflows/site-build.yml"
       - "astro.config.mjs"
       - "tsconfig.json"
+      - "scripts/**"
       - "site/**"
       - "reviews/**"
       - "methodology/**"
+      - "docs/**"
   push:
     branches: ["main"]
     paths:
       - "package.json"
+      - "package-lock.json"
+      - "README.md"
+      - ".github/workflows/site-build.yml"
       - "astro.config.mjs"
       - "tsconfig.json"
+      - "scripts/**"
       - "site/**"
       - "reviews/**"
       - "methodology/**"
+      - "docs/**"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: "22.20.0"
-      - run: npm install
+          node-version-file: ".nvmrc"
+          cache: "npm"
+      - run: npm ci
+      - run: npm run validate:content
       - run: npm run build

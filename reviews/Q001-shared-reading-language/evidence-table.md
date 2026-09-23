@@ -1,6 +1,6 @@
 # Q001 Evidence Table
 
-Last updated: 2026-09-22
+Last updated: 2026-09-23
 
 この表は、Q001の主要Claimを判断するために重視した資料をまとめる。すべての関連研究を列挙するものではない。
 
@@ -14,6 +14,9 @@ Last updated: 2026-09-22
 | E006 | Nakamura et al. 2026, *Impact of shared storybook reading on child development: The Japan Environment and Children's Study* | Nationwide Japanese prospective birth cohort; N=36,866 mother-child pairs. Reading measured repeatedly to age 3; ASQ-3 development outcomes. | Frequent reading at age 3 was associated with +5.5 ASQ-3 communication points (95% CI 5.0–6.0) vs rare reading after adjustment for parental background, play opportunities, media exposure and other covariates. | Observational association; residual confounding remains possible. 67,196 of 104,062 registered fetuses were excluded because required outcome/exposure/covariate data were incomplete. | Important Japan-specific support for C001; does not establish C002. |
 | E007 | AAP 2024 Policy Statement + Technical Report | Professional guidance synthesizing early-literacy evidence. | Recommends shared reading beginning at birth and continuing at least through kindergarten; emphasizes language-rich interaction, relational health and school readiness. | Guideline recommendation integrates multiple outcomes and values; it is not a direct causal effect estimate for language alone. | Practical context; should not be used to inflate effect-size claims. |
 | E008 | こども家庭庁 2025「乳幼児の遊びと体験」調査研究 | Japanese government-commissioned evidence summary. | Summarizes Dowdall meta-analysis: expressive language d=0.41, receptive d=0.26, caregiver reading competence d=1.01. | Secondary summary of E002 rather than independent primary evidence. | Japanese public-evidence context; not counted as an independent effect estimate. |
+| E009 | Li & Pang 2025, *The effects of shared book reading on language and literacy development of ESL/EFL learners* | Three-level meta-analysis; 13 studies, 51 effect sizes, N=1,857 children learning English as a second/foreign language. | Short-term pooled effect g=0.49; long-term pooled effect g=0.20 and not statistically significant. | Population is narrower than Q001; language and literacy outcomes are combined; transportability to Japanese first-language families is limited. | Supports short-term intervention benefit in a subgroup and is consistent with C005 remaining uncertain. |
+| E010 | *The effects of interactive reading on young children’s narrative abilities* (Frontiers in Psychology, 2025) | Meta-analysis of 25 experimental/quasi-experimental studies, N=2,886, mainly age 3–6. | Narrative ability g=0.425 (95% CI 0.333–0.518); I²=76.07%. | Narrative ability is not identical to Q001 primary language/vocabulary outcomes; intervention/control contrasts are heterogeneous and do not isolate ordinary shared reading as the comparator. | Context for C002/C003; does not establish superiority over ordinary shared reading. |
+| E011 | Tang, Lau & Du 2026, *Effects and moderators of dialogic reading on children’s reading literacy* | Three-level meta-analysis; 64 studies, 260 effect sizes, N=10,463, preschool through primary school. | Overall reading-literacy effect g=0.76 with substantial heterogeneity; effects smaller on standardized measures and in younger children. | Broader age range and reading-literacy outcomes; not a direct estimate of additional spoken-language benefit over ordinary shared reading in toddlers/preschoolers. | Important update context for C003; does not overturn the active-control evidence used for the narrower claim. |
 
 ## Source links
 
@@ -25,6 +28,9 @@ Last updated: 2026-09-22
 - E006: https://doi.org/10.1038/s41390-025-04721-7
 - E007: https://doi.org/10.1542/peds.2024-069090
 - E008: https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/55e89c07-ffc5-40a9-bad7-ce6c6dd11b8a/90178a35/20250421_policies_kodomo_sodachi_research_05.pdf
+- E009: https://doi.org/10.1080/1350293X.2025.2514768
+- E010: https://doi.org/10.3389/fpsyg.2025.1653511
+- E011: https://doi.org/10.1016/j.ijer.2026.102963
 
 ## Interpretation notes
 
@@ -44,7 +50,7 @@ RCT meta-analysis estimates favor reading interventions, but the estimated effec
 
 Uncertain.
 
-Interactive/dialogic training clearly changes caregiver behaviour. Direct evidence that it improves child language beyond ordinary active shared reading is inconsistent.
+Interactive/dialogic training clearly changes caregiver behaviour. Direct evidence that it improves child language beyond ordinary active shared reading is inconsistent. Recent 2025–2026 meta-analyses report benefits for adjacent outcomes or narrower populations, but they do not directly answer the same ordinary-shared-reading active-control contrast; therefore they do not justify upgrading C003 to supported.
 
 ### C004 — earlier is better
 

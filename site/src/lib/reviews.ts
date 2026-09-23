@@ -48,6 +48,20 @@ const REVIEW_CONFIGS: ReviewConfig[] = [
     domain: "行動・しつけ",
     ageLabel: "主に2〜6歳",
     ageBands: ["1-3", "3-6"]
+  },
+  {
+    slug: "sleep-training",
+    folder: "Q004-sleep-training",
+    domain: "睡眠",
+    ageLabel: "主に6〜18か月",
+    ageBands: ["0-1", "1-3"]
+  },
+  {
+    slug: "early-childcare-development",
+    folder: "Q005-early-childcare-development",
+    domain: "保育・発達",
+    ageLabel: "主に0〜3歳",
+    ageBands: ["0-1", "1-3", "3-6"]
   }
 ];
 
@@ -120,8 +134,21 @@ function removeDocumentHeader(markdown: string): string {
   if (lines[0]?.startsWith("# ")) lines.shift();
 
   while (lines[0]?.trim() === "") lines.shift();
-  if (lines[0]?.startsWith("Status:")) lines.shift();
-  if (lines[0]?.startsWith("Last searched:")) lines.shift();
+
+  const metadataLabels = [
+    "Status:",
+    "Last searched:",
+    "Last source verification:",
+    "Last independent publication review:"
+  ];
+
+  while (
+    lines[0] &&
+    metadataLabels.some((label) => lines[0].trim().startsWith(label))
+  ) {
+    lines.shift();
+  }
+
   while (lines[0]?.trim() === "") lines.shift();
 
   return lines.join("\n");

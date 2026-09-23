@@ -16,15 +16,23 @@
 
 ## Current status
 
-**Research / design stage.**
+**Five-review pilot completed; production release prepared.**
 
-現在は、Evidence Review の方法、データ構造、最初の Pilot Review を設計しています。公開されている内容は、完成した診療ガイドラインや個別の医学的助言ではありません。
+Q001〜Q005の5件について、主要出典のsource verificationと独立publication reviewを完了しています。Evidence Review Methodologyはv1.0 / ACTIVEです。
+
+公開サイトはAstroによる静的サイトとして実装済みで、現在は5件をまとめたRelease PRのProduction反映を準備しています。各Reviewは診療ガイドラインや個別の医学的助言ではなく、現在の研究から分かること・分からないことを出典とともに整理したEvidence Reviewです。
 
 ## Initial scope
 
-初期対象は主に 0〜6 歳の育児です。まず少数の問いについて詳細な Evidence Review を作成し、方法が再利用できるかを検証します。
+初期対象は主に0〜6歳の育児です。最初のPilot setとして、次の5件を用いて方法の再利用性を検証しました。
 
-最初の Pilot は、読み聞かせと言語発達を予定しています。
+1. 読み聞かせと言語発達
+2. スクリーン時間と言語発達
+3. タイムアウトと問題行動
+4. 睡眠トレーニングの効果と長期影響
+5. 保育園への早期入園と発達
+
+5件から得た知見はEvidence Review Methodology v1.0と再利用テンプレートへ反映しています。
 
 ## Principles
 
@@ -41,7 +49,8 @@
 - `methodology/` — Evidence Review の方法とデータ仕様
 - `reviews/` — 個別の Evidence Review
 - `docs/` — プロジェクト設計・運用方針
-- `site/` — 将来の公開サイト
+- `site/` — 公開サイト実装
+- `templates/` — 次回Review用の再利用テンプレート
 
 ## Important note
 

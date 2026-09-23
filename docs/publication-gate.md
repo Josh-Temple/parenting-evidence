@@ -59,9 +59,13 @@ Evidence Reviewを `PUBLISHED` に変更する前に、調査量ではなく、�
 ## Current pilot status
 
 2026-09-23時点:
-- Q001: REVIEW — source verification pass completed
-- Q002: REVIEW — source verification pass completed
-- Q003: REVIEW — source verification pass completed; direct technique evidence strengthened with Leijten et al. 2018
-- Independent publication review: pending
+- Q001: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; required changes applied
+- Q002: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; educational-content and co-viewing claims separated
+- Q003: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; source recency corrected and direct technique evidence retained within scope
+- Q004: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; under-6-month evidence reclassified as mixed / insufficient for extension
+- Q005: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; quality interpretation refined and 2024 update evidence added
+- Independent publication review: Q001–Q005 completed
+- GitHub Actions validation: passed for all five review branches before integration
+- Production deployment: pending while Vercel Hobby build-rate-limit remains active
 
-このため、3件ともサイト上では「確認中」とし、まだ `PUBLISHED` にはしない。
+このため、Evidence ReviewとしてはQ001〜Q005の5件がpublication gateを通過している。Productionへの反映はdeployment capacity回復後にrelease branchからまとめて行う。
