@@ -1,7 +1,7 @@
 # 読み聞かせは幼児の言語発達を促すか
 
-Status: REVIEW  
-Last searched: 2026-09-22  
+Status: PUBLISHED  
+Last searched: 2026-09-23  
 Last source verification: 2026-09-23
 
 ## 30秒で分かる結論
@@ -43,6 +43,8 @@ Last source verification: 2026-09-23
 2歳6か月〜3歳の150人を対象としたRCTでも、対話型・pause readingの訓練によって保護者の読み方は変わりましたが、普通のshared readingを行った対照群を上回る言語能力の改善は確認されませんでした。
 
 これは「対話しながら読むことに意味がない」という証拠ではありません。普通の読み聞かせ自体がactiveな対照条件になっており、その上に特殊な技法を足す追加利益が明確でない、という結果です。
+
+独立publication reviewでは、2025〜2026年に公表された関連メタ分析も追加確認しました。ESL/EFL児を対象とした共有読書のメタ分析、3〜6歳のnarrative abilityを対象としたinteractive readingのメタ分析、就学前〜小学生のreading literacyを対象としたdialogic readingのメタ分析では、平均的な改善を報告するものがあります。ただし、対象集団・アウトカム・対照条件が本ReviewのC003とは異なり、「通常のshared readingに特殊な技法を足すと幼児の言語能力が追加で改善する」という比較をそのまま確立するものではありません。このため、C003は引き続きUncertainとします。
 
 ### 4. 日本の子どもでも正の関連が確認されている
 
