@@ -1,7 +1,8 @@
 # タイムアウトは幼児の問題行動に有効か
 
-Status: DRAFT EVIDENCE REVIEW  
-Last searched: 2026-09-22
+Status: REVIEW  
+Last searched: 2026-09-22  
+Last source verification: 2026-09-23
 
 ## 30秒で分かる結論
 
@@ -54,20 +55,15 @@ Cochrane Reviewでは、3〜12歳の行動上の問題を対象とする13試験
 
 ## タイムアウトそのものは効いているのか
 
-### 直接研究では、問題行動を減らせる
+### 直接研究では、非従順を減らせる
 
-タイムアウト自体を操作した古い実験研究では、非従順な幼児に対してタイムアウトを使うと、指示に従う割合が増える結果が報告されています。
+2018年のmultilevel meta-analysisは、単一の養育行動を実験的に操作した19研究・75 effect sizesを統合しました。タイムアウトについては、観察評価・親評価の双方で子どものcomplianceが改善し、報告された効果量は d=0.84〜1.72 の範囲でした。
 
-一方、こうした直接研究には、
+これは、親訓練プログラム全体ではなく、タイムアウトという個別技法を実験的に操作した証拠をまとめた点で重要です。
 
-- 研究が古い
-- 対象人数が少ない
-- 臨床・実験場面が中心
-- 現代の一般家庭への一般化が難しい
+ただし、元になった直接実験の多くは1960〜1980年代に行われ、対象人数も小さく、主なアウトカムは「指示に従うか」という短期のcomplianceです。家庭全体の問題行動、長期発達、親子関係への効果量をそのまま表すものではありません。
 
-という限界があります。
-
-したがって、「その場の標的行動を減らせる」ことにはかなり根拠がありますが、家庭全体でどの程度の効果があるかを正確な数値で示すのは難しい状態です。
+したがって、**特定の非従順に対して、その場のcomplianceを高めうる**という直接証拠はありますが、家庭生活全体への効果の大きさは別に考える必要があります。
 
 ## 親訓練の中で、タイムアウトは重要な要素なのか
 
@@ -232,19 +228,22 @@ CDCやAAPのガイダンス、行動療法研究に共通するポイントは�
 4. Leijten P, et al. The most effective parenting program content for disruptive child behavior: a network meta-analysis. J Child Psychol Psychiatry. 2022.  
    https://pubmed.ncbi.nlm.nih.gov/34240409/
 
-5. Knight RM, et al. Longitudinal Relationship Between Time-Out and Child Emotional and Behavioral Functioning. J Dev Behav Pediatr. 2020.  
+5. Leijten P, et al. Parenting behaviors that shape child compliance: A multilevel meta-analysis. PLoS ONE. 2018.  
+   https://doi.org/10.1371/journal.pone.0204929
+
+6. Knight RM, et al. Longitudinal Relationship Between Time-Out and Child Emotional and Behavioral Functioning. J Dev Behav Pediatr. 2020.  
    https://pubmed.ncbi.nlm.nih.gov/31513092/
 
-6. Roach AC, et al. Using Time-out for Child Conduct Problems in the Context of Trauma and Adversity. JAMA Network Open. 2022.  
+7. Roach AC, et al. Using Time-out for Child Conduct Problems in the Context of Trauma and Adversity. JAMA Network Open. 2022.  
    https://pubmed.ncbi.nlm.nih.gov/36048440/
 
-7. Roach A, et al. Time-out under scrutiny: examining the relationships among time-out, child well-being and attachment. Br J Psychiatry. 2025.  
+8. Roach A, et al. Time-out under scrutiny: examining the relationships among time-out, child well-being and attachment. Br J Psychiatry. 2025.  
    https://pubmed.ncbi.nlm.nih.gov/39632609/
 
-8. CDC. How to Use Time-Out. Updated 2026.  
+9. CDC. How to Use Time-Out. Updated 2026.  
    https://www.cdc.gov/parenting-toddlers/responding-to-behavior/time-out.html
 
-9. American Academy of Pediatrics. Effective Discipline to Raise Healthy Children.  
+10. American Academy of Pediatrics. Effective Discipline to Raise Healthy Children.  
    https://publications.aap.org/pediatrics/article/142/6/e20183112/37452/Effective-Discipline-to-Raise-Healthy-Children
 
 ## Method note
