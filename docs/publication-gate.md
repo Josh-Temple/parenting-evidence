@@ -59,9 +59,9 @@ Evidence Reviewを `PUBLISHED` に変更する前に、調査量ではなく、�
 ## Current pilot status
 
 2026-09-23時点:
-- Q001: REVIEW — source verification pass completed
+- Q001: PUBLISHED — independent publication review completed 2026-09-23; PASS_WITH_CHANGES; required changes applied
 - Q002: REVIEW — source verification pass completed
 - Q003: REVIEW — source verification pass completed; direct technique evidence strengthened with Leijten et al. 2018
-- Independent publication review: pending
+- Independent publication review: Q001 completed; Q002/Q003 pending
 
-このため、3件ともサイト上では「確認中」とし、まだ `PUBLISHED` にはしない。
+このため、Q001は `PUBLISHED`、Q002/Q003はサイト上で「確認中」とする。
