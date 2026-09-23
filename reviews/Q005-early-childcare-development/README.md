@@ -1,9 +1,10 @@
 # Q005 — 保育園への早期入園は子どもの発達に影響するか
 
-Status: REVIEW
+Status: PUBLISHED
 
 Last evidence search: 2026-09-23
 Last source verification: 2026-09-23
+Last independent publication review: 2026-09-23
 
 ## Review question
 
@@ -49,7 +50,7 @@ Last source verification: 2026-09-23
 
 国際的な準実験でも結果は一様ではない。フランスのcrècheでは1歳時の利用が2歳時の言語に正の効果、行動には負の効果を示した研究がある。ノルウェーでは1〜2歳へのECEC拡大による全体平均の学力効果は小さい一方、親の教育水準が低い家庭で利益が大きい研究がある。ケベックの制度拡大では行動面の不利益を報告した研究もある。
 
-一方、2023年の185論文・1,044 effect sizesのmeta-analysisでは、**保育の質、特に子どもと保育者の相互作用などのprocess qualityが良いほど、言語・学習・社会性・行動に小さいが一貫した良好な関連**を示した。2025年の縦断研究meta-analysisでも、process qualityと社会情緒発達に小さな正の関連が確認された。
+一方、2023年の185論文・1,044 effect sizesのmeta-analysisでは、**保育の質と、言語・学習・社会性・行動に小さい良好な関連**が確認された。process qualityでは多くのアウトカムで関連が確認された一方、structural qualityとの直接比較でprocess qualityが統計的に明確に優れていたとは、多くのアウトカムで言えなかった。2025年の縦断研究meta-analysisでも、process qualityと社会情緒発達に小さな正の関連が確認された。
 
 したがって、家庭で考える際は「何か月で入園するか」だけより、**保育者との応答的な関わり、集団の環境、安定性、家庭での関わり、子どもの個性と家族の状況**を含めて考える方が現在の証拠に合っている。
 
@@ -86,3 +87,10 @@ Last source verification: 2026-09-23
 日本のJECS、2023/2025年のECEC quality meta-analysis、フランス・ノルウェー・ケベック等の準実験・コホート、NICHDのattachment研究をanchorとしてtargeted searchを行った。
 
 保育園利用は家庭の就労、所得、地域の制度、家庭環境と強く結びつくため、観察研究の単純比較を因果効果として扱わない。
+
+
+## Publication review note
+
+独立publication reviewでは、2024年の欧州6出生コホート（N=87,208）のindividual participant data meta-analysisと、2024年のFrench ELFE cohort更新研究も追加確認した。いずれもcenter-based childcareに比較的良好な関連を報告するが、観察研究であり、国・保育形態・家庭背景による差が大きい。
+
+判定はPASS_WITH_CHANGES。主な修正は、ECEC qualityの解釈を「process qualityが明確に優れる」と読めないよう精密化し、2024年の更新証拠を追加したこと。

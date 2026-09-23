@@ -1,6 +1,6 @@
 # Q005 Search Strategy
 
-Status: EXECUTED WITH LIMITATION
+Status: EXECUTED WITH LIMITATION; PUBLICATION-REVIEW UPDATE CHECK COMPLETED
 
 Search date: 2026-09-23
 
@@ -148,6 +148,12 @@ Process-quality indicators showed more consistent associations than structural i
 Source:
 https://doi.org/10.1371/journal.pone.0285985
 
+Independent-review interpretation note:
+- process-quality indicators had significant associations with many outcomes
+- structural characteristics alone were not significantly related to child outcomes in the pooled analysis
+- however, direct comparisons between process and structural indicators did **not** show significantly different effect sizes for most outcomes
+- therefore the public wording should not imply that process quality is proven to matter more than structural quality across the board
+
 ### Sluiter et al. 2025 — longitudinal process-quality meta-analysis
 
 - 31 publications
@@ -269,6 +275,37 @@ Age-18 follow-up, N=857:
 
 Source:
 https://doi.org/10.1037/dev0001165
+
+## Independent publication-review update check — 2026-09-23
+
+既存Reviewの結論を前提にせず、Japan-specific association、quality evidence、quasi-experiments、attachment、hours/behavior、2024年以後の更新研究を再確認した。
+
+追加採用:
+
+- Barry et al. 2024
+  - individual participant data meta-analysis
+  - six European prospective birth cohorts
+  - N=87,208
+  - center-based childcare age 0-4 vs exclusive parental care
+  - lower internalizing symptoms at ages 5-13 in the pooled observational associations
+  - informal childcare showed different/opposite patterns for some outcomes
+  - corrigendum published 2025; core article retained with correction link noted
+  - https://doi.org/10.1016/j.lanepe.2024.101036
+  - observational evidence; not interpreted as causal.
+
+- French ELFE 2024 developmental-delay study
+  - inverse-probability weighted observational cohort
+  - center-based childcare vs exclusive parental care: possible developmental delay OR 0.56 (95% CI 0.51-0.61)
+  - childminder OR 0.77 (0.72-0.83)
+  - https://pubmed.ncbi.nlm.nih.gov/39214925/
+  - supportive association within France; not a clean entry-age effect.
+
+Update conclusion:
+- no new evidence justifies a universal “early care is good/bad” verdict
+- center-based, informal, hours, quality and country/system remain separate exposure dimensions
+- quality associations remain small
+- process-quality wording was refined to avoid claiming proven superiority over structural quality
+- Japan JECS remains the most directly applicable Japanese anchor but is observational.
 
 ## Search limitation
 
