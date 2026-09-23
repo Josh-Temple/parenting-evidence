@@ -1,6 +1,6 @@
-# Project Plan v0.1
+# Project Plan v1.0
 
-Status: DRAFT
+Status: PILOT_COMPLETED / NEXT_PHASE_PLANNING
 
 ## Goal
 
@@ -45,15 +45,27 @@ Pilot は「人気テーマ5件」ではなく、異なる研究デザイン・�
 
 調査中の資料、探索的メモ、未検証の解釈と、公開可能な Review を分ける。
 
-公開ページへ出すのは REVIEW を通過した成果のみとする。
+公開ページへ出すのはPublication Gateを通過して `PUBLISHED` となった成果のみとする。
 
-## Near-term sequence
+## Completed pilot sequence
 
-1. Methodology v0.1 と Schema v0.1 を固定
-2. Q001 の検索プロトコルを事前記録
-3. Q001 を正式検索
-4. Evidence table 作成
-5. 親向け Review を作成
-6. 独立確認
-7. Q002 で再現性を確認
-8. 5本完了後にサイトMVPを実装
+以下は完了済み。
+
+1. Q001〜Q005の検索・Evidence table・Reader Layer作成
+2. 主要出典のsource verification
+3. 5件それぞれの独立publication review
+4. Publication Gate通過
+5. Evidence Review Methodology v1.0への一般化
+6. AstroによるサイトMVP実装
+7. 横断QA
+8. 再利用テンプレートとProduction release checklist作成
+
+## Next phase
+
+Production反映後は、記事数を急増させる前に次を優先する。
+
+1. 公開後smoke testとProduction SHA確認
+2. 実際の検索・閲覧で見つかる欠落質問の収集
+3. 更新作業の人間時間と再現性の測定
+4. Q006以降の候補をpain / evidence availability / Japan applicabilityで選定
+5. 必要に応じてMethodology v1.xを更新
