@@ -1,6 +1,6 @@
 # 保育園への早期入園は子どもの発達に影響するか
 
-Status: REVIEW  
+Status: PUBLISHED  
 Last searched: 2026-09-23  
 Last source verification: 2026-09-23
 
@@ -88,6 +88,8 @@ Last source verification: 2026-09-23
 
 一つの保育制度でも、発達領域によって方向が違います。
 
+同じフランスのELFE cohortを用いた2024年の別研究では、就学前までにcenter-based childcareを利用した子どもは、exclusive parental care群より3.5歳時のpossible developmental delayが少ない関連を示しました（center-based care OR 0.56, 95% CI 0.51–0.61）。childminderでもOR 0.77でした。ただし、inverse-probability weightingを用いた観察研究であり、未測定交絡を完全には除けません。
+
 ### ノルウェー
 
 1〜2歳へのuniversal ECEC拡大を利用した研究では、10歳時の学力への平均効果は小さく、多くが統計的に明確ではありませんでした。
@@ -112,6 +114,8 @@ Last source verification: 2026-09-23
 
 などが重要である可能性を示します。
 
+さらに2024年の欧州6出生コホート、計87,208組を用いたindividual participant data meta-analysisでは、就学前のcenter-based childcare利用は、exclusive parental careと比べて5〜13歳のinternalizing symptomsがわずかに低い関連を示しました。一方、informal childcareでは一部年齢でinternalizing / externalizing symptomsが高い関連が報告されています。これも観察研究で、center-based careという一語で全ての保育形態をまとめられないことを示す補助証拠です。
+
 ## 「早さ」より「質」は比較的一貫している
 
 2023年のmeta-analysisでは、0〜6歳のECECについて185論文、1,044 effect sizesが統合されました。
@@ -132,14 +136,16 @@ Last source verification: 2026-09-23
 
 ただし、効果量は概して小さく、およそ0.07〜0.13程度です。
 
-特に、人数比や設備といったstructural quality単独よりも、
+質の内訳を見ると、
 
 - 保育者が子どもへどう関わるか
 - emotional support
 - instructional interaction
 - routines / classroom management
 
-といった**process quality**の方が、発達アウトカムと一貫して関連しました。
+といった**process quality**では、多くの発達アウトカムと小さい関連が確認されました。一方、人数比や設備などのstructural quality単独では明確な関連が出ない分析が多くありました。
+
+ただし、process qualityとstructural qualityを直接比較したときに、process qualityの効果が統計的に有意に大きかったとは多くのアウトカムで言えません。したがって「process qualityだけが重要」とまでは断定しません。
 
 2025年の縦断研究meta-analysisでも、保育のprocess qualityと後の社会情緒発達の関連は r=0.103 と小さいながら正の方向でした。
 
@@ -234,7 +240,7 @@ NICHDの1,153組を対象とした研究では、
 | 早期保育は発達を一律に悪化させる | Not supported | 日本・欧州等で良好なアウトカムも多く、方向は一様でない |
 | 日本の早期保育群は3歳時発達指標が良好 | Supported as association | JECS N=39,894で5領域すべて同方向 |
 | 早期入園自体が発達を改善する | Not established causally | selection / confoundingが強く、国際quasi-experimentもmixed |
-| 保育の質が高いほど発達が良い | Supported as small association | 2023 / 2025 meta-analysis |
+| 保育の質が高いほど発達が良い | Supported as small association | 2023 / 2025 meta-analysis。ただしprocess vs structuralの直接的な優越性は多くのアウトカムで確立せず |
 | 家庭状況によって効果が異なる | Supported | France / Norwayでdisadvantaged childrenに大きい利益 |
 | 長時間保育は必ず問題行動を増やす | Not established | model-sensitive、quality / peer contextによる修飾 |
 | 早期保育は愛着を一律に損なう | Not supported | NICHDでage/amount/typeのsimple main effectなし |
@@ -274,6 +280,12 @@ NICHDの1,153組を対象とした研究では、
 
 11. Waters TEA, et al. Early Child Care Experiences and Attachment Representations at Age 18 Years. Developmental Psychology. 2021.  
     https://doi.org/10.1037/dev0001165
+
+12. Barry KM, et al. Early childcare arrangements and children's internalizing and externalizing symptoms: an individual participant data meta-analysis of six prospective birth cohorts in Europe. Lancet Regional Health – Europe. 2024.  
+    https://doi.org/10.1016/j.lanepe.2024.101036
+
+13. Early childcare and developmental delay risk at 3.5 years: Insights from the French ELFE cohort. 2024.  
+    https://pubmed.ncbi.nlm.nih.gov/39214925/
 
 ## Method note
 
