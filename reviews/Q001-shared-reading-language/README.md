@@ -1,9 +1,10 @@
 # Q001 — 読み聞かせは幼児の言語発達を促すか
 
-Status: REVIEW
+Status: PUBLISHED
 
-Last evidence search: 2026-09-22
+Last evidence search: 2026-09-23
 Last source verification: 2026-09-23
+Last independent publication review: 2026-09-23
 
 ## Review question
 
@@ -23,7 +24,7 @@ Last source verification: 2026-09-23
 
 読み聞かせを促す介入のRCTを統合したメタ分析でも、表出言語・受容言語に平均的な改善が報告されている。一方、通常の読み聞かせ等を行う active control と比べると追加効果がほぼ見られないメタ分析やRCTもある。
 
-したがって、現時点では「読み聞かせは言語発達を支える可能性が高く、推奨可能な親子活動」と整理できるが、**読み聞かせ量を増やせばその分だけ言語能力が上がる、特定の読み方が通常の読み聞かせより明確に優れる、早く始めるほど長期効果が大きい**とまでは言えない。
+したがって、現時点では「読み聞かせを有益な親子活動と考える根拠はある」と整理できるが、**読み聞かせ量を増やせばその分だけ言語能力が上がる、特定の読み方が通常の読み聞かせより明確に優れる、早く始めるほど長期効果が大きい**とまでは言えない。
 
 ## Claim status
 
@@ -50,4 +51,4 @@ Last source verification: 2026-09-23
 
 2025年のPRISMA準拠systematic reviewを主要な既存エビデンスの土台として使い、その検索終了後に公表された研究を対象に更新探索を行った anchored update review である。
 
-現在の実行環境では、PubMed等のデータベース検索について安定した総ヒット件数・deduplication件数を再取得できなかった。そのため、独立した完全網羅検索を実施したとは扱わず、独自の完全網羅検索ではないため systematic review とは扱わない。主要数値・主要解釈の source verification は完了しており、現在は公開判定の独立確認待ちとして REVIEW とする。
+現在の実行環境では、PubMed等のデータベース検索について安定した総ヒット件数・deduplication件数を再取得できなかった。そのため、独立した完全網羅検索を実施したとは扱わず、独自の完全網羅検索ではないため systematic review とは扱わない。主要数値・主要解釈の source verification と独立publication reviewは完了した。独立reviewは PASS_WITH_CHANGES と判定され、必要な変更を反映したため PUBLISHED とする。
