@@ -1,6 +1,6 @@
 # Q002 Evidence Table
 
-Last updated: 2026-09-22
+Last updated: 2026-09-23
 
 Q002の主要Claimを判断するために重視した資料。網羅的な全研究一覧ではない。
 
@@ -16,6 +16,10 @@ Q002の主要Claimを判断するために重視した資料。網羅的な全�
 | E008 | AAP 2026 Policy Statement + Technical Report | Current professional evidence synthesis and guidance | Moves beyond screen-time-only framing. Early childhood evidence: heavier noneducational/solo use associated with language and other delays; high-quality educational content and joint media engagement can support language/learning. Recommends family-specific boundaries and protecting sleep, movement, reading, play and family time. | Guidance integrates many outcomes and US-centric evidence; not a language-specific causal estimate. | Current clinical guidance context; supports C003 and C005 nuance. |
 | E009 | WHO 2019 under-5 movement guideline | Guideline integrating physical activity, sedentary behavior and sleep | Sedentary screen time: not recommended at age 1; <=1 h/day at age 2 and ages 3-4, less is better. | Numeric limits are not derived from language outcomes alone and predate much newer digital-media evidence. | Useful practical benchmark, not evidence of a language-specific threshold. |
 | E010 | こども家庭庁 2025「乳幼児の遊びと体験」 | Japanese government-commissioned evidence review | Summarizes the 42-study meta-analysis: greater screen time negatively correlated with language; educational media and caregiver co-use may support language acquisition. | Secondary synthesis; not an independent effect estimate. | Japanese evidence-translation context. |
+| E011 | Jing et al. 2023, *Screen media exposure and young children's vocabulary learning and development* | Meta-analysis; 63 studies, 266 effect sizes, N=11,413, ages 0-6; experimental and correlational evidence | Overall r=0.23; experimental r=0.30. In correlational studies, overall naturalistic exposure-vocabulary association r=0.07, while naturalistic educational-media exposure r=0.17. | Vocabulary-specific; experimental studies often measured words explicitly taught by researcher-designed media; not equivalent to everyday total screen time. | Shows that content, study design and outcome specificity materially change the estimate; qualifies C003b. |
+| E012 | Xie, Lu & Lin 2024, *Is screen exposure beneficial or detrimental to language development in infants and toddlers?* | Meta-analysis; 28 studies; children age 0-3; screen time, educational programming, co-viewing, age at onset | Screen time negatively associated with language; co-viewing and later onset positively associated; educational-program viewing was not significantly associated with language. | Correlational synthesis; effect estimates and definitions vary across studies; does not establish causal thresholds. | Supports C001 and C003a, but directly tempers a broad C003b claim about educational content. |
+| E013 | Nwachukwu et al. 2025, *Impact of Screen Time on Language Development and Vocabulary Acquisition in Early Childhood* | Systematic review; 8 included studies, mostly cross-sectional preschool samples | High unsupervised/passive screen use often linked to weaker language; interactive/educational/caregiver-involved use may mitigate associations; authors rate overall certainty as limited. | Small evidence set, mostly cross-sectional; lower weight than quantitative anchor meta-analyses. | Update consistency check; does not materially change effect-size claims. |
+| E014 | Silva Junior et al. 2025, *Impact of the Use of Interactive Screens on Language Development in Children up to 6 Years of Age* | Systematic review of 17 observational studies of smartphones/tablets in children <=6 | Early/excessive interactive-screen exposure often associated with poorer expressive language/vocabulary; parental mediation, co-viewing and content quality matter. | Observational-only evidence; device-specific; heterogeneous exposure/outcome definitions. | Update consistency check for mobile/interactive devices; supports context decomposition, not causality. |
 
 ## Source links
 
@@ -30,6 +34,10 @@ Q002の主要Claimを判断するために重視した資料。網羅的な全�
 - E008 technical report: https://doi.org/10.1542/peds.2025-075321
 - E009: https://www.who.int/publications/i/item/9789241550536
 - E010: https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/55e89c07-ffc5-40a9-bad7-ce6c6dd11b8a/90178a35/20250421_policies_kodomo_sodachi_research_05.pdf
+- E011: https://doi.org/10.1111/cdev.13927
+- E012: https://doi.org/10.1080/03004430.2024.2349622
+- E013: https://doi.org/10.7759/cureus.97429
+- E014: https://doi.org/10.1111/cch.70176
 
 ## Interpretation by claim
 
@@ -45,11 +53,17 @@ Plausible but not established.
 
 Longitudinal and cross-lagged studies strengthen temporal inference, and reduced parent-child talk is a plausible mechanism. However, there is no clean randomized evidence assigning children to sustained high vs low everyday screen exposure with language as the primary outcome. Residual confounding, selection and reverse causation remain.
 
-### C003 — content and co-use matter
+### C003a — co-use / co-viewing
 
-Supported as context-dependent association.
+Supported as a context-dependent association.
 
-Educational content and co-viewing show positive language associations in the language meta-analysis, and the 2024 broader context review similarly finds better cognitive outcomes with co-use. This does not mean all educational apps or videos are beneficial.
+The 2020 language meta-analysis, the 2024 infant/toddler language meta-analysis, and the 2024 broader context review all point toward more favorable outcomes with caregiver co-use/co-viewing. This remains primarily association-level evidence and does not prove that co-viewing fully offsets long duration or poor-quality content.
+
+### C003b — educational content
+
+Mixed / uncertain.
+
+Madigan et al. 2020 reported a positive association for educational programming, and Jing et al. 2023 found a positive association for naturalistic educational-media exposure with vocabulary. However, Xie et al. 2024 found no statistically significant association between educational-program viewing and language development among children age 0-3. The evidence therefore supports separating content quality from total duration, but not a universal claim that content labeled educational improves language development.
 
 ### C004 — displacement of talk
 
