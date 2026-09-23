@@ -2,7 +2,7 @@
 
 Date: 2026-09-23  
 Result: PASS_WITH_LIMITATIONS_FOR_REVIEW  
-Publication status: independent publication review pending
+Publication status: independent publication review completed 2026-09-23; see `independent-publication-review.md`
 
 ## Rechecked claims
 
@@ -108,7 +108,7 @@ Interpretation:
 - reassuring against a large long-term harm effect for this program
 - attrition and intervention specificity mean "no detected harm" must not be presented as universal proof of safety
 
-### 7. Infants younger than 6 months
+### 7. Infants younger than 6 months — conflicting review evidence
 
 Douglas & Hill 2013 was rechecked against PubMed.
 
@@ -120,6 +120,19 @@ Verified:
 Interpretation:
 - supports maintaining an age-specific evidence boundary
 - because the review is older and has a strong interpretive position, it should not be the sole basis for a harm claim
+
+Crichton & Symon 2016 was also independently checked.
+
+Verified:
+- review focused on infants under 6 months
+- 11 studies identified
+- 8 reported improved infant sleep after educational behavioral programs
+- authors reached a more favorable conclusion than Douglas & Hill
+
+Interpretation:
+- evidence under 6 months is not accurately represented as one-sided
+- later Reuter 2020 still identifies <6 months as a knowledge gap
+- final claim should be mixed / insufficient for extension, not “proven ineffective”
 
 ### 8. Safe sleep boundary — Japan
 
@@ -157,7 +170,7 @@ PASS WITH LIMITATIONS:
 
 ## Remaining limitations before PUBLISHED
 
-- Independent publication review is still required.
+- Independent publication review completed 2026-09-23; required changes are reflected in the publication-review branch.
 - Japan-specific efficacy evidence is limited.
 - The intervention literature is heterogeneous.
 - Rare harms and subtle long-term effects cannot be excluded by the available follow-up studies.
