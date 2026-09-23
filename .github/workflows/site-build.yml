@@ -4,20 +4,32 @@ on:
   pull_request:
     paths:
       - "package.json"
+      - "package-lock.json"
+      - "README.md"
+      - ".github/workflows/site-build.yml"
       - "astro.config.mjs"
       - "tsconfig.json"
+      - "scripts/**"
       - "site/**"
       - "reviews/**"
       - "methodology/**"
+      - "docs/publication-gate.md"
+      - "docs/site-mvp-spec.md"
   push:
     branches: ["main"]
     paths:
       - "package.json"
+      - "package-lock.json"
+      - "README.md"
+      - ".github/workflows/site-build.yml"
       - "astro.config.mjs"
       - "tsconfig.json"
+      - "scripts/**"
       - "site/**"
       - "reviews/**"
       - "methodology/**"
+      - "docs/publication-gate.md"
+      - "docs/site-mvp-spec.md"
 
 jobs:
   build:
@@ -28,4 +40,10 @@ jobs:
         with:
           node-version: "22.20.0"
       - run: npm install
+      - run: npm run validate:content
       - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: generated-package-lock
+          path: package-lock.json
+          retention-days: 1
