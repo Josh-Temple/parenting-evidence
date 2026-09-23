@@ -69,7 +69,7 @@ for (const folder of folders) {
     fail(folder + " has invalid or missing Last searched.");
   }
 
-  if (!sourceVerified.match(/^\\d{4}-\\d{2}-\\d{2}$/)) {
+  if (!sourceVerified.match(/^\d{4}-\d{2}-\d{2}$/)) {
     fail(folder + " has invalid or missing Last source verification.");
   }
 
