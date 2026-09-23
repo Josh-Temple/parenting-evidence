@@ -1,7 +1,7 @@
 # タイムアウトは幼児の問題行動に有効か
 
-Status: REVIEW  
-Last searched: 2026-09-22  
+Status: PUBLISHED  
+Last searched: 2026-09-23  
 Last source verification: 2026-09-23
 
 ## 30秒で分かる結論
@@ -30,7 +30,7 @@ Last source verification: 2026-09-23
 
 ## 親訓練そのものには、比較的しっかりした効果がある
 
-Cochrane Reviewでは、3〜12歳の行動上の問題を対象とする13試験・1,078人をまとめています。
+FurlongらのCochrane Reviewでは、3〜12歳の行動上の問題を対象とする13試験・1,078人をまとめています。このreviewは原論文では2012年刊行で、文献検索は2011年1月までです。現在のCochrane evidence pageには2022年と表示されていますが、2022年まで新しい試験を追加した更新reviewとしては扱いません。
 
 行動療法・認知行動療法ベースの親訓練によって、短期的には子どもの問題行動が減りました。
 
@@ -40,6 +40,8 @@ Cochrane Reviewでは、3〜12歳の行動上の問題を対象とする13試験
 親の肯定的な関わりも増え、否定的・厳しい養育行動は減りました。
 
 ここで注意が必要なのは、この効果を「タイムアウトの効果」と呼べないことです。
+
+さらに、2025年の大規模なparenting-program meta-analysisは244試験、28,916家庭を集め、近年の試験でもprogram effect estimatesはおおむね安定していると報告しました。近年のプログラムではタイムアウトを含む割合が低下していましたが、その変化はprogram effectの時系列変化を説明しませんでした。これも、親訓練全体の有効性を補強する情報であって、タイムアウト単独の因果効果を示すものではありません。
 
 多くのプログラムでは、
 
@@ -216,8 +218,9 @@ CDCやAAPのガイダンス、行動療法研究に共通するポイントは�
 
 ## Main sources
 
-1. Furlong M, et al. Behavioural and cognitive-behavioural group-based parenting programmes for early-onset conduct problems. Cochrane Database of Systematic Reviews. 2022.  
-   https://www.cochrane.org/evidence/CD008225_group-parenting-programmes-improving-behavioural-problems-children-aged-3-12-years
+1. Furlong M, et al. Behavioural and cognitive-behavioural group-based parenting programmes for early-onset conduct problems. Cochrane Database of Systematic Reviews. 2012;2012(2):CD008225.  
+   https://pubmed.ncbi.nlm.nih.gov/22336837/  
+   Note: the current Cochrane evidence page displays 2022 metadata for the same DOI; the underlying review search ended in January 2011.
 
 2. Kaminski JW, et al. A meta-analytic review of components associated with parent training program effectiveness. J Abnorm Child Psychol. 2008.  
    https://pubmed.ncbi.nlm.nih.gov/18205039/
@@ -245,6 +248,12 @@ CDCやAAPのガイダンス、行動療法研究に共通するポイントは�
 
 10. American Academy of Pediatrics. Effective Discipline to Raise Healthy Children.  
    https://publications.aap.org/pediatrics/article/142/6/e20183112/37452/Effective-Discipline-to-Raise-Healthy-Children
+
+11. Leijten P, et al. Have parenting programs for disruptive child behavior become less effective? Journal of Child Psychology and Psychiatry. 2025.  
+   https://pubmed.ncbi.nlm.nih.gov/40968482/
+
+12. Kimonis ER, et al. Affective and Behavioral Responses to Time-Out in Preschool Children With Conduct Problems and Varying Levels of Callous-Unemotional Traits. Behavior Therapy. 2025.  
+   https://pubmed.ncbi.nlm.nih.gov/40010910/
 
 ## Method note
 

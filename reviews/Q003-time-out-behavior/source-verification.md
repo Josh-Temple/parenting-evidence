@@ -2,11 +2,13 @@
 
 Date: 2026-09-23  
 Result: PASS_WITH_CHANGES_FOR_REVIEW  
-Publication status: independent publication review pending
+Publication status: independent publication review completed 2026-09-23; see `independent-publication-review.md`
 
 ## Rechecked claims
 
-1. Cochrane parenting-program evidence
+1. Furlong Cochrane parenting-program evidence
+   - original publication is 2012; searches completed January 2011
+   - current Cochrane evidence page displays 2022 metadata for the same DOI; this is not treated as a 2022 literature-search update
    - parent-rated conduct problems SMD=-0.53 (95% CI -0.72 to -0.34)
    - independently assessed conduct problems SMD=-0.44 (-0.77 to -0.11)
    - verified

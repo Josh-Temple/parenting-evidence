@@ -1,9 +1,10 @@
 # Q003 — タイムアウトは幼児の問題行動に有効か
 
-Status: REVIEW
+Status: PUBLISHED
 
-Last evidence search: 2026-09-22
+Last evidence search: 2026-09-23
 Last source verification: 2026-09-23
+Last independent publication review: 2026-09-23
 
 ## Review question
 
@@ -84,3 +85,12 @@ Last source verification: 2026-09-23
 5. CDC / AAP等の現行guidance
 
 そのため、親訓練全体の効果をタイムアウト単独へ帰属させない。
+
+
+## Publication review note
+
+独立publication reviewでは、program-level evidenceとtime-out単独のevidenceを再度分離して確認した。Furlong et al. のCochrane reviewは、現在のCochrane evidence pageでは2022年と表示されるが、PubMed上の原reviewは2012年刊行で、検索終了は2011年1月である。そのため、このreviewを2022年まで更新された証拠として扱わない。
+
+2025年の大規模なparenting-program meta-analysis（244 trials, 28,916 families）では、近年のtrialでtime-outの使用頻度が低下している一方、program effect estimatesは現在おおむね安定していると報告された。ただし、これはtime-out単独の効果を評価した研究ではない。
+
+独立reviewの判定は PASS_WITH_CHANGES。書誌年代、更新検索、証拠階層の記述を修正したうえでPUBLISHEDとする。

@@ -1,8 +1,9 @@
 # Q003 Search Strategy
 
-Status: EXECUTED WITH LIMITATION
+Status: EXECUTED WITH LIMITATION; PUBLICATION-REVIEW UPDATE CHECK COMPLETED
 
-Search date: 2026-09-22
+Search date: 2026-09-22  
+Publication-review update check: 2026-09-23
 
 ## Review question
 
@@ -47,8 +48,11 @@ Program-levelの効果をtime-out単独の効果として扱わない。
 
 ### 1. Parenting-program effectiveness
 
-Cochrane 2022:
+Furlong et al. Cochrane review (original publication 2012):
 - behavioral / cognitive-behavioral group parenting programs
+- original Cochrane publication: 2012; PubMed PMID 22336837
+- database searches completed 23-31 January 2011
+- current Cochrane evidence webpage displays 2022 metadata for the same DOI; this is not treated as evidence that the literature search was updated through 2022
 - children age 3-12 with conduct problems
 - 13 trials (10 RCTs + 3 quasi-randomized)
 - N=1,078
@@ -175,6 +179,34 @@ AAP:
 Sources:
 https://publications.aap.org/pediatrics/article/142/6/e20183112/37452/Effective-Discipline-to-Raise-Healthy-Children
 https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Time-Outs-101.aspx
+
+### 6A. Independent publication-review update check — 2026-09-23
+
+公開判定では、既存Reviewの結論を前提にせず、time-out direct evidence、最新program-level synthesis、implementation / response studiesを追加確認した。
+
+追加採用:
+
+- Leijten et al. (2025), parenting-program time-trend meta-analysis
+  - 244 randomized trials
+  - 1,100 effect sizes
+  - N=28,916 families
+  - 36 countries
+  - recent program effect estimates are broadly stable
+  - more recent programs used time-out less often, but this did not explain effect-size time trends
+  - https://pubmed.ncbi.nlm.nih.gov/40968482/
+  - Program-level update only. Time-out-specific efficacyには帰属しない。
+
+- Kimonis et al. (2025), preschool conduct-problem sample
+  - N=87, mean age 4.88
+  - time-out response within behavioral parent training
+  - callous-unemotional traits affected emotional response but not negative behavior or time-out duration
+  - https://pubmed.ncbi.nlm.nih.gov/40010910/
+  - Technique-level efficacy RCTではなく、個人差・実施文脈の補助資料として扱う。
+
+追加screeningで、school settingにおけるtime-out研究のsystematic review / meta-analysisも確認したが、家庭のparenting interventionとはsetting・対象・実施者が異なるため、Q003の主要evidence tableには採用しなかった。
+
+最重要のsource-integrity修正:
+Furlong et al. のCochrane evidence pageは現在2022年と表示される一方、PubMedの原reviewは2012年刊行で、検索終了は2011年1月である。したがって、これを「2022年までの最新Cochrane evidence」として扱わない。
 
 ### 7. Japanese context
 
