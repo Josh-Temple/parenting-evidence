@@ -5,7 +5,7 @@ Last updated: 2026-09-23
 | ID | Source | Design / population | Main result | Main limitation | Claim relevance |
 |---|---|---|---|---|---|
 | E001 | Kanamori et al. 2024 / JECS | Prospective Japanese cohort; N=39,894; early childcare N=13,674 vs no childcare N=26,220 | At age 3, below-ASQ-cutoff prevalence lower in early-care group across communication (2.1% vs 5.7%), gross motor (3.8% vs 5.0%), fine motor (7.0% vs 8.4%), problem solving (5.6% vs 8.9%), personal-social (1.7% vs 5.1%). Associations persisted in multivariable models. | Observational; very large baseline differences in maternal work, income, screen use, family time; caregiver-reported screening; extensive exclusions. | Strong Japan-specific evidence for C002, not causal proof for C003. |
-| E002 | von Suchodoletz et al. 2023 | Meta-analysis; 185 articles, 1,044 effect sizes; center-based ECEC age 0-6 | Higher quality associated with slightly better literacy, math, behavior skills, social competence and fewer behavior/social-emotional problems. Effects generally ~0.07-0.13. | Mostly associations; majority of evidence from US; quality definitions heterogeneous. | Supports C004 and context-dependence. |
+| E002 | von Suchodoletz et al. 2023 | Meta-analysis; 185 articles, 1,044 effect sizes; center-based ECEC age 0-6 | Higher quality associated with slightly better literacy, math, behavior skills, social competence and fewer behavior/social-emotional problems. Effects generally ~0.07-0.13. Process indicators were significant for many outcomes while structural indicators alone were often not. | Mostly associations; majority of evidence from US; quality definitions heterogeneous. Direct process-vs-structural comparisons did not show significantly different effect sizes for most outcomes. | Supports C004 and context-dependence without establishing that process quality is universally superior to structural quality. |
 | E003 | Sluiter et al. 2025 | Longitudinal meta-analysis; 31 publications, 16 cohorts, N=17,913 | Process quality predicted better later socio-emotional development, r=0.103 (95% CI 0.052-0.155). | Very high heterogeneity (I2=94.4%); observational longitudinal designs. | Supports C004; effect is small and heterogeneous. |
 | E004 | Caille et al. 2021, France Elfe | Large birth cohort + instrumental-variable design; crèche attendance at age 1, outcomes age 2 | Positive language effect, no motor effect, negative behavior effect; language benefit concentrated in disadvantaged children. | Local French regulated crèche system; IV assumptions; effects outcome-specific. | Supports C005/C008 and rejects a single good/bad verdict. |
 | E005 | Norway universal ECEC for toddlers, 2023 | Population cohort + administrative data; fixed-effects and IV; ECEC age 1-2 -> achievement age 10 | Overall effects small / mostly nonsignificant; stronger benefits for children with low parental education; reduced achievement gaps. | Norway's high-regulation context; achievement outcomes not all developmental domains. | Supports C005/C008. |
@@ -15,6 +15,8 @@ Last updated: 2026-09-23
 | E009 | NICHD hours/externalizing 2010 | Longitudinal repeated-measures analysis | Evidence that hours cause externalizing behavior was equivocal across model specifications; quality and large-peer-group exposure moderated associations. | US cohort; older childcare context; not randomized. | Supports C006. |
 | E010 | NICHD infant attachment | Prospective cohort, N=1,153 | No significant main effects of childcare amount, age at entry, quality, stability or type on mother-infant attachment security / avoidance. Maternal sensitivity and interaction risks mattered. | Observational; 1990s US care context. | Main support against broad C007 claim. |
 | E011 | Waters et al. 2021 | NICHD follow-up to age 18, N=857 | Quantity and type of early childcare not associated with attachment representations. Higher childcare quality showed a small positive association with one attachment measure. | Observational; affluent/mostly White US sample; mixed replication across attachment measures. | Long-term qualification for C007/C004. |
+| E012 | Barry et al. 2024 | Individual participant data meta-analysis of six prospective European birth cohorts; N=87,208; childcare age 0-4, outcomes age 5-13 | Center-based childcare was associated with slightly lower internalizing symptoms across age groups versus exclusive parental care. Informal childcare showed opposite associations for some internalizing/externalizing outcomes. | Observational cohort evidence despite harmonized multi-cohort analysis; childcare definitions and systems vary; a 2025 corrigendum exists for the article. | Update evidence for C001/C003/C008; reinforces childcare-type and system-context decomposition. |
+| E013 | French ELFE developmental-delay study 2024 | Observational cohort with inverse-probability weighting; childcare before school entry, development at 3.5 years | Center-based childcare associated with lower possible developmental-delay risk vs exclusive parental care (OR 0.56, 95% CI 0.51-0.61); childminder OR 0.77 (0.72-0.83). | Nonrandom exposure; residual confounding possible; French childcare context; does not isolate entry age alone. | Contemporary supportive association for C001/C003/C008; not causal proof. |
 
 ## Source links
 
@@ -30,6 +32,8 @@ Last updated: 2026-09-23
 - E009: https://pubmed.ncbi.nlm.nih.gov/20053002/
 - E010: https://pubmed.ncbi.nlm.nih.gov/29106728/
 - E011: https://doi.org/10.1037/dev0001165
+- E012: https://doi.org/10.1016/j.lanepe.2024.101036
+- E013: https://pubmed.ncbi.nlm.nih.gov/39214925/
 
 ## Interpretation by claim
 
@@ -55,7 +59,7 @@ The direction varies by outcome and system. Benefits may be stronger for disadva
 
 Supported.
 
-Across meta-analyses, process quality and caregiver-child interaction quality have small but fairly consistent positive associations with development.
+Across meta-analyses, ECEC quality has small positive associations with several developmental outcomes. Process-quality indicators show significant associations across multiple outcomes, but direct comparisons do not establish statistically stronger process-quality effects than structural quality for most outcomes.
 
 ### C005 — socioeconomic heterogeneity
 
