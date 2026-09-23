@@ -1,8 +1,9 @@
 # Q004 — 睡眠トレーニングには効果があり、長期的な悪影響はあるか
 
-Status: DRAFT
+Status: REVIEW
 
 Last evidence search: 2026-09-23
+Last source verification: 2026-09-23
 
 ## Review question
 
@@ -86,4 +87,4 @@ graduated extinction と bedtime fading を比較した小規模RCTでは、睡�
 
 2020、2023、2024、2025年のsystematic review / meta-analysisを主要anchorとし、代表的RCT・長期追跡・日本と米国の安全な睡眠指針をtargeted updateで確認した。
 
-独自のdatabase export、deduplication、二重screeningは実施していないため、DRAFTを維持する。
+独自のdatabase export、deduplication、二重screeningは実施していないためsystematic reviewとは扱わない。主要数値・主要解釈のsource verificationは完了し、現在は公開判定の独立確認待ちとしてREVIEWとする。
