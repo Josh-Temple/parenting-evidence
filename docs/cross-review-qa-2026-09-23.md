@@ -2,7 +2,7 @@
 
 Date: 2026-09-23
 Scope: release/evidence-review-v1
-Result: PASS_WITH_ONE_IMPLEMENTATION_FIX
+Result: PASS_WITH_THREE_IMPLEMENTATION_FIXES
 
 ## Purpose
 
@@ -65,9 +65,9 @@ PASS.
 - Q005: country/system transportabilityを明示
 - Q001〜Q003も対象年齢・比較条件の範囲を維持
 
-## Implementation issue found and fixed
+## Implementation issues found and fixed
 
-### Public article metadata leak
+### 1. Public article metadata leak
 
 site/src/lib/reviews.ts の removeDocumentHeader() は、Status と Last searched だけを除去しており、各Reviewの Last source verification がReader Layer本文の先頭に残る実装だった。
 
@@ -78,6 +78,23 @@ site/src/lib/reviews.ts の removeDocumentHeader() は、Status と Last searche
 も文書先頭のmetadataとして除去できるよう修正した。
 
 この変更は研究内容には影響せず、公開表示だけを整える。
+
+### 2. Home page pilot status was stale
+
+トップページに「現在は3件のパイロットレビューを公開準備中」「調査草稿で独立確認前」と残っていた。
+
+対応:
+- 5件のパイロットレビューへ更新
+- 独立確認完了・公開可能という現在状態へ更新
+
+### 3. Review detail audit copy was stale
+
+Review詳細ページのAudit Layerにも「現在の3件」「調査草稿」という説明が残っていた。
+
+対応:
+- 5件へ更新
+- de novo systematic reviewではないという境界は維持
+- 主要出典再確認と独立publication review済みであることを反映
 
 ## Remaining release checks
 
