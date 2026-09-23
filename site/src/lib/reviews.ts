@@ -48,6 +48,20 @@ const REVIEW_CONFIGS: ReviewConfig[] = [
     domain: "行動・しつけ",
     ageLabel: "主に2〜6歳",
     ageBands: ["1-3", "3-6"]
+  },
+  {
+    slug: "sleep-training",
+    folder: "Q004-sleep-training",
+    domain: "睡眠",
+    ageLabel: "主に0〜1歳",
+    ageBands: ["0-1"]
+  },
+  {
+    slug: "early-childcare-development",
+    folder: "Q005-early-childcare-development",
+    domain: "保育・発達",
+    ageLabel: "主に0〜3歳",
+    ageBands: ["0-1", "1-3", "3-6"]
   }
 ];
 
