@@ -1,78 +1,75 @@
 # Production Release Checklist
 
-Status: ACTIVE
-Applies to: Parenting Evidence release from release/evidence-review-v1
+Status: ACTIVE  
+Applies to: Parenting Evidence daily release  
+Deployment policy: `docs/vercel-daily-deployment-policy.md`
 
-## 1. Pre-merge research gate
+## 1. Research / content gate
 
-- [ ] Q001–Q005 are PUBLISHED
-- [ ] independent-publication-review.md exists for every PUBLISHED review
-- [ ] Publication Gate status matches review metadata
-- [ ] Methodology version is current
+For every review included in the release:
+
+- [ ] publication state is internally consistent
+- [ ] required source verification is complete
+- [ ] required independent publication review is complete
+- [ ] Publication Gate matches review metadata
 - [ ] Reader Layer and Evidence Table claim strength are aligned
 - [ ] no unresolved source-integrity HOLD
 
 ## 2. Code / build gate
 
-- [ ] release branch is ahead of and not behind main
+- [ ] release changes are batched into one daily release
 - [ ] release PR is mergeable
 - [ ] package-lock.json is committed
-- [ ] CI installs dependencies with npm ci
-- [ ] npm run validate:content succeeds
-- [ ] GitHub Actions site build succeeds
-- [ ] review index contains all intended reviews
-- [ ] static routes generate for all review slugs
-- [ ] age/domain filters match the Review scope
-- [ ] metadata does not leak into Reader Layer body
+- [ ] `npm ci` succeeds
+- [ ] `npm run validate:content` succeeds
+- [ ] GitHub Actions Site build succeeds
+- [ ] static routes generate for all configured review slugs
+- [ ] age/domain metadata matches review scope
+- [ ] raw review metadata does not leak into Reader Layer
 
-## 3. Vercel capacity gate
+## 3. Daily Vercel gate
 
-- [ ] Vercel status is not build-rate-limit
-- [ ] latest READY Preview commit SHA equals the current release PR head SHA
-- [ ] avoid treating an older READY Preview as validation of a newer head
-- [ ] avoid repeated deploy attempts while rate-limited
-- [ ] merge only once after capacity is available
+- [ ] no Vercel deployment has already been triggered on the current JST calendar day
+- [ ] there are actual release changes
+- [ ] non-main Vercel Git deployments remain disabled by `vercel.json`
+- [ ] do not create a no-op commit only to trigger deployment
+- [ ] do not perform a second deployment attempt on the same JST day unless the user explicitly overrides the policy
 
 ## 4. Merge
 
-- [ ] fresh-read main SHA
+- [ ] fresh-read `main` SHA
 - [ ] fresh-read release PR head SHA
 - [ ] confirm no unexpected new commits / conflicts
-- [ ] mark PR ready
-- [ ] merge release PR to main once
+- [ ] merge to `main` once
 
 ## 5. Production validation
 
-Expected URLs:
-
-- [ ] /
-- [ ] /reviews/shared-reading-language
-- [ ] /reviews/screen-time-language
-- [ ] /reviews/time-out-behavior
-- [ ] /reviews/sleep-training
-- [ ] /reviews/early-childcare-development
-- [ ] /methodology
-
-For each relevant page:
-- [ ] HTTP 200
-- [ ] title and status render
-- [ ] Reader Layer visible
-- [ ] Audit Layer / evidence / search content visible
-- [ ] no raw metadata at article top
+- [ ] GitHub Actions on merged `main` succeeds
+- [ ] Vercel Production state is READY
+- [ ] Vercel Production `githubCommitSha` equals merged `main` SHA
+- [ ] public domain points to the intended deployment
+- [ ] home page renders
+- [ ] all configured review routes return HTTP 200
+- [ ] methodology route returns HTTP 200
+- [ ] representative Reader Layer / Audit Layer content renders
 - [ ] representative source link opens
-- [ ] mobile layout usable
+- [ ] no raw metadata appears at article top
 
-## 6. Production provenance
+## 6. Release record
 
-- [ ] Production deployment state READY
-- [ ] Production commit SHA equals merged main SHA
-- [ ] public domain points to intended deployment
-- [ ] review count = 5
-- [ ] methodology page shows v1.0
+Record:
 
-## 7. After release
+- [ ] release date (JST)
+- [ ] merged `main` SHA
+- [ ] Vercel deployment ID / URL
+- [ ] Production SHA match result
+- [ ] smoke-test result
+- [ ] any correction / follow-up needed
 
-- [ ] record release SHA and date
-- [ ] note any corrections
-- [ ] set next evidence-review update trigger / target date
-- [ ] only then begin bulk Q006+ expansion
+## 7. No-change day
+
+If no release changes exist:
+
+- [ ] do not merge to `main`
+- [ ] do not trigger Vercel
+- [ ] continue research / branch / Issue work normally

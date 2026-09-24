@@ -9,6 +9,7 @@ on:
       - ".github/workflows/site-build.yml"
       - "astro.config.mjs"
       - "tsconfig.json"
+      - "vercel.json"
       - "scripts/**"
       - "site/**"
       - "reviews/**"
@@ -23,11 +24,15 @@ on:
       - ".github/workflows/site-build.yml"
       - "astro.config.mjs"
       - "tsconfig.json"
+      - "vercel.json"
       - "scripts/**"
       - "site/**"
       - "reviews/**"
       - "methodology/**"
       - "docs/**"
+
+permissions:
+  contents: read
 
 jobs:
   build:
