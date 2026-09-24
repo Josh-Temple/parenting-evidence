@@ -1,8 +1,8 @@
 # Q006 Source Verification — Pass 1
 
 Date: 2026-09-24  
-Result: PASS_WITH_CHANGES_FOR_REVIEW  
-Publication status: independent publication review pending
+Result: PASS_FOR_PUBLICATION  
+Publication status: independent publication review completed 2026-09-24; Publication Gate passed
 
 ## Rechecked claims
 
@@ -253,10 +253,10 @@ Required changes already reflected in review.md:
 
 PASS_WITH_CHANGES_FOR_REVIEW
 
-## Remaining limitations before PUBLISHED
+## Current limitations and release boundaries
 
 - historical search counts are not reconstructable and must not be invented
 - fresh fixed update search completed 2026-09-24
 - independent publication review completed 2026-09-24; PASS_WITH_CHANGES
-- Publication Gate must still pass
-- public site configuration must not include Q006 before PUBLISHED
+- Research publication state: PUBLISHED
+- Production release remains a separate daily main release step

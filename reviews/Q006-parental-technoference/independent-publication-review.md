@@ -136,7 +136,7 @@ Kazali remains indirect/background because ages 3–12 are mixed and core constr
 2. review.mdのmethod noteから「fresh fixed update searchを今後行う」という古い文言を削除する。
 3. McDaniel & Radesky 2018 longitudinal evidenceをC006へ追加する。
 4. SUNRISEをC007 interaction-quality claimから外し、C001 outcome-specific null evidenceへ移す。
-5. StatusはPUBLISHEDにせずREVIEWを維持する。Publication Gateとdeployment validationは別工程とする。
+5. Research publication stateをPUBLISHEDとして同期し、Production deploymentは別工程として扱う。
 
 All required content changes above are applied in the same commit as this review.
 
@@ -154,4 +154,4 @@ All required content changes above are applied in the same commit as this review
 
 PASS_WITH_CHANGES
 
-必要変更を同じbranchで反映し、A〜EのGateを再確認したため、Q006はpublication gateを通過したものとしてPUBLISHEDへ移行する。Production反映はcurrent-head deployment validation後に別途行う。
+必要変更を同じbranchで反映し、A〜EのGateを再確認したため、Q006はpublication gateを通過したものとしてPUBLISHEDへ移行する。Production反映はdaily main release後にProduction SHA一致とsmokeを確認する別工程とする。

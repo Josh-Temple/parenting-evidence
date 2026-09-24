@@ -155,7 +155,8 @@ New records:
 2. Toledo-Vargas et al. 2026 SUNRISE, PMID 42289737, DOI 10.1111/cch.70305
    - 27 countries; N=2,232; mean age 4.2y
    - caregiver smartphone-use frequency not associated with gross/fine motor, working memory or inhibition after adjustment
-   - included as primary null evidence for C001/C007
+   - included as primary null evidence for C001 selected developmental outcomes
+   - it did not measure observed interaction quality and is not direct evidence for C007
    - materially strengthens the warning against a simple frequency-dose interpretation
 
 3. Kazali 2026, PMID 41217605
@@ -165,7 +166,7 @@ New records:
    - retained as indirect/background evidence, not primary evidence table
 
 Current-search conclusion:
-No newly identified record establishes long-term causal harm or a universal caregiver-use threshold. The SUNRISE null result strengthens exposure decomposition; Shen adds cross-sectional family-process evidence without resolving temporal direction.
+No newly identified record establishes long-term causal harm or a universal caregiver-use threshold. The SUNRISE null result adds outcome-specific evidence under C001 and strengthens exposure decomposition, but does not directly test observed interaction quality. Shen adds cross-sectional family-process evidence without resolving temporal direction.
 
 ## Search limitations
 
