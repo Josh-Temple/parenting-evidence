@@ -2,7 +2,8 @@
 
 Status: PUBLISHED  
 Last searched: 2026-09-23  
-Last source verification: 2026-09-23
+Last source verification: 2026-09-23  
+Last independent publication review: 2026-09-23
 
 ## 30秒で分かる結論
 

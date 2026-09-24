@@ -3,7 +3,7 @@
 Date: YYYY-MM-DD  
 Mode: independent reconstruction from major sources; existing Review conclusions are not assumed correct  
 Verdict: PENDING  
-Final state after required changes: REVIEW
+Final state after required changes: [REVIEW / PUBLISHED / HOLD]
 
 ## Scope
 
@@ -54,3 +54,5 @@ Difference from existing Review:
 ## Final decision
 
 PASS / PASS_WITH_CHANGES / HOLD
+
+If the final state is PUBLISHED, synchronize review.md, source-verification.md, and publication-gate.md before release preparation. Production deployment is a separate state.

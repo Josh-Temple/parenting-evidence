@@ -2,7 +2,7 @@
 
 Date: YYYY-MM-DD  
 Result: PENDING  
-Publication status: independent publication review pending
+Publication status: [DRAFT / REVIEW / PUBLISHED / UPDATE_DUE / ARCHIVED]
 
 ## Rechecked claims
 
@@ -44,6 +44,8 @@ Interpretation:
 
 PASS_FOR_REVIEW / PASS_WITH_CHANGES_FOR_REVIEW / HOLD
 
-## Remaining limitations before PUBLISHED
+## Current limitations and release boundaries
 
-- Independent publication review required.
+- [Permanent evidence limitation, unresolved HOLD, release boundary, or none.]
+
+Research publication state and Production deployment state must be tracked separately.
