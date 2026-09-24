@@ -64,6 +64,16 @@ if (regressionProbe.length !== 3) {
   fail("Publication-state regression self-test failed.");
 }
 
+const vercelConfig = JSON.parse(read("vercel.json"));
+const deploymentEnabled = vercelConfig?.git?.deploymentEnabled;
+if (
+  !deploymentEnabled ||
+  deploymentEnabled["**"] !== false ||
+  deploymentEnabled.main !== true
+) {
+  fail("vercel.json must disable all Git deployments with **: false and enable only main.");
+}
+
 const reviewsRoot = path.join(root, "reviews");
 const folders = fs
   .readdirSync(reviewsRoot, { withFileTypes: true })
