@@ -20,6 +20,8 @@ Therefore:
 - pull-request updates: **no Vercel Preview deployment**
 - `main`: Vercel deployment enabled
 
+Branch patterns use Vercel's minimatch rules. The catch-all rule must be `**: false`, not `*: false`, so branch names containing `/` (for example `research/...`, `hardening/...`, `release/...`) are also disabled.
+
 GitHub Actions remains the pre-merge validation path for non-main branches.
 
 ## Daily release rule
