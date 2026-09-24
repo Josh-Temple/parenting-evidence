@@ -15,7 +15,7 @@ const domains = [...new Set(reviews.map((review) => review.domain))];
       研究の種類、限界、日本の家庭への当てはまりまで確認できる形で整理します。
     </p>
     <p class="notice">
-      5件のパイロットレビューが独立確認を終え、公開可能な状態になっています。各ページでは結論だけでなく、主要研究と検索方法まで確認できます。
+      公開中のEvidence Reviewは独立確認を経ており、各ページで結論だけでなく、主要研究と検索方法まで確認できます。
     </p>
   </section>
 
@@ -70,7 +70,6 @@ const domains = [...new Set(reviews.map((review) => review.domain))];
               <div class="review-meta">
                 <span>{review.domain}</span>
                 <span>{review.ageLabel}</span>
-                <span>{review.statusLabel}</span>
               </div>
               <h3>{review.title}</h3>
               <p>{review.summary}</p>

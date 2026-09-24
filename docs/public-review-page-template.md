@@ -8,8 +8,7 @@
 
 対象: [age range]  
 分野: [domain]  
-最終検索: [YYYY-MM-DD]  
-Status: [Published / Draft]
+最終検索: [YYYY-MM-DD]
 
 ## 30秒で分かる結論
 
@@ -68,7 +67,7 @@ Status: [Published / Draft]
 |---|---|---|
 | ... | ... | ... |
 
-内部status codeをそのまま一般読者へ表示しない。
+研究側のpublication statusはPublication Gate用metadataとして保持し、公開ページには表示しない。
 
 ---
 

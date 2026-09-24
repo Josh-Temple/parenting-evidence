@@ -16,11 +16,11 @@
 
 ## Current status
 
-**Five-review pilot completed; production release prepared.**
+**Five-review pilot published; daily Production release policy active.**
 
-Q001〜Q005の5件について、主要出典のsource verificationと独立publication reviewを完了しています。Evidence Review Methodologyはv1.0 / ACTIVEです。
+Q001〜Q005の5件について、主要出典のsource verification、独立publication review、Publication Gateを完了しています。Evidence Review Methodologyはv1.0 / ACTIVEです。
 
-公開サイトはAstroによる静的サイトとして実装済みで、現在は5件をまとめたRelease PRのProduction反映を準備しています。各Reviewは診療ガイドラインや個別の医学的助言ではなく、現在の研究から分かること・分からないことを出典とともに整理したEvidence Reviewです。
+公開サイトはAstroによる静的サイトとしてVercel Productionへ反映済みです。研究上の `PUBLISHED` とProduction deploymentは別状態として管理し、変更がある日だけJSTで1日最大1回のreleaseを行います。各Reviewは診療ガイドラインや個別の医学的助言ではなく、現在の研究から分かること・分からないことを出典とともに整理したEvidence Reviewです。
 
 ## Initial scope
 

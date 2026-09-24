@@ -1,6 +1,6 @@
 # Site MVP Specification v1.0
 
-Status: IMPLEMENTED_FOR_FIVE_REVIEW_PILOT
+Status: IMPLEMENTED / FIVE_REVIEW_PILOT_PUBLISHED
 
 ## 1. Product purpose
 
@@ -59,7 +59,6 @@ MVPでは専門家向け臨床データベースを目指さない。
 - 分野
 - 30秒結論の1〜2文
 - Last searched
-- Status
 
 Evidenceを星、点数、Strong/Weakの一語ラベルでランキングしない。
 
@@ -76,7 +75,7 @@ Evidenceを星、点数、Strong/Weakの一語ラベルでランキングしな�
 5. 家庭ではどう考えるか
 6. 医療・安全上の境界（必要なReviewのみ）
 7. Claim summary
-8. Last searched / status
+8. Last searched
 
 #### Audit Layer
 
@@ -128,7 +127,7 @@ Example:
 | 読み聞かせ頻度と言語能力には関連がある | 正の関連は比較的一貫 | 主に観察研究 |
 | 特別な読み方が通常読み聞かせより優れる | まだ不明確 | active controlとの差が小さい |
 
-内部status codeはデータ管理に使えるが、一般読者には自然な日本語へ変換する。
+Claim-levelの内部status codeはデータ管理に使えるが、研究ワークフローのpublication statusは一般読者向けUIに表示しない。Claimの意味を示す場合は自然な日本語へ変換する。
 
 例:
 - SUPPORTED_AS_ASSOCIATION -> 「関連は比較的一貫して確認されています」

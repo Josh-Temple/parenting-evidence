@@ -22,11 +22,19 @@ function meta(markdown, label) {
 }
 
 function section(markdown, heading) {
-  const pattern = new RegExp(
-    "^##\\s+" + heading + "\\s*$([\\s\\S]*?)(?=^##\\s+|$)",
-    "mi"
-  );
-  return markdown.match(pattern)?.[1]?.trim() ?? "";
+  const lines = markdown.split(/\\r?\\n/);
+  const start = lines.findIndex((line) => line.trim() === `## ${heading}`);
+  if (start === -1) return "";
+
+  let end = lines.length;
+  for (let index = start + 1; index < lines.length; index += 1) {
+    if (/^##\\s+/.test(lines[index])) {
+      end = index;
+      break;
+    }
+  }
+
+  return lines.slice(start + 1, end).join("\\n").trim();
 }
 
 function publicationStateProblems(status, sourceVerification, independentReview) {

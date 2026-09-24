@@ -13,8 +13,6 @@ type ReviewConfig = {
 export type ReviewSummary = ReviewConfig & {
   title: string;
   summary: string;
-  status: string;
-  statusLabel: string;
   lastSearched: string;
   searchText: string;
 };
@@ -115,13 +113,6 @@ function truncate(text: string, max = 190): string {
   return `${text.slice(0, max).trim()}…`;
 }
 
-function statusLabel(status: string): string {
-  if (status.toUpperCase().includes("DRAFT")) return "調査草稿";
-  if (status.toUpperCase().includes("PUBLISHED")) return "公開";
-  if (status.toUpperCase().includes("REVIEW")) return "確認中";
-  return status || "状態未設定";
-}
-
 function renderMarkdown(markdown: string): string {
   return marked.parse(markdown, {
     async: false,
@@ -158,15 +149,12 @@ function buildSummary(config: ReviewConfig): ReviewSummary {
   const markdown = getReviewMarkdown(config);
   const title = extractTitle(markdown);
   const summary = truncate(plainText(extractSection(markdown, "30秒で分かる結論")));
-  const status = extractMeta(markdown, "Status");
   const lastSearched = extractMeta(markdown, "Last searched");
 
   return {
     ...config,
     title,
     summary,
-    status,
-    statusLabel: statusLabel(status),
     lastSearched,
     searchText: [title, summary, config.domain, config.ageLabel].join(" ").toLowerCase()
   };
