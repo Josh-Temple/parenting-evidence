@@ -130,6 +130,38 @@ for (const folder of folders) {
     fail(folder + " has invalid or missing Last source verification.");
   }
 
+  if (status === "REVIEW" && independentReviewed !== "pending") {
+    if (!independentReviewed.match(/^\d{4}-\d{2}-\d{2}$/)) {
+      fail(folder + " is REVIEW with completed independent review but the review date is invalid.");
+    }
+
+    if (!exists("reviews", folder, "independent-publication-review.md")) {
+      fail(folder + " is REVIEW with completed independent review but independent-publication-review.md is missing.");
+    } else {
+      const independent = read("reviews", folder, "independent-publication-review.md");
+
+      if (!/^Verdict:\s*(PASS|PASS_WITH_CHANGES)\s*$/mi.test(independent)) {
+        fail(folder + " completed independent review does not have a passing verdict.");
+      }
+
+      if (!/^Final state after required changes:\s*REVIEW\s*$/mi.test(independent)) {
+        fail(folder + " is REVIEW but independent review final state is not REVIEW.");
+      }
+
+      if (!/^Publication status:\s*REVIEW\b/mi.test(sourceVerification)) {
+        fail(folder + " is REVIEW but source verification publication status is not REVIEW.");
+      }
+    }
+
+    if (publicationGate.includes("- " + qid + ": PUBLISHED")) {
+      fail(qid + " is REVIEW but publication-gate.md marks it PUBLISHED.");
+    }
+
+    if (configuredFolders.includes(folder)) {
+      fail(folder + " is REVIEW but is already exposed in site REVIEW_CONFIGS.");
+    }
+  }
+
   if (status === "PUBLISHED") {
     publishedCount += 1;
 
