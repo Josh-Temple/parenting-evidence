@@ -3,7 +3,7 @@
 Date: 2026-09-26  
 Result: PASS_FOR_REVIEW  
 Publication status: REVIEW  
-Independent publication review: pending  
+Independent publication review: completed 2026-09-26  
 Publication Gate: pending
 
 ## Rechecked claims
@@ -157,7 +157,7 @@ PASS_FOR_REVIEW
 - no project-wide formal risk-of-bias tool
 - direct high-quality comparison of broad methods remains limited
 - Japan-specific comparative intervention evidence remains limited
-- independent publication review pending
+- independent publication review completed 2026-09-26 with PASS_WITH_CHANGES; required Reader Layer change reflected
 - Publication Gate pending
 - Q008 is not exposed in site config
 
