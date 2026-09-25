@@ -1,6 +1,6 @@
 # 早くから英語も聞かせると、日本語の発達が遅れるか
 
-Status: DRAFT  
+Status: REVIEW  
 Last searched: 2026-09-26  
 Last source verification: 2026-09-26  
 Last independent publication review: pending
@@ -156,4 +156,4 @@ bilingual childにもdevelopmental language disorderや他のlanguage difficulty
 
 ## Method note
 
-このページはde novo systematic reviewではありません。2026-09-26までのtargeted evidence reviewとして、bilingual milestone、language-specific exposure、cross-language vocabulary measurement、assessment boundaryを分けて確認しています。現在はformal DRAFTで、independent publication reviewとPublication Gateは未実施です。
+このページはde novo systematic reviewではありません。2026-09-26までのtargeted evidence reviewとして、bilingual milestone、language-specific exposure、cross-language vocabulary measurement、assessment boundaryを分けて確認しています。branch-level source verificationは2026-09-26に完了し、現在はREVIEWです。independent publication reviewとPublication Gateは未実施です。
