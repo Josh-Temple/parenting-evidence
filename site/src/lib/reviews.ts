@@ -67,6 +67,13 @@ const REVIEW_CONFIGS: ReviewConfig[] = [
     domain: "スクリーン",
     ageLabel: "0〜6歳",
     ageBands: ["0-1", "1-3", "3-6"]
+  },
+  {
+    slug: "repeated-food-exposure",
+    folder: "Q007-repeated-food-exposure",
+    domain: "食事・栄養",
+    ageLabel: "離乳開始後〜6歳",
+    ageBands: ["0-1", "1-3", "3-6"]
   }
 ];
 
