@@ -2,7 +2,9 @@
 
 Date: 2026-09-24  
 Result: PASS_FOR_PUBLICATION  
-Publication status: independent publication review completed 2026-09-24; Publication Gate passed
+Publication status: PUBLISHED
+Independent publication review: completed 2026-09-24
+Publication Gate: passed
 
 ## Rechecked claims
 
