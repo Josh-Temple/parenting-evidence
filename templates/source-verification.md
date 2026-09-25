@@ -2,7 +2,9 @@
 
 Date: YYYY-MM-DD  
 Result: PENDING  
-Publication status: [DRAFT / REVIEW / PUBLISHED / UPDATE_DUE / ARCHIVED]
+Publication status: [DRAFT / REVIEW / PUBLISHED / UPDATE_DUE / ARCHIVED]  
+Independent publication review: pending / completed YYYY-MM-DD  
+Publication Gate: pending / passed / not-applicable
 
 ## Rechecked claims
 
