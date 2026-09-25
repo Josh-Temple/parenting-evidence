@@ -12,6 +12,7 @@ Last updated: 2026-09-26
 | C1 | Hong Kong TIK 2021 | RCT; N=104; age 3–6 | TIK | waitlist | parenting / child outcomes | improvement direction | parent report prominent | non-Western direct evidence | Hong Kong ≠ Japan | C007 |
 | U1 | Switzerland online TIK 2024 | RCT; N=141; age 3–6 | online TIK | waitlist | beliefs/reactions, family climate, child internalizing/externalizing | improvements; child effects small | parent report | post-cutoff update | waitlist / reporter | C001,C003,C007 |
 | U2 | China pilot 2025 | pilot RCT; N=73 preschool parents | 4-week emotion-focused program + shared reading | waitlist | emotion reactions / interaction / stress | some immediate improvement in both groups; selected delayed effects | parent report | non-Western update | small / mixed pattern / multicomponent | C001,C005,C007 |
+| M2 | Zahl-Olsen et al. 2023 broader review | 33 studies of emotionally oriented parent interventions | mixed, predominantly TIK variants | 23 randomized: 14 waitlist / 9 other controls | broader parent/child outcomes | small-to-medium overall pattern | mixed | 25/33 TIK variants; Havighurst author on 23/25 TIK studies | research-team concentration; heterogeneous interventions | C008,C009 |
 | J1 | Japan observational | N=300 Japanese-speaking married mothers; child age 2–5 | natural emotion socialization variation | observational | coaching/dismissing determinants | maternal ER, anxiety/depression, alliance associated with patterns | maternal report | Japan construct relevance | not intervention efficacy | C007 |
 
 ## Quantitative anchor
@@ -57,7 +58,7 @@ Do not treat parent-rated and teacher-rated change as interchangeable.
 
 ## Developer / network boundary
 
-TIK-family evidence contains substantial developer/research-team involvement.
+TIK-family evidence contains substantial developer/research-team involvement. In the broader 2023 review, 25/33 studies examined TIK variants and Sophie Havighurst was an author on 23/25 of those TIK studies. Among 23 randomized studies, 14 used waitlist controls and 9 used other controls.
 
 This does not invalidate the evidence.
 
