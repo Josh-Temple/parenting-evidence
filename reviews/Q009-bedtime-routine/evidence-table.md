@@ -4,7 +4,7 @@ Last updated: 2026-09-26
 
 | ID | Source | Design / population | Intervention / exposure | Comparator | Main result | Measurement / follow-up | Funding / conflict context | Main limitation | Claim |
 |---|---|---|---|---|---|---|---|---|---|
-| A1 | Mindell 2009 | 2 randomized age-specific studies; N=405; 7–36m | consistent bedtime-routine package | usual routine/control | improved SOL, night waking number/duration, continuity; maternal mood improved | parent-report centered; 3 weeks | Johnson & Johnson support / author ties | short duration; package-level effect | C001, C006 |
+| A1 | Mindell 2009 | 2 randomized age-specific studies; N=405; 7–36m | consistent bedtime-routine package | usual routine/control | improved SOL, night waking number/duration, continuity; maternal mood improved | parent-report centered; 3 weeks | Johnson & Johnson support / author ties | baseline sleep imbalances after randomization; analyses emphasized within-group change; short duration; package-level effect | C001, C006 |
 | A2 | Mindell & Williamson 2018 | review | bedtime routines | synthesis | supports sleep-health role; broader developmental pathways discussed | mixed evidence | overlapping research network | not direct causal evidence for broad outcomes | C001, C005 |
 | A3 | Mindell 2015 | multinational observational; N=10,085; age 0–5 | routine frequency/consistency | lower consistency/frequency | more consistent routine associated with better sleep | parent report; cross-sectional | J&J sponsorship / author ties | confounding / reverse causation | C002, C007 |
 | L1 | longitudinal cohort; PMID 33624804 | n=468; 3/12/18/24m | routine consistency / adaptive activities | longitudinal variation | partial cross-lag links to later waking/problems/sleep duration | repeated parent report | not used as direct intervention evidence | reciprocal pathways remain | C002 |
@@ -20,6 +20,8 @@ Last updated: 2026-09-26
 - infant 7–18m: n=206
 - toddler 18–36m: n=199
 - 3-week randomized studies
+- baseline differences existed for several sleep variables despite randomization
+- primary reporting emphasized within-group repeated-measures change; do not overstate a clean between-group effect estimate
 - package effect only
 - parent-report sleep
 - short-term outcome
