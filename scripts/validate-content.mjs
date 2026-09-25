@@ -124,6 +124,16 @@ for (const folder of folders) {
   const sourceVerification = exists("reviews", folder, "source-verification.md")
     ? read("reviews", folder, "source-verification.md")
     : "";
+  const sourcePublicationStatus = sourceVerification
+    ? meta(sourceVerification, "Publication status")
+    : "";
+  const allowedPublicationStates = new Set([
+    "DRAFT",
+    "REVIEW",
+    "PUBLISHED",
+    "UPDATE_DUE",
+    "ARCHIVED"
+  ]);
 
   if (!lastSearched.match(/^\d{4}-\d{2}-\d{2}$/)) {
     fail(folder + " has invalid or missing Last searched.");
@@ -131,6 +141,16 @@ for (const folder of folders) {
 
   if (!sourceVerified.match(/^\d{4}-\d{2}-\d{2}$/)) {
     fail(folder + " has invalid or missing Last source verification.");
+  }
+
+  if (!allowedPublicationStates.has(status)) {
+    fail(folder + " has invalid review Status: " + status + ".");
+  }
+
+  if (!allowedPublicationStates.has(sourcePublicationStatus)) {
+    fail(folder + " has invalid source-verification Publication status: " + sourcePublicationStatus + ".");
+  } else if (sourcePublicationStatus !== status) {
+    fail(folder + " review Status and source-verification Publication status do not match.");
   }
 
   if (status === "REVIEW" && independentReviewed !== "pending") {
