@@ -24,6 +24,8 @@ Branch patterns use Vercel's minimatch rules. The catch-all rule must be `**: fa
 
 GitHub Actions remains the pre-merge validation path for non-main branches.
 
+A branch push that unexpectedly creates a Vercel Preview is a release-control failure. Stop further release work for that branch, record the deployment, and verify the branch-pattern configuration before continuing.
+
 ## Daily release rule
 
 1. Work may continue on non-main branches throughout the day.
