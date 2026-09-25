@@ -1,8 +1,8 @@
 # 子どもの感情を受け止めて言葉にする「emotion coaching」は役立つか
 
-Status: DRAFT  
+Status: REVIEW  
 Last searched: 2026-09-26  
-Last source verification: pending  
+Last source verification: 2026-09-26  
 Last independent publication review: pending
 
 ## 30秒で分かる結論
@@ -213,7 +213,7 @@ immediate post-interventionでは、
 
 emotion coaching evidenceではTuning in to Kids familyの比重が大きい。
 
-broader 2023 reviewでは、多数のstudyがTIK variantsで、program developer/research-team involvementが高いことが指摘されています。
+broader 2023 reviewでは33 studiesのうち25がTIK variantsで、その25 studiesのうち23でSophie Havighurstがauthorに含まれていました。また、23 randomized studiesのうち14はwaitlist、9はその他のcontrolでした。program developer/research-team involvementとcomparator strengthの集中を分けて確認する必要があります。
 
 これはpositive findingsを無効にする理由ではありません。
 
@@ -266,4 +266,4 @@ Q010はgeneral parenting support / preventive interventionのreviewです。
 
 ## Method note
 
-このページはde novo systematic reviewではありません。2023 RCT meta-analysisをprimary quantitative anchorとし、2026-09-26までのtargeted updateと主要出典の再確認を行っています。現在はformal DRAFTで、branch-level source verification、独立publication review、Publication Gateは未完了です。
+このページはde novo systematic reviewではありません。2023 RCT meta-analysisをprimary quantitative anchorとし、2026-09-26までのtargeted updateと主要出典の再確認を行っています。branch-level source verificationは2026-09-26に完了し、現在はREVIEWです。独立publication reviewとPublication Gateは未完了です。
