@@ -1,7 +1,7 @@
 # Publication Gate v0.1
 
 Status: ACTIVE  
-Updated: 2026-09-25
+Updated: 2026-09-26
 
 ## Purpose
 
@@ -73,7 +73,8 @@ Evidence Reviewを `PUBLISHED` に変更する前に、調査量ではなく、�
 - Q004: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; under-6-month evidence reclassified as mixed / insufficient for extension
 - Q005: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; quality interpretation refined and 2024 update evidence added
 - Q006: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; bidirectional longitudinal evidence added; SUNRISE null evidence limited to outcome-specific interpretation
-- Independent publication review: Q001–Q006 completed
+- Q007: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; target-food benefit retained with age/generalization, schedule, guidance, and clinical-feeding boundaries
+- Independent publication review: Q001–Q007 completed
 - Production release: tracked separately under the once-daily JST deployment policy
 
-Evidence ReviewとしてQ001〜Q006はpublication gateを通過している。Production反映状況はresearch publication stateとは別にrelease recordで確認する。
+Evidence ReviewとしてQ001〜Q007はpublication gateを通過している。Production反映状況はresearch publication stateとは別にrelease recordで確認する。
