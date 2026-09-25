@@ -41,6 +41,9 @@ function publicationStateProblems(status, sourceVerification, independentReview)
   if (status !== "PUBLISHED") return [];
   const problems = [];
 
+  if (!/^Publication status:\s*PUBLISHED\b/mi.test(sourceVerification)) {
+    problems.push("source verification publication status is not PUBLISHED.");
+  }
   if (/Publication status:\s*.*publication review pending/i.test(sourceVerification)) {
     problems.push("source verification still says publication review pending.");
   }
@@ -60,7 +63,7 @@ const regressionProbe = publicationStateProblems(
   "Publication status: independent publication review pending\n\n## Remaining limitations before PUBLISHED",
   "## Required changes\n\n1. StatusはPUBLISHEDにせずREVIEWを維持する。\n\n## Final decision\nPASS_WITH_CHANGES"
 );
-if (regressionProbe.length !== 3) {
+if (regressionProbe.length !== 4) {
   fail("Publication-state regression self-test failed.");
 }
 
