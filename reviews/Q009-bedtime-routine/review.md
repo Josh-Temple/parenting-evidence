@@ -1,8 +1,8 @@
 # 毎晩、決まった就寝前ルーティンを作ると、乳幼児の睡眠は良くなるか
 
-Status: DRAFT  
+Status: REVIEW  
 Last searched: 2026-09-26  
-Last source verification: pending  
+Last source verification: 2026-09-26  
 Last independent publication review: pending
 
 ## 30秒で分かる結論
@@ -38,10 +38,11 @@ consistent bedtime routineを導入した群では、control/usual-routine群と
 ただし、
 - 3週間と短い
 - sleep outcomeは主にparent report
+- randomization後もbaselineの一部sleep指標に群間差があり、主要解析は各群内の経時変化を中心にしている
 - multi-component routine packageで、どのactivityが効果を生んだか分からない
 - Johnson & Johnson Consumer Companiesによる支援とauthor tiesがある
 
-という境界を残します。資金提供や利益相反は研究を自動的に無効にするものではありませんが、同じresearch networkからの複数研究を完全に独立した再現と数えない。
+という境界を残します。したがって、単一のcleanなbetween-group effect estimateとして強く扱わず、短期のdirect intervention evidenceとして限定的に位置づけます。資金提供や利益相反は研究を自動的に無効にするものではありませんが、同じresearch networkからの複数研究を完全に独立した再現と数えない。
 
 ## consistency / frequencyの観察研究
 
@@ -213,4 +214,4 @@ bedtime routineとlanguage、attachment、executive function、social-emotional 
 
 ## Method note
 
-このページはde novo systematic reviewではありません。2009 RCT、2018 reviewをanchorとし、2026-09-26までのtargeted updateと主要出典の再確認を行っています。現在はformal DRAFTで、branch-level source verification、独立publication review、Publication Gateは未完了です。
+このページはde novo systematic reviewではありません。2009 RCT、2018 reviewをanchorとし、2026-09-26までのtargeted updateと主要出典の再確認を行っています。branch-level source verificationは2026-09-26に完了し、現在はREVIEWです。独立publication reviewとPublication Gateは未完了です。
