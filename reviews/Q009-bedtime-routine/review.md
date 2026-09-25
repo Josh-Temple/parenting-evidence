@@ -3,7 +3,7 @@
 Status: REVIEW  
 Last searched: 2026-09-26  
 Last source verification: 2026-09-26  
-Last independent publication review: pending
+Last independent publication review: 2026-09-26
 
 ## 30秒で分かる結論
 
