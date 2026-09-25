@@ -1,10 +1,10 @@
 # Q007 Source Verification — Pass 1
 
 Date: 2026-09-25  
-Result: PASS_FOR_REVIEW  
-Publication status: REVIEW
+Result: PASS_FOR_PUBLICATION  
+Publication status: PUBLISHED
 Independent publication review: completed 2026-09-25
-Publication Gate: pending
+Publication Gate: passed 2026-09-26
 
 ## Rechecked claims
 
@@ -182,7 +182,7 @@ PASS_FOR_REVIEW
 - fixed update-search counts are search-interface counts, not PubMed database totals
 - no comprehensive Japanese database search
 - no dual screening / formal project-wide risk-of-bias tool
-- independent publication review completed 2026-09-25 with PASS_WITH_CHANGES; Publication Gate remains required before PUBLISHED
+- independent publication review completed 2026-09-25 with PASS_WITH_CHANGES; required changes reflected; Publication Gate passed 2026-09-26
 - Production release is a separate state
 
 Research publication state and Production deployment state are tracked separately.
