@@ -3,11 +3,11 @@
 Status: REVIEW  
 Last searched: 2026-09-26  
 Last source verification: 2026-09-26  
-Last independent publication review: pending
+Last independent publication review: 2026-09-26
 
 ## 30秒で分かる結論
 
-乳幼児期から二言語に触れること自体が、初語や初期の語の組み合わせなどを全体として遅らせる、という単純な証拠はありません。2025年の縦断研究では、両言語での発話を合わせて評価すると、bilingual childrenとmonolingual peersで、babbling、first word、10th word、first multiword utteranceなどの到達時期に明確な差は確認されませんでした。
+乳幼児期から、家庭や保育などで意味のある二言語のやり取りに継続的に触れること自体が、初語や初期の語の組み合わせなどを全体として遅らせる、という単純な証拠はありません。2025年の縦断研究では、両言語での発話を合わせて評価すると、bilingual childrenとmonolingual peersで、babbling、first word、10th word、first multiword utteranceなどの到達時期に明確な差は確認されませんでした。
 
 一方、各言語でどの程度語彙や文法が育つかは、その言語をどれだけ・どのような質で聞き、使うかに左右されます。日本語だけを話す同年齢児と比べると、日本語単独の語彙が少なく見える場合はありますが、それだけで「二言語だから全体の発達が遅れた」とは判断できません。
 
