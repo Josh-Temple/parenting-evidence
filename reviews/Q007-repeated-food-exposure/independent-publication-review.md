@@ -3,7 +3,7 @@
 Date: 2026-09-25  
 Mode: independent reconstruction from major sources; existing Review conclusions were not assumed correct  
 Verdict: PASS_WITH_CHANGES  
-Final state after required changes: REVIEW
+Final state after required changes: PUBLISHED
 
 ## Scope
 
@@ -158,7 +158,7 @@ AAP practical guidance was added only to support the household-guidance layer an
 2. Clarify that clinical structured exposure is not equivalent to generic home repeated offering.
 3. Attribute "do not force / low-pressure re-offering" to pediatric practical guidance rather than to repeated-exposure effect estimates.
 4. Keep all numeric try-count language out of the evidence conclusion.
-5. Keep research publication state at REVIEW until Publication Gate is run after PR #20 is canonical on main.
+5. Run Publication Gate only after PR #20 is canonical on main; this condition was satisfied on 2026-09-26 before the state transition to PUBLISHED.
 
 All five changes are reflected in the current PR #21 branch.
 
@@ -174,4 +174,4 @@ All five changes are reflected in the current PR #21 branch.
 
 PASS_WITH_CHANGES
 
-The central evidence synthesis is suitable to proceed to Publication Gate after PR #20 becomes canonical on main. Current state remains REVIEW, not PUBLISHED. Production release remains a separate state.
+The central evidence synthesis passed the final Publication Gate on 2026-09-26 after PR #20 became canonical on main. Final research publication state: PUBLISHED. Production release remains a separate state.
