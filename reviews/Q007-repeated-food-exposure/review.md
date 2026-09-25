@@ -1,6 +1,6 @@
 # 偏食の子に同じ食材を繰り返し出すと、食べられるようになるか
 
-Status: REVIEW  
+Status: PUBLISHED  
 Last searched: 2026-09-24  
 Last source verification: 2026-09-25  
 Last independent publication review: 2026-09-25
@@ -126,4 +126,4 @@ Pediatric Feeding Disorderは、年齢に適さない経口摂取の障害に、
 
 ## Method note
 
-このページはsystematic reviewではありません。検索方法と制約は search-strategy.md、主要資料の抽出結果は evidence-table.md に記録しています。2026-09-24のfixed update search、2026-09-25のformal source verification、独立publication reviewを反映したREVIEWです。Publication Gateは未実施であり、PUBLISHEDではありません。
+このページはsystematic reviewではありません。検索方法と制約は search-strategy.md、主要資料の抽出結果は evidence-table.md に記録しています。2026-09-24のfixed update search、2026-09-25のformal source verification、独立publication reviewを反映し、2026-09-26のPublication Gateを通過しています。研究上のpublication stateはPUBLISHEDです。Productionへの反映はdaily release policyに従う別工程です。
