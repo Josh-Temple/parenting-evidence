@@ -3,7 +3,7 @@
 Date: 2026-09-26  
 Result: PASS_FOR_REVIEW  
 Publication status: REVIEW  
-Independent publication review: pending  
+Independent publication review: completed 2026-09-26  
 Publication Gate: pending
 
 ## 1. Muszyńska et al. 2025 — early milestones
@@ -127,7 +127,7 @@ PASS_FOR_REVIEW
 - strongest direct evidence comes from non-Japanese language pairs
 - input definitions and language contexts vary
 - parent-reported milestones have measurement/attrition limitations
-- independent publication review pending
+- independent publication review completed 2026-09-26 with PASS_WITH_CHANGES; required changes reflected
 - Publication Gate pending
 - Q011 is not exposed in site config
 
