@@ -2,7 +2,8 @@
 
 Status: DRAFT  
 Last searched: YYYY-MM-DD  
-Last source verification: pending
+Last source verification: pending  
+Last independent publication review: pending
 
 ## 30秒で分かる結論
 

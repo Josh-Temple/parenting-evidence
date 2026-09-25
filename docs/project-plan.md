@@ -1,6 +1,6 @@
 # Project Plan v1.0
 
-Status: PILOT_COMPLETED / NEXT_PHASE_PLANNING
+Status: PILOT_PUBLISHED / HARDENING_AND_NEXT_PHASE
 
 ## Goal
 
@@ -62,9 +62,9 @@ Pilot は「人気テーマ5件」ではなく、異なる研究デザイン・�
 
 ## Next phase
 
-Production反映後は、記事数を急増させる前に次を優先する。
+Production反映は完了済み。記事数を急増させる前に次を優先する。
 
-1. 公開後smoke testとProduction SHA確認
+1. daily release運用、公開後smoke test、Production SHA確認の継続
 2. 実際の検索・閲覧で見つかる欠落質問の収集
 3. 更新作業の人間時間と再現性の測定
 4. Q006以降の候補をpain / evidence availability / Japan applicabilityで選定

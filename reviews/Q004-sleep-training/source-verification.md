@@ -2,7 +2,8 @@
 
 Date: 2026-09-23  
 Result: PASS_WITH_LIMITATIONS_FOR_REVIEW  
-Publication status: independent publication review completed 2026-09-23; see `independent-publication-review.md`
+Publication status: PUBLISHED
+Independent publication review: independent publication review completed 2026-09-23; see `independent-publication-review.md`
 
 ## Rechecked claims
 
@@ -168,9 +169,9 @@ PASS WITH LIMITATIONS:
 - Japan safe-sleep guidance is separated from overseas efficacy evidence
 - no claim is made that one method is best
 
-## Remaining limitations before PUBLISHED
+## Current limitations and release boundaries
 
-- Independent publication review completed 2026-09-23; required changes are reflected in the publication-review branch.
+- Independent publication review completed 2026-09-23; publication-state requirements are complete.
 - Japan-specific efficacy evidence is limited.
 - The intervention literature is heterogeneous.
 - Rare harms and subtle long-term effects cannot be excluded by the available follow-up studies.

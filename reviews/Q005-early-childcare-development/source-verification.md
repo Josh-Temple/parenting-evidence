@@ -2,7 +2,8 @@
 
 Date: 2026-09-23  
 Result: PASS_WITH_LIMITATIONS_FOR_REVIEW  
-Publication status: independent publication review completed 2026-09-23; see `independent-publication-review.md`
+Publication status: PUBLISHED
+Independent publication review: independent publication review completed 2026-09-23; see `independent-publication-review.md`
 
 ## Rechecked claims
 
@@ -194,9 +195,9 @@ PASS WITH LIMITATIONS:
 - hours do not become a threshold rule
 - attachment language is nonabsolute
 
-## Remaining limitations before PUBLISHED
+## Current limitations and release boundaries
 
-- Independent publication review completed 2026-09-23; required changes are reflected in the publication-review branch.
+- Independent publication review completed 2026-09-23; publication-state requirements are complete.
 - No de novo systematic search with dual screening.
 - Childcare systems differ markedly across countries.
 - Japan evidence after age 3 remains limited in the anchor study.

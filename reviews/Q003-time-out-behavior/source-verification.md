@@ -2,7 +2,8 @@
 
 Date: 2026-09-23  
 Result: PASS_WITH_CHANGES_FOR_REVIEW  
-Publication status: independent publication review completed 2026-09-23; see `independent-publication-review.md`
+Publication status: PUBLISHED
+Independent publication review: independent publication review completed 2026-09-23; see `independent-publication-review.md`
 
 ## Rechecked claims
 

@@ -8,9 +8,12 @@ Deployment policy: `docs/vercel-daily-deployment-policy.md`
 
 For every review included in the release:
 
-- [ ] publication state is internally consistent
+- [ ] `review.md` Status uses an allowed state: DRAFT / REVIEW / PUBLISHED / UPDATE_DUE / ARCHIVED
+- [ ] `source-verification.md` Publication status uses the same allowed state
+- [ ] `review.md` Status and `source-verification.md` Publication status match exactly
 - [ ] required source verification is complete
 - [ ] required independent publication review is complete
+- [ ] independent-review final state matches the intended publication state
 - [ ] Publication Gate matches review metadata
 - [ ] Reader Layer and Evidence Table claim strength are aligned
 - [ ] no unresolved source-integrity HOLD
@@ -39,7 +42,10 @@ For every review included in the release:
 
 - [ ] fresh-read `main` SHA
 - [ ] fresh-read release PR head SHA
+- [ ] confirm release PR head still matches the last validated/frozen head, or rerun validation if it changed
+- [ ] confirm release PR is still mergeable
 - [ ] confirm no unexpected new commits / conflicts
+- [ ] confirm no non-main Preview deployment was created after the branch-deployment fix
 - [ ] merge to `main` once
 
 ## 5. Production validation
@@ -55,7 +61,17 @@ For every review included in the release:
 - [ ] representative source link opens
 - [ ] no raw metadata appears at article top
 
-## 6. Release record
+## 6. Dependent PR revalidation
+
+If another PR was stacked on the released branch:
+
+- [ ] fresh-read the dependent PR after the release becomes canonical
+- [ ] retarget/rebase it onto fresh `main`
+- [ ] verify the resulting diff contains only the dependent review/artifacts
+- [ ] rerun GitHub Actions against the canonical base
+- [ ] do not reuse pre-release CI as the final publication gate
+
+## 7. Release record
 
 Record:
 
@@ -66,7 +82,7 @@ Record:
 - [ ] smoke-test result
 - [ ] any correction / follow-up needed
 
-## 7. No-change day
+## 8. No-change day
 
 If no release changes exist:
 

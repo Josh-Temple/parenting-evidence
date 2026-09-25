@@ -1,7 +1,7 @@
 # Publication Gate v0.1
 
 Status: ACTIVE  
-Updated: 2026-09-23
+Updated: 2026-09-25
 
 ## Purpose
 
@@ -56,16 +56,24 @@ Evidence Reviewを `PUBLISHED` に変更する前に、調査量ではなく、�
 
 を確認し、`PASS` / `PASS_WITH_CHANGES` / `HOLD` を記録する。
 
+## Research publication state vs Production release
+
+`PUBLISHED` はEvidence ReviewがこのPublication Gateを通過した研究上の状態を表す。Vercel Productionへの反映済み／未反映とは別に管理する。
+
+- publication stateは `review.md`、source verification、independent publication review、Publication Gateで同期する
+- Production releaseは `docs/release-checklist.md` と `docs/vercel-daily-deployment-policy.md` に従う
+- reader-facing UIには内部publication statusラベルを表示しない
+
 ## Current pilot status
 
-2026-09-23時点:
+2026-09-25時点:
 - Q001: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; required changes applied
 - Q002: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; educational-content and co-viewing claims separated
 - Q003: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; source recency corrected and direct technique evidence retained within scope
 - Q004: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; under-6-month evidence reclassified as mixed / insufficient for extension
 - Q005: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; quality interpretation refined and 2024 update evidence added
-- Independent publication review: Q001–Q005 completed
-- GitHub Actions validation: passed for all five review branches before integration
-- Production deployment: pending while Vercel Hobby build-rate-limit remains active
+- Q006: PUBLISHED — independent publication review completed; PASS_WITH_CHANGES; bidirectional longitudinal evidence added; SUNRISE null evidence limited to outcome-specific interpretation
+- Independent publication review: Q001–Q006 completed
+- Production release: tracked separately under the once-daily JST deployment policy
 
-このため、Evidence ReviewとしてはQ001〜Q005の5件がpublication gateを通過している。Productionへの反映はdeployment capacity回復後にrelease branchからまとめて行う。
+Evidence ReviewとしてQ001〜Q006はpublication gateを通過している。Production反映状況はresearch publication stateとは別にrelease recordで確認する。

@@ -31,3 +31,6 @@ Question固定
 - program-level effectをcomponentへ帰属しない。
 - 「害が確認されない」を「安全」と書き換えない。
 - contradictory evidenceは消さずに理由を説明する。
+- `review.md` の `Status` は研究上のpublication stateであり、一般読者向けラベルやProduction deployment stateとして使わない。
+- independent publication review完了後は、final state、review metadata、source verification、publication gateを同期してからPUBLISHEDとする。
+- Production releaseは `docs/release-checklist.md` とdaily deployment policyに従う別工程とする。

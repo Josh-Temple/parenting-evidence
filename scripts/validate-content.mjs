@@ -21,6 +21,62 @@ function meta(markdown, label) {
   return markdown.match(pattern)?.[1]?.trim() ?? "";
 }
 
+function section(markdown, heading) {
+  const lines = markdown.split(/\r?\n/);
+  const start = lines.findIndex((line) => line.trim() === `## ${heading}`);
+  if (start === -1) return "";
+
+  let end = lines.length;
+  for (let index = start + 1; index < lines.length; index += 1) {
+    if (/^##\s+/.test(lines[index])) {
+      end = index;
+      break;
+    }
+  }
+
+  return lines.slice(start + 1, end).join("\n").trim();
+}
+
+function publicationStateProblems(status, sourceVerification, independentReview) {
+  if (status !== "PUBLISHED") return [];
+  const problems = [];
+
+  if (!/^Publication status:\s*PUBLISHED\b/mi.test(sourceVerification)) {
+    problems.push("source verification publication status is not PUBLISHED.");
+  }
+  if (/Publication status:\s*.*publication review pending/i.test(sourceVerification)) {
+    problems.push("source verification still says publication review pending.");
+  }
+  if (/^##\s+Remaining limitations before PUBLISHED\s*$/mi.test(sourceVerification)) {
+    problems.push("source verification retains a pre-PUBLISHED limitations heading.");
+  }
+
+  const requiredChanges = section(independentReview, "Required changes");
+  if (/REVIEW[^\n]*(?:維持|retain|keep)|(?:維持|retain|keep)[^\n]*REVIEW/i.test(requiredChanges)) {
+    problems.push("independent review required changes contradict PUBLISHED state.");
+  }
+  return problems;
+}
+
+const regressionProbe = publicationStateProblems(
+  "PUBLISHED",
+  "Publication status: independent publication review pending\n\n## Remaining limitations before PUBLISHED",
+  "## Required changes\n\n1. StatusはPUBLISHEDにせずREVIEWを維持する。\n\n## Final decision\nPASS_WITH_CHANGES"
+);
+if (regressionProbe.length !== 4) {
+  fail("Publication-state regression self-test failed.");
+}
+
+const vercelConfig = JSON.parse(read("vercel.json"));
+const deploymentEnabled = vercelConfig?.git?.deploymentEnabled;
+if (
+  !deploymentEnabled ||
+  deploymentEnabled["**"] !== false ||
+  deploymentEnabled.main !== true
+) {
+  fail("vercel.json must disable all Git deployments with **: false and enable only main.");
+}
+
 const reviewsRoot = path.join(root, "reviews");
 const folders = fs
   .readdirSync(reviewsRoot, { withFileTypes: true })
@@ -64,6 +120,20 @@ for (const folder of folders) {
   const status = meta(review, "Status");
   const lastSearched = meta(review, "Last searched");
   const sourceVerified = meta(review, "Last source verification");
+  const independentReviewed = meta(review, "Last independent publication review");
+  const sourceVerification = exists("reviews", folder, "source-verification.md")
+    ? read("reviews", folder, "source-verification.md")
+    : "";
+  const sourcePublicationStatus = sourceVerification
+    ? meta(sourceVerification, "Publication status")
+    : "";
+  const allowedPublicationStates = new Set([
+    "DRAFT",
+    "REVIEW",
+    "PUBLISHED",
+    "UPDATE_DUE",
+    "ARCHIVED"
+  ]);
 
   if (!lastSearched.match(/^\d{4}-\d{2}-\d{2}$/)) {
     fail(folder + " has invalid or missing Last searched.");
@@ -73,8 +143,54 @@ for (const folder of folders) {
     fail(folder + " has invalid or missing Last source verification.");
   }
 
+  if (!allowedPublicationStates.has(status)) {
+    fail(folder + " has invalid review Status: " + status + ".");
+  }
+
+  if (!allowedPublicationStates.has(sourcePublicationStatus)) {
+    fail(folder + " has invalid source-verification Publication status: " + sourcePublicationStatus + ".");
+  } else if (sourcePublicationStatus !== status) {
+    fail(folder + " review Status and source-verification Publication status do not match.");
+  }
+
+  if (status === "REVIEW" && independentReviewed !== "pending") {
+    if (!independentReviewed.match(/^\d{4}-\d{2}-\d{2}$/)) {
+      fail(folder + " is REVIEW with completed independent review but the review date is invalid.");
+    }
+
+    if (!exists("reviews", folder, "independent-publication-review.md")) {
+      fail(folder + " is REVIEW with completed independent review but independent-publication-review.md is missing.");
+    } else {
+      const independent = read("reviews", folder, "independent-publication-review.md");
+
+      if (!/^Verdict:\s*(PASS|PASS_WITH_CHANGES)\s*$/mi.test(independent)) {
+        fail(folder + " completed independent review does not have a passing verdict.");
+      }
+
+      if (!/^Final state after required changes:\s*REVIEW\s*$/mi.test(independent)) {
+        fail(folder + " is REVIEW but independent review final state is not REVIEW.");
+      }
+
+      if (!/^Publication status:\s*REVIEW\b/mi.test(sourceVerification)) {
+        fail(folder + " is REVIEW but source verification publication status is not REVIEW.");
+      }
+    }
+
+    if (publicationGate.includes("- " + qid + ": PUBLISHED")) {
+      fail(qid + " is REVIEW but publication-gate.md marks it PUBLISHED.");
+    }
+
+    if (configuredFolders.includes(folder)) {
+      fail(folder + " is REVIEW but is already exposed in site REVIEW_CONFIGS.");
+    }
+  }
+
   if (status === "PUBLISHED") {
     publishedCount += 1;
+
+    if (!independentReviewed.match(/^\d{4}-\d{2}-\d{2}$/)) {
+      fail(folder + " is PUBLISHED but Last independent publication review is missing or invalid.");
+    }
 
     if (!exists("reviews", folder, "independent-publication-review.md")) {
       fail(folder + " is PUBLISHED but independent-publication-review.md is missing.");
@@ -85,6 +201,10 @@ for (const folder of folders) {
       }
       if (!/^Final state after required changes:\s*PUBLISHED\s*$/mi.test(independent)) {
         fail(folder + " independent review does not end in PUBLISHED.");
+      }
+
+      for (const problem of publicationStateProblems(status, sourceVerification, independent)) {
+        fail(folder + " " + problem);
       }
     }
 
@@ -120,11 +240,13 @@ if (!q004Block.includes('ageBands: ["0-1", "1-3"]')) {
 }
 
 const staleChecks = [
-  ["README.md", /Research \/ design stage|最初の Pilot は/],
-  ["site/src/pages/index.astro", /現在は3件|独立確認前/],
-  ["site/src/pages/reviews/[slug].astro", /現在の3件|調査草稿です/],
-  ["site/src/pages/methodology.astro", /Q001〜Q003で見つかった問題/],
-  ["docs/site-mvp-spec.md", /3本とも主要出典|Methodology v0\.1/]
+  ["README.md", /Research \/ design stage|最初の Pilot は|production release prepared/i],
+  ["site/src/lib/reviews.ts", /statusLabel/],
+  ["site/src/pages/index.astro", /現在は3件|独立確認前|5件のパイロットレビュー/],
+  ["site/src/pages/reviews/[slug].astro", /現在の3件|現在の5件|調査草稿です|statusLabel/],
+  ["site/src/pages/methodology.astro", /Q001〜Q003で見つかった問題|Q001〜Q005の5件/],
+  ["docs/public-review-page-template.md", /^Status:\s*\[Published \/ Draft\]\s*$/m],
+  ["docs/site-mvp-spec.md", /3本とも主要出典|Methodology v0\.1|^- Status\s*$/m]
 ];
 
 for (const [file, pattern] of staleChecks) {
