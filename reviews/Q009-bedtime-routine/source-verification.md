@@ -3,7 +3,7 @@
 Date: 2026-09-26  
 Result: PASS_FOR_REVIEW  
 Publication status: REVIEW  
-Independent publication review: pending  
+Independent publication review: completed 2026-09-26  
 Publication Gate: pending
 
 ## 1. Mindell et al. 2009
@@ -159,7 +159,7 @@ PASS_FOR_REVIEW
 - no project-wide formal risk-of-bias tool
 - direct intervention evidence is limited and analytically imperfect
 - age/cultural transportability remains limited
-- independent publication review pending
+- independent publication review completed 2026-09-26 with PASS_WITH_CHANGES; required changes reflected
 - Publication Gate pending
 - Q009 is not exposed in site config
 
