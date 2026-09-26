@@ -3,7 +3,7 @@
 Date: 2026-09-26  
 Result: PASS_FOR_REVIEW  
 Publication status: REVIEW  
-Independent publication review: pending  
+Independent publication review: completed 2026-09-26  
 Publication Gate: pending
 
 ## 1. Thieme et al. 2022
@@ -167,7 +167,7 @@ PASS_FOR_REVIEW
 - no database-native search export / dual screening
 - direct randomized starting-age evidence in Japanese-primary children is limited
 - many long-term studies are observational and vulnerable to self-selection / cumulative-exposure confounding
-- independent publication review pending
+- independent publication review completed 2026-09-26 with PASS_WITH_CHANGES; required boundaries reflected
 - Publication Gate pending
 - Q012 is not exposed in site config
 
