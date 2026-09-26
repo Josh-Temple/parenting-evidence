@@ -1,8 +1,8 @@
 # 「頭がいいね」より「工夫したね」と褒める方がよいか
 
-Status: DRAFT  
+Status: REVIEW  
 Last searched: 2026-09-26  
-Last source verification: pending  
+Last source verification: 2026-09-26  
 Last independent publication review: pending
 
 ## 30秒で分かる結論
@@ -258,4 +258,4 @@ primary populationより年上ですが、feedback effectがcontext-dependentで
 
 ## Method note
 
-このページはde novo systematic reviewではありません。2026-09-26までのtargeted evidence reviewとして、experimental praise type、naturalistic parent praise、timing/context、behavioral reinforcementを分けて確認しています。現在はformal DRAFTです。
+このページはde novo systematic reviewではありません。2026-09-26までのtargeted evidence reviewとして、experimental praise type、naturalistic parent praise、timing/context、behavioral reinforcementを分けて確認しています。branch-level source verificationは2026-09-26に完了し、現在はREVIEWです。
