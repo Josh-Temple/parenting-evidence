@@ -1,6 +1,6 @@
 # 英語は幼児期から始めるほど、後の英語力が高くなるか
 
-Status: DRAFT  
+Status: REVIEW  
 Last searched: 2026-09-26  
 Last source verification: 2026-09-26  
 Last independent publication review: pending
@@ -224,4 +224,4 @@ early startはmeaningful experienceを長く積めるという意味では価値
 
 ## Method note
 
-このページはde novo systematic reviewではありません。2026-09-26までのtargeted evidence reviewとして、early-childhood programme、Japan-specific studies、instructed foreign-language age literature、phonology/critical-period evidenceを分けて確認しています。現在はformal DRAFTで、independent publication reviewとPublication Gateは未実施です。
+このページはde novo systematic reviewではありません。2026-09-26までのtargeted evidence reviewとして、early-childhood programme、Japan-specific studies、instructed foreign-language age literature、phonology/critical-period evidenceを分けて確認しています。branch-level source verificationは2026-09-26に完了し、現在はREVIEWです。independent publication reviewとPublication Gateは未実施です。
