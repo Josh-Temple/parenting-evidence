@@ -3,7 +3,7 @@
 Date: 2026-09-26  
 Result: PASS_FOR_REVIEW  
 Publication status: REVIEW  
-Independent publication review: pending  
+Independent publication review: completed 2026-09-26  
 Publication Gate: pending
 
 ## 1. Henderlong & Lepper 2002
