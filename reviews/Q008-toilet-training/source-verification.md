@@ -1,10 +1,10 @@
 # Q008 Source Verification — Pass 1
 
 Date: 2026-09-26  
-Result: PASS_FOR_REVIEW  
-Publication status: REVIEW  
+Result: PASS_FOR_PUBLICATION  
+Publication status: PUBLISHED  
 Independent publication review: completed 2026-09-26  
-Publication Gate: pending
+Publication Gate: PASSED 2026-09-29
 
 ## Rechecked claims
 
@@ -147,7 +147,7 @@ PASS.
 
 ## Result
 
-PASS_FOR_REVIEW
+PASS_FOR_PUBLICATION
 
 ## Current limitations and release boundaries
 
@@ -158,7 +158,7 @@ PASS_FOR_REVIEW
 - direct high-quality comparison of broad methods remains limited
 - Japan-specific comparative intervention evidence remains limited
 - independent publication review completed 2026-09-26 with PASS_WITH_CHANGES; required Reader Layer change reflected
-- Publication Gate pending
-- Q008 is not exposed in site config
+- Publication Gate passed 2026-09-29 after Q007 became canonical on main
+- Q008 is included in site config for the next eligible Production release
 
 Research publication state and Production deployment state are separate.

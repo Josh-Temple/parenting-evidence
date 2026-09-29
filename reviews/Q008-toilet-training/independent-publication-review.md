@@ -3,7 +3,7 @@
 Date: 2026-09-26  
 Mode: independent reconstruction from major sources; existing Review conclusions were not assumed correct  
 Verdict: PASS_WITH_CHANGES  
-Final state after required changes: REVIEW
+Final state after required changes: PUBLISHED
 
 ## Scope
 
@@ -145,4 +145,4 @@ Both changes are reflected in the current branch.
 
 PASS_WITH_CHANGES
 
-The evidence synthesis is suitable to proceed toward Publication Gate after its release dependency is canonical. Current research state remains REVIEW. Production release is a separate state.
+The Q007 release dependency is now canonical. After fresh canonical-base CI succeeded, Q008 passed the final Publication Gate on 2026-09-29. Current research state: PUBLISHED. Production release remains a separate state.

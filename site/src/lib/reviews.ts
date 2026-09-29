@@ -74,6 +74,13 @@ const REVIEW_CONFIGS: ReviewConfig[] = [
     domain: "食事・栄養",
     ageLabel: "離乳開始後〜6歳",
     ageBands: ["0-1", "1-3", "3-6"]
+  },
+  {
+    slug: "toilet-training",
+    folder: "Q008-toilet-training",
+    domain: "生活習慣",
+    ageLabel: "主に18か月〜4歳",
+    ageBands: ["1-3", "3-6"]
   }
 ];
 

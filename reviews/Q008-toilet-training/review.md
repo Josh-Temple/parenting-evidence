@@ -1,6 +1,6 @@
 # トイレトレーニングは、いつ・どの方法で始めるのがよいか
 
-Status: REVIEW  
+Status: PUBLISHED  
 Last searched: 2026-09-25  
 Last source verification: 2026-09-26  
 Last independent publication review: 2026-09-26
@@ -200,4 +200,4 @@ Huijgen et al. 2026のGeneration R cohort（6,850 parent-child pairs）では、
 
 ## Method note
 
-このページはde novo systematic reviewではありません。2021 systematic reviewをanchorに、2026-09-25までのtargeted updateと主要出典の再確認を行っています。branch-level source verificationは2026-09-26に完了し、現在はREVIEWです。独立publication reviewとPublication Gateはまだ実施していません。
+このページはde novo systematic reviewではありません。2021 systematic reviewをanchorに、2026-09-25までのtargeted updateと主要出典の再確認を行っています。branch-level source verificationは2026-09-26に完了し、独立publication reviewは同日にPASS_WITH_CHANGESとなりました。必要な修正を反映したうえで2026-09-29にPublication Gateを通過し、研究上の状態はPUBLISHEDです。Production releaseは別に管理します。

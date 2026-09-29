@@ -4,8 +4,9 @@ Parent-facing question:
 
 **トイレトレーニングは、いつ・どの方法で始めるのがよいか。**
 
-Research state: REVIEW  
-Formalized: 2026-09-26
+Research state: PUBLISHED  
+Formalized: 2026-09-26  
+Publication Gate: PASSED 2026-09-29
 
 ## Scope
 
@@ -34,4 +35,4 @@ Separate from primary inference:
 - `search-strategy.md` — search scope and limitations
 - `source-verification.md` — branch-level verification
 
-Independent publication review remains pending. Q008 is not in site configuration and is not PUBLISHED.
+Independent publication review completed 2026-09-26 with PASS_WITH_CHANGES. Required changes are reflected, Publication Gate passed on 2026-09-29, and Q008 is included in site configuration for the next eligible Production release. Production deployment is tracked separately from research publication state.
