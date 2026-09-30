@@ -3,7 +3,7 @@
 Date: 2026-09-26  
 Mode: independent reconstruction from major sources; existing Review conclusions were not assumed correct  
 Verdict: PASS_WITH_CHANGES  
-Final state after required changes: REVIEW
+Final state after required changes: PUBLISHED
 
 ## Scope
 
@@ -176,4 +176,4 @@ All five changes are reflected in the current branch.
 
 PASS_WITH_CHANGES
 
-Q009 is suitable for eventual Publication Gate preparation, but remains REVIEW. Publication Gate should not be run ahead of the current review sequence. Production release is a separate state.
+The Q008 release dependency is now canonical. After fresh canonical-base CI succeeded, Q009 passed the final Publication Gate on 2026-09-30. Current research state: PUBLISHED. Production release remains a separate state.

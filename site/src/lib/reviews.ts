@@ -81,6 +81,13 @@ const REVIEW_CONFIGS: ReviewConfig[] = [
     domain: "生活習慣",
     ageLabel: "主に18か月〜4歳",
     ageBands: ["1-3", "3-6"]
+  },
+  {
+    slug: "bedtime-routine",
+    folder: "Q009-bedtime-routine",
+    domain: "睡眠",
+    ageLabel: "主に6か月〜6歳",
+    ageBands: ["0-1", "1-3", "3-6"]
   }
 ];
 

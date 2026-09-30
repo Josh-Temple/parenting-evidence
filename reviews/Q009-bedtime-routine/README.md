@@ -4,8 +4,9 @@ Parent-facing question:
 
 **毎晩、決まった就寝前ルーティンを作ると、乳幼児の睡眠は良くなるか。**
 
-Research state: DRAFT  
-Formalized: 2026-09-26
+Research state: PUBLISHED  
+Formalized: 2026-09-26  
+Publication Gate: PASSED 2026-09-30
 
 ## Scope
 
@@ -42,4 +43,4 @@ Secondary outcomes remain separate:
 - `search-strategy.md`
 - `source-verification.md`
 
-Independent publication review and Publication Gate are pending. Q009 is not exposed in site configuration.
+Independent publication review completed 2026-09-26 with PASS_WITH_CHANGES. Required changes are reflected, Publication Gate passed on 2026-09-30, and Q009 is included in site configuration for the next eligible Production release. Production deployment is tracked separately from research publication state.

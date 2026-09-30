@@ -1,10 +1,10 @@
 # Q009 Source Verification — Branch Pass
 
 Date: 2026-09-26  
-Result: PASS_FOR_REVIEW  
-Publication status: REVIEW  
+Result: PASS_FOR_PUBLICATION  
+Publication status: PUBLISHED  
 Independent publication review: completed 2026-09-26  
-Publication Gate: pending
+Publication Gate: PASSED 2026-09-30
 
 ## 1. Mindell et al. 2009
 
@@ -149,7 +149,7 @@ It does not isolate bedtime-routine efficacy.
 
 ## Result
 
-PASS_FOR_REVIEW
+PASS_FOR_PUBLICATION
 
 ## Current limitations and release boundaries
 
@@ -160,7 +160,7 @@ PASS_FOR_REVIEW
 - direct intervention evidence is limited and analytically imperfect
 - age/cultural transportability remains limited
 - independent publication review completed 2026-09-26 with PASS_WITH_CHANGES; required changes reflected
-- Publication Gate pending
-- Q009 is not exposed in site config
+- Publication Gate passed 2026-09-30 after Q008 became canonical on main
+- Q009 is included in site config for the next eligible Production release
 
 Research publication state and Production deployment state are separate.

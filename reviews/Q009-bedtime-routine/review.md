@@ -1,6 +1,6 @@
 # 毎晩、決まった就寝前ルーティンを作ると、乳幼児の睡眠は良くなるか
 
-Status: REVIEW  
+Status: PUBLISHED  
 Last searched: 2026-09-26  
 Last source verification: 2026-09-26  
 Last independent publication review: 2026-09-26
@@ -214,4 +214,4 @@ bedtime routineとlanguage、attachment、executive function、social-emotional 
 
 ## Method note
 
-このページはde novo systematic reviewではありません。2009 RCT、2018 reviewをanchorとし、2026-09-26までのtargeted updateと主要出典の再確認を行っています。branch-level source verificationは2026-09-26に完了し、現在はREVIEWです。独立publication reviewとPublication Gateは未完了です。
+このページはde novo systematic reviewではありません。2009 RCT、2018 reviewをanchorとし、2026-09-26までのtargeted updateと主要出典の再確認を行っています。branch-level source verificationと独立publication reviewは2026-09-26に完了し、必要な修正を反映したうえで2026-09-30にPublication Gateを通過しました。研究上の状態はPUBLISHEDです。Production releaseは別に管理します。
